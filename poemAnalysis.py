@@ -17,6 +17,7 @@
 
 import codecs
 import csv
+import numpy
 
 # main variables
 
@@ -27,9 +28,10 @@ phonemeCategory = {
     u'\u0061': 'open',
     'e': 'closeMid',
     u'\u025b': 'openMid',
-    u'\u0259': 'none',
+    u'\u0259': 'neutral',
     'i': 'close',
-    u'\u0049': 'close',
+    'I': 'open',
+#    u'\u026a': 'close',
     'o': 'closeMid',
     u'\u0254': 'openMid',
     u'\u00f8': 'closeMid',
@@ -39,17 +41,9 @@ phonemeCategory = {
     'u': 'close',
     u'\028a': 'close',
 }
-vowelTypes = ['open', 'close', 'none', 'openMid', 'closeMid']
+vowelTypes = ['close', 'closeMid', 'neutral', 'openMid', 'open']
 phonemeCategoryList = list(set(phonemeCategory.values()))
-
-# functions
-
-def charactersInLine(poemContent, lineNumber):
-    return len(poemContent[int(lineNumber) - 1])
-    
-def returnCharacter(poemContent, lineNumber, characterNumber):
-    return poemContent[int(lineNumber) -1][int(characterNumber) - 1]
-
+ignoreDiphthongs = True
 
 # script
 
@@ -59,12 +53,12 @@ for poem in poemCorpus:
     content = [line.rstrip('\n') for line in codecs.open(filename, encoding='utf-8')]
 
     # basic information about the poem
-    print name
-    print "Number of lines:", len(content)
-    i = 1
-    for line in content:
-        print "Line", str(i) + ":", len(line), "characters"
-        i += 1
+#    print name
+#    print "Number of lines:", len(content)
+#    i = 1
+#    for line in content:
+#        print "Line", str(i) + ":", len(line), "characters"
+#        i += 1
     
     # gather set of unicode characters
     unicodeSetRaw = []
@@ -77,16 +71,12 @@ for poem in poemCorpus:
     unicodeCount = {}
     for phoneme in unicodeSet:
         unicodeCount[phoneme] = 0
-
-    # create list to house data for writing to file
-    
-    outputData = []
     
     # count instances of each member of unicodeSet in poem
     for line in content:
         for character in line:
             unicodeCount[character] += 1
-
+    
     # by line
     i = 1
     outputData = []
@@ -109,15 +99,19 @@ for poem in poemCorpus:
             categoryTally[category] = 0
         phonemeTotal = 0
         vowelTotal = 0
+        j = 1 # character iterator
 
         for phoneme in content[i-1]:
             if phoneme not in ignore:
                 phonemeTotal += 1
             rawTally[phoneme] += 1
             if phoneme in phonemeCategory.keys():
-                categoryTally[phonemeCategory[phoneme]] += 1
-                if phonemeCategory[phoneme] in vowelTypes:
-                    vowelTotal += 1
+                print 'Line ' + str(i) + ', Character: ' + str(j) + ', ' + phoneme + ', ' + phonemeCategory[phoneme]
+                if ignoreDiphthongs == False or content[i-1][j-2] != ':':
+                    categoryTally[phonemeCategory[phoneme]] += 1
+                    if phonemeCategory[phoneme] in vowelTypes:
+                        vowelTotal += 1
+            j += 1
 
         for phoneme in unicodeSet: 
             outputLine.append(rawTally[phoneme])
@@ -129,6 +123,33 @@ for poem in poemCorpus:
         outputData.append(outputLine)
         outputDataProbability.append(outputLineProbability)
         outputDataCategoryProbability.append(outputLineCategoryProbability)
+
+    # standard deviation
+    
+    meanLine = []
+    meanLine.append('Mean')
+    stDevLine = []
+    stDevLine.append('StDev')
+    j = 2 # columns
+    columnTotal = len(outputDataCategoryProbability[0])
+    rowTotal = len(outputDataCategoryProbability)
+    while j <= columnTotal:
+        i = 1 # rows
+        probabilities = []
+        while i <= rowTotal:
+            probabilities.append(outputDataCategoryProbability[i-1][j-1])
+            i += 1
+#        print 'Column ' + str(j) + ':', probabilities
+#        print 'Mean:', numpy.mean(probabilities)
+#        print 'StDev:', numpy.std(probabilities)
+        meanLine.append(numpy.mean(probabilities))
+        stDevLine.append(numpy.std(probabilities, dtype=numpy.float64))
+        # mean, st dev
+        j += 1
+
+    outputDataCategoryProbability.append(meanLine)
+    outputDataCategoryProbability.append(stDevLine)
+    
 
     # write data to file - glyphs
     
