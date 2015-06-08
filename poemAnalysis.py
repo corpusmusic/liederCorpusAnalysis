@@ -157,8 +157,9 @@ for poem in poemCorpus:
     with open(outputFileName, 'w') as csvfile:
         headerRow = []
         headerRow.append('Phoneme')
-        for key in unicodeCount.keys():
-            headerRow.append(key.encode('utf-8'))
+        for phoneme in unicodeSet:
+            print phoneme
+            headerRow.append(phoneme.encode('utf-8'))
             
         w = csv.writer(csvfile, delimiter=',')
         w.writerow(headerRow)
@@ -170,8 +171,8 @@ for poem in poemCorpus:
     with open(outputFileName, 'w') as csvfile:
         headerRow = []
         headerRow.append('Phoneme')
-        for key in unicodeCount.keys():
-            headerRow.append(key.encode('utf-8'))
+        for phoneme in unicodeSet:
+            headerRow.append(phoneme.encode('utf-8'))
             
         w = csv.writer(csvfile, delimiter=',')
         w.writerow(headerRow)
