@@ -21,7 +21,7 @@ import numpy
 
 # main variables
 
-poemCorpus = ['NachtUndTraume.txt']
+poemCorpus = ['NachtUndTraumeIPA.txt', 'WohinIPA.txt', 'DasWandernIPA.txt']
 ignore = [' ', ':']
 phonemeCategory = {
     'a': 'open',
