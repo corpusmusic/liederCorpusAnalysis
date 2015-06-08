@@ -45,6 +45,11 @@ vowelTypes = ['close', 'closeMid', 'neutral', 'openMid', 'open']
 phonemeCategoryList = list(set(phonemeCategory.values()))
 ignoreDiphthongs = True
 
+# Set threshold
+threshold = 2 # number of standard deviations
+# not using this yet:
+categoryThreshold = 2 # number of categories that must meet threshold
+
 # script
 
 for poem in poemCorpus:
@@ -83,6 +88,8 @@ for poem in poemCorpus:
     outputDataProbability = []
     outputDataCategoryProbability = []
 
+    print name + ':'
+
     while i <= len(content):
         label = 'Line ' + str(i)
         outputLine = []
@@ -112,7 +119,7 @@ for poem in poemCorpus:
                     if phonemeCategory[phoneme] in vowelTypes:
                         vowelTotal += 1
             j += 1
-
+                
         for phoneme in unicodeSet: 
             outputLine.append(rawTally[phoneme])
             outputLineProbability.append(float(rawTally[phoneme])/float(phonemeTotal))
@@ -124,6 +131,8 @@ for poem in poemCorpus:
         outputDataProbability.append(outputLineProbability)
         outputDataCategoryProbability.append(outputLineCategoryProbability)
 
+    print '\n'
+
     # standard deviation
     
     meanLine = []
@@ -133,6 +142,14 @@ for poem in poemCorpus:
     j = 2 # columns
     columnTotal = len(outputDataCategoryProbability[0])
     rowTotal = len(outputDataCategoryProbability)
+    timesExceedingThreshold = {}
+    lineTransitionNames = []
+    l = 1
+    while l < rowTotal:
+        lineTransitionNames.append('Line ' + str(l) + '-' + str(l+1))
+        l += 1
+    for item in lineTransitionNames:
+        timesExceedingThreshold[item] = 0
     while j <= columnTotal:
         i = 1 # rows
         probabilities = []
@@ -142,10 +159,26 @@ for poem in poemCorpus:
 #        print 'Column ' + str(j) + ':', probabilities
 #        print 'Mean:', numpy.mean(probabilities)
 #        print 'StDev:', numpy.std(probabilities)
+
+        # add mean, st dev to output
         meanLine.append(numpy.mean(probabilities))
-        stDevLine.append(numpy.std(probabilities, dtype=numpy.float64))
-        # mean, st dev
+        stDev = numpy.std(probabilities, dtype=numpy.float64)
+        stDevLine.append(stDev)
+        
+        # Search for locations where line-to-line difference exceeds threshold
+        k = 1
+        while k < len(probabilities):
+            if abs(probabilities[k] - probabilities[k-1]) >= stDev*threshold:
+                print "Line " + str(k) + " to " + str(k+1) + ", " + phonemeCategoryList[j-2]
+                timesExceedingThreshold['Line ' + str(k) + '-' + str(k+1)] += 1
+            k += 1
+        
         j += 1
+    
+    print '\n'
+    for key in lineTransitionNames:
+        print key + ':', timesExceedingThreshold[key], 'categories exceed the threshold.'
+    print '\n'
 
     outputDataCategoryProbability.append(meanLine)
     outputDataCategoryProbability.append(stDevLine)
@@ -158,7 +191,6 @@ for poem in poemCorpus:
         headerRow = []
         headerRow.append('Phoneme')
         for phoneme in unicodeSet:
-            print phoneme
             headerRow.append(phoneme.encode('utf-8'))
             
         w = csv.writer(csvfile, delimiter=',')
@@ -193,7 +225,7 @@ for poem in poemCorpus:
             w.writerow(row)
     print outputFileName, 'successfully created.', '\n'
 
-
+    print '\n'
 
     # write data to file - categories
     
