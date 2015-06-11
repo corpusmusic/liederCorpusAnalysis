@@ -22,7 +22,7 @@ import numpy
 # main variables
 
 poemCorpus = ['NachtUndTraumeIPA.txt', 'WohinIPA.txt', 'DasWandernIPA.txt']
-ignore = [' ', ':']
+ignore = [' ', ':', '.']
 phonemeCategory = {
     'a': 'open',
     u'\u0061': 'open',
