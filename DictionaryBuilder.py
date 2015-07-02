@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 
 import codecs
+import csv
 from GermanToIPA import stripPunc
 
 GermanSourceFile = 'NachtUndTraumeGerman.txt'
@@ -47,5 +48,13 @@ else:
     print "Error: German and IPA word counts do not match."
     print "German word count:", wordCount(GermanText)
     print "IPA word count:", wordCount(IPAText)
-    
+
+  
 # write dict to CSV
+
+with open('GermanIPADictionary-new.txt', 'w') as csvfile:
+    w = csv.writer(csvfile, delimiter=',')
+    for entry in IPADict.keys():
+        rowToWrite = [entry.encode('utf-8'), IPADict[entry].encode('utf-8')]
+        w.writerow(rowToWrite)
+print 'GermanIPADictionary-new.txt', 'successfully created.'
