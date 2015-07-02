@@ -2,14 +2,6 @@
 
 import codecs
 
-IPADictTemp = {
-    u'Heilge': u'ha:Il.gə',
-    u'Nacht': u'naχt',
-    u'du': u'du',
-    u'sinkest': u'zIŋ.kəst',
-    u'nieder': u'ni.dəʁ'
-}
-
 # import dictionary
 
 IPADict = {}
