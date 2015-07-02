@@ -1,44 +1,72 @@
 # -*- coding: utf-8 -*-
 
-IPADict = {
-    "Heil'ge": 'ha:Il.gə',
-    'Nacht': 'naχt.',
-    'du': 'du.',
-    'sinkest': 'zIŋ.kəst',
-    'nieder': 'ni.dəʁ'
+import codecs
+
+IPADictTemp = {
+    u'Heilge': u'ha:Il.gə',
+    u'Nacht': u'naχt',
+    u'du': u'du',
+    u'sinkest': u'zIŋ.kəst',
+    u'nieder': u'ni.dəʁ'
 }
 
-# replace test dictionary with import-from-CSV function
+# import dictionary
 
-punctuation = [ ".", ",", ":", ";", "?", "!" "-", "–", "—" ]
+IPADict = {}
+translationDictionary = [line.rstrip('\n') for line in codecs.open('GermanIPADictionary.txt', encoding='utf-8')]
+for entry in translationDictionary:
+    x = entry.split(',')
+    IPADict[x[0].lower()] = x[1]
+
+
+punctuation = [ u".", u",", u":", u";", u"?", u"!", u"'", u"’", u'"', u"-", u"–", u"—" ]
+
+
+def stripPunc(sourceFile, punctuation):
+    content = [line.rstrip('\n') for line in codecs.open(sourceFile, encoding='utf-8')]
+    strippedText = []
+    for line in content:
+        strippedLine = ''
+        for letter in line:
+            if letter not in punctuation:
+                strippedLine += letter
+        strippedText.append(strippedLine)
+    
+    return strippedText
 
 
 def IPA(sourceText, IPADict):
-    IPATranslation = ''
+    IPATranslation = []
     
-    # strip punctuation
+    for line in sourceText:
+        lineTranslation = u''
+
+        # parse into list of words
+        wordList = line.split()
     
-
-    # parse into list of words
-    # http://stackoverflow.com/questions/743806/split-string-into-a-list-in-python
-
-    
-    # replace words with IPA from dictionary (ignoring punctuation)
-
-    
-    # append words (and delimiting spaces) to IPATranslation
-
+        # replace words with IPA from dictionary
+        for word in wordList:
+            if word.lower() in IPADict.keys():
+                lineTranslation += IPADict[word.lower()]
+            else:
+                lineTranslation += word
+            lineTranslation += ' '
+        lineTranslation = lineTranslation[:-1]
+            
+        IPATranslation.append(lineTranslation)
     
     return IPATranslation
 
 
-# replace test text with import-from-TXT function
+def writeToFile(translation, filename):
+    f = codecs.open(filename, mode='w', encoding='utf-8')
+    for line in translation:
+        f.write(line + '\n')
+    f.close()
+    print filename, 'successfully created.'
 
 
-
-# test
-
-GermanText = "Heil'ge Nacht, du sinkest nieder;"
-IPAOutput = u"ha:Il.gə naχt. du. zIŋ.kəst ni.dəʁ"
-
-print IPA(GermanText, IPADict) == IPAOutput
+# run
+sourceFile = 'NachtUndTraumeGerman.txt'
+outputFile = 'NachtUndTraumeIPATemp.txt'
+writeToFile(IPA(stripPunc(sourceFile, punctuation), IPADict), outputFile)
