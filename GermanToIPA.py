@@ -11,10 +11,10 @@ for entry in translationDictionary:
     IPADict[x[0].lower()] = x[1]
 
 
-punctuation = [ u".", u",", u":", u";", u"?", u"!", u"'", u"’", u'"', u"-", u"–", u"—" ]
 
 
-def stripPunc(sourceFile, punctuation):
+def stripPunc(sourceFile):
+    punctuation = [ u".", u",", u":", u";", u"?", u"!", u"'", u"’", u'"', u"-", u"–", u"—" ]
     content = [line.rstrip('\n') for line in codecs.open(sourceFile, encoding='utf-8')]
     strippedText = []
     for line in content:
@@ -61,4 +61,4 @@ def writeToFile(translation, filename):
 # run
 sourceFile = 'NachtUndTraumeGerman.txt'
 outputFile = 'NachtUndTraumeIPATemp.txt'
-writeToFile(IPA(stripPunc(sourceFile, punctuation), IPADict), outputFile)
+writeToFile(IPA(stripPunc(sourceFile), IPADict), outputFile)
