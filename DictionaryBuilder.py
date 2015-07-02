@@ -1,11 +1,36 @@
 # -*- coding: utf-8 -*-
 
-import codecs
-import csv
-from GermanToIPA import stripPunc
+# Python script for building GermanIPADictionary.txt for use with GermanToIPA.py
+
+# Copyright (C) 2015 Kris P. Shaffer
+
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+# ------------
+
+# names of German and IPA source files to use for training
+# edit this when running the script
 
 GermanSourceFile = 'NachtUndTraumeGerman.txt'
 IPASourceFile = 'NachtUndTraumeIPA.txt'
+
+# do not change code below when running
+# (unless you want to change the name of the output file in the last line)
+
+import codecs
+import csv
+from GermanToIPA import stripPunc
 
 # wordify
 
