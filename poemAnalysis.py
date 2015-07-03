@@ -21,7 +21,20 @@ import numpy
 
 # main variables
 
-poemCorpus = ['NachtUndTraumeIPA.txt', 'WohinIPA.txt', 'DasWandernIPA.txt']
+poemCorpus = ['NachtUndTraumeIPA.txt', 
+'WohinIPA.txt', 
+'DasWandernIPA.txt', 
+'DanksagungAnDenBachIPA.txt',
+'DerJagerIPA.txt',
+'DerNeugierigeIPA.txt',
+'DesBachesWiegenliedIPA.txt',
+'DieLiebeFarbeIPA.txt',
+'HaltIPA.txt',
+'MorgengrussIPA.txt',
+'PauseIPA.txt',
+'TrockneBlumenIPA.txt',
+'WohinIPA.txt']
+
 ignore = [' ', ':', '.']
 phonemeCategory = {
     'a': 'open',
@@ -54,8 +67,8 @@ categoryThreshold = 2 # number of categories that must meet threshold
 # main script
 
 for poem in poemCorpus:
-    filename = poem
-    name = filename.split('.')[0]
+    filename = './texts/' + poem
+    name = poem.split('.')[0]
     content = [line.rstrip('\n') for line in codecs.open(filename, encoding='utf-8')]
 
     # gather set of unicode characters
@@ -106,7 +119,7 @@ for poem in poemCorpus:
                 phonemeTotal += 1
             rawTally[phoneme] += 1
             if phoneme in phonemeCategory.keys():
-                print 'Line ' + str(i) + ', Character: ' + str(j) + ', ' + phoneme + ', ' + phonemeCategory[phoneme]
+                # print 'Line ' + str(i) + ', Character: ' + str(j) + ', ' + phoneme + ', ' + phonemeCategory[phoneme]
                 if ignoreDiphthongs == False or content[i-1][j-2] != ':':
                     categoryTally[phonemeCategory[phoneme]] += 1
                     if phonemeCategory[phoneme] in vowelTypes:
@@ -179,7 +192,7 @@ for poem in poemCorpus:
 
     # write data to file - glyphs
     
-    outputFileName = name + '-dataByGlyph.csv'
+    outputFileName = './statOutput/' + name + '-dataByGlyph.csv'
     with open(outputFileName, 'w') as csvfile:
         headerRow = []
         headerRow.append('Phoneme')
@@ -192,7 +205,7 @@ for poem in poemCorpus:
             w.writerow(row)
     print outputFileName, 'successfully created.'
 
-    outputFileName = name + '-dataByGlyph-probability.csv'
+    outputFileName = './statOutput/' + name + '-dataByGlyph-probability.csv'
     with open(outputFileName, 'w') as csvfile:
         headerRow = []
         headerRow.append('Phoneme')
@@ -205,7 +218,7 @@ for poem in poemCorpus:
             w.writerow(row)
     print outputFileName, 'successfully created.'
 
-    outputFileName = name + '-dataByCategory-probability.csv'
+    outputFileName = './statOutput/' + name + '-dataByCategory-probability.csv'
     with open(outputFileName, 'w') as csvfile:
         headerRow = []
         headerRow.append('Category')
@@ -219,7 +232,3 @@ for poem in poemCorpus:
     print outputFileName, 'successfully created.', '\n'
 
     print '\n'
-
-    # write data to file - categories
-    
-    outputFileName = name + '-dataByCategory.csv'
