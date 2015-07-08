@@ -23,12 +23,8 @@ from os import listdir
 
 class IPAText(object):
     
-    def __init__(self, directory, filename):
-        self.filename = filename
-        self.directory = directory
-        self.fullname = directory + filename
-        self.name = filename.split('.')[0]
-        self.content = [line.rstrip('\n') for line in codecs.open(self.fullname, encoding='utf-8')]
+    def __init__(self, content):
+        self.content = content
     
     def unicodeSet(self):
         unicodeSetRaw = []
@@ -86,42 +82,43 @@ class IPAText(object):
             outputData.append(outputLine)
         return outputData
 
-    def parseCategoryProbByLine(self, ignore, categoryDictionary, ignoreDiphthongs):
+    def parseCategoryProb(self, ignore, categoryDictionary, ignoreDiphthongs, moduleType = 'Line'):
         i = 1
         outputDataCategoryProbability = []
         phonemeCategoryList = list(set(categoryDictionary.values()))
         outputDataCategoryProbability.append(phonemeCategoryList)
 
         while i <= len(self.content):
-            label = 'Line ' + str(i)
-            outputLineCategoryProbability = []
-            # outputLineCategoryProbability.append(label)
-            rawTally = {}
-            categoryTally = {}
-            for phoneme in self.unicodeSet():
-                rawTally[phoneme] = 0
-            for category in phonemeCategoryList:
-                categoryTally[category] = 0
-            phonemeTotal = 0
-            categoryMemberTotal = 0
+            if self.content[i-1] != '':
+                label = moduleType + ' ' + str(i)
+                outputLineCategoryProbability = []
+                # outputLineCategoryProbability.append(label)
+                rawTally = {}
+                categoryTally = {}
+                for phoneme in self.unicodeSet():
+                    rawTally[phoneme] = 0
+                for category in phonemeCategoryList:
+                    categoryTally[category] = 0
+                phonemeTotal = 0
+                categoryMemberTotal = 0
 
-            j = 1 # character iterator
-            for phoneme in self.content[i-1]:
-                if phoneme not in ignore:
-                    phonemeTotal += 1
-                rawTally[phoneme] += 1
-                if phoneme in phonemeCategory.keys():
-                    if ignoreDiphthongs == False or self.content[i-1][j-2] != ':':
-                        categoryTally[phonemeCategory[phoneme]] += 1
-                        if phonemeCategory[phoneme] in phonemeCategoryList:
-                            categoryMemberTotal += 1
-                j += 1
-            for category in phonemeCategoryList:
-                outputLineCategoryProbability.append(float(categoryTally[category])/float(categoryMemberTotal))
+                j = 1 # character iterator
+                for phoneme in self.content[i-1]:
+                    if phoneme not in ignore:
+                        phonemeTotal += 1
+                    rawTally[phoneme] += 1
+                    if phoneme in phonemeCategory.keys():
+                        if ignoreDiphthongs == False or self.content[i-1][j-2] != ':':
+                            categoryTally[phonemeCategory[phoneme]] += 1
+                            if phonemeCategory[phoneme] in phonemeCategoryList:
+                                categoryMemberTotal += 1
+                    j += 1
+                for category in phonemeCategoryList:
+                    outputLineCategoryProbability.append(float(categoryTally[category])/float(categoryMemberTotal))
 
+                outputDataCategoryProbability.append(outputLineCategoryProbability)
             i += 1
-            outputDataCategoryProbability.append(outputLineCategoryProbability)
-            
+           
         meanLine = []
         meanLine.append('Mean')
         stDevLine = []
@@ -136,7 +133,7 @@ class IPAText(object):
         lineTransitionNames = []
         l = 1
         while l < rowTotal:
-            lineTransitionNames.append('Line ' + str(l) + '-' + str(l+1))
+            lineTransitionNames.append(moduleType + ' ' + str(l) + '-' + str(l+1))
             l += 1
         for item in lineTransitionNames:
             timesExceedingThreshold[item] = 0
@@ -157,8 +154,8 @@ class IPAText(object):
             k = 1
             while k < len(probabilities):
                 if abs(probabilities[k] - probabilities[k-1]) >= stDev*threshold:
-                    print "Line " + str(k) + " to " + str(k+1) + ", " + phonemeCategoryList[j-2]
-                    timesExceedingThreshold['Line ' + str(k) + '-' + str(k+1)] += 1
+                    print moduleType + ' ' + str(k) + " to " + str(k+1) + ", " + phonemeCategoryList[j-2]
+                    timesExceedingThreshold[moduleType + ' ' + str(k) + '-' + str(k+1)] += 1
                 k += 1
         
             j += 1
@@ -174,17 +171,34 @@ class IPAText(object):
 
         return outputDataCategoryProbability
 
-    
 
-
-     
 def writeToCSV(dataToWrite, outputFileName):
     with open(outputFileName, 'w') as csvfile:
         w = csv.writer(csvfile, delimiter=',')
         for row in dataToWrite:
             w.writerow(row)
     print outputFileName, 'successfully created.'
-    
+
+
+def getText(directory, filename):
+    return [line.rstrip('\n') for line in codecs.open((directory + filename), encoding='utf-8')]
+
+def stanzify(content):
+    stanzas = ['']
+    i = 0 # stanza counter
+    j = 1 # line counter
+    for line in content:
+        if line != '':
+            stanzas[i] += line
+            stanzas[i] += ' '
+            j += 1
+        else:
+            i += 1
+        if j < len(content):
+            print i
+            stanzas.append('')
+    return stanzas
+            
     
 # run
 
@@ -215,6 +229,11 @@ for file in listdir(sourceDirectory):
     if fnmatch.fnmatch(file, '*IPA.txt'):
         poemCorpus.append(file)
 
-for poem in poemCorpus:
-    song = IPAText(sourceDirectory, poem)
-    writeToCSV(song.parseCategoryProbByLine(ignore, phonemeCategory, ignoreDiphthongs=True), (outputDirectory + song.name + '-categoryByLine.csv'))
+#for poem in poemCorpus:
+#    song = IPAText(sourceDirectory, poem)
+#    writeToCSV(song.parseCategoryProb(ignore, phonemeCategory, ignoreDiphthongs=True, label = 'Line'), (outputDirectory + song.name + '-categoryByLine.csv'))
+
+song = IPAText(stanzify(getText(sourceDirectory, 'TrockneBlumenIPA-withStanzas.txt')))
+writeToCSV(song.parseCategoryProb(ignore, phonemeCategory, ignoreDiphthongs=True, moduleType = 'Stanza'), (sourceDirectory + 'TrockneBlumenIPA-categoryByStanza.csv'))
+
+
