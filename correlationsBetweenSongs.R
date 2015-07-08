@@ -18,6 +18,8 @@ for(i in 1:corpusSize) {
 row.names(correlations) <- allFiles    
 ## names(correlations) <- allFiles    ## these are too long, let's stick with numbers for now
 
+means <- vector()
+
 for(i in 1:corpusSize) {
     means[i] <- mean(as.numeric(correlations[i,1:corpusSize]))
 }
