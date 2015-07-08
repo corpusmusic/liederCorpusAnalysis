@@ -90,11 +90,12 @@ class IPAText(object):
         i = 1
         outputDataCategoryProbability = []
         phonemeCategoryList = list(set(categoryDictionary.values()))
+        outputDataCategoryProbability.append(phonemeCategoryList)
 
         while i <= len(self.content):
             label = 'Line ' + str(i)
             outputLineCategoryProbability = []
-            outputLineCategoryProbability.append(label)
+            # outputLineCategoryProbability.append(label)
             rawTally = {}
             categoryTally = {}
             for phoneme in self.unicodeSet():
@@ -142,7 +143,7 @@ class IPAText(object):
 
         j = 2 # columns
         while j <= columnTotal:
-            i = 1 # rows
+            i = 2 # rows
             probabilities = []
             while i <= rowTotal:
                 probabilities.append(outputDataCategoryProbability[i-1][j-1])
@@ -166,9 +167,10 @@ class IPAText(object):
         for key in lineTransitionNames:
             print key + ':', timesExceedingThreshold[key], 'categories exceed the threshold.'
         print '\n'
-        
-        outputDataCategoryProbability.append(meanLine)
-        outputDataCategoryProbability.append(stDevLine)
+
+        # leaving out mean & stDev lines from CSV file for easier processing in R
+        # outputDataCategoryProbability.append(meanLine)
+        # outputDataCategoryProbability.append(stDevLine)
 
         return outputDataCategoryProbability
 
@@ -215,4 +217,4 @@ for file in listdir(sourceDirectory):
 
 for poem in poemCorpus:
     song = IPAText(sourceDirectory, poem)
-    writeToCSV(song.parseCategoryProbByLine(ignore, phonemeCategory, ignoreDiphthongs=True), (outputDirectory + song.name + '-testOutput.csv'))
+    writeToCSV(song.parseCategoryProbByLine(ignore, phonemeCategory, ignoreDiphthongs=True), (outputDirectory + song.name + '-categoryByLine.csv'))
