@@ -1,16 +1,76 @@
+# Python script for analyzing phonemic data from IPA-encoded poems
+
+# Copyright (C) 2015 Kris P. Shaffer, Jordan Pyle, David Lonowski
+
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
 import codecs
 import csv
 import numpy
 
+# main variables
 
-# line-by-line analysis
+poemCorpus = ['NachtUndTraumeIPA.txt', 
+'WohinIPA.txt', 
+'DasWandernIPA.txt', 
+'DanksagungAnDenBachIPA.txt',
+'DerJagerIPA.txt',
+'DerNeugierigeIPA.txt',
+'DesBachesWiegenliedIPA.txt',
+'DieLiebeFarbeIPA.txt',
+'HaltIPA.txt',
+'MorgengrussIPA.txt',
+'PauseIPA.txt',
+'TrockneBlumenIPA.txt',
+'WohinIPA.txt']
 
-def poemAnalysisByLine(filename, categories, categoryDict, ignoreDiphthongs, threshold):
-    ignore = [' ', ':']
-    phonemeCategoryList = list(set(phonemeCategory.values()))
-    name = filename.split('.')[0]
+ignore = [' ', ':', '.']
+phonemeCategory = {
+    'a': 'open',
+    u'\u0061': 'open',
+    'e': 'closeMid',
+    u'\u025b': 'openMid',
+    u'\u0259': 'neutral',
+    'i': 'close',
+    'I': 'open',
+#    u'\u026a': 'close',
+    'o': 'closeMid',
+    u'\u0254': 'openMid',
+    u'\u00f8': 'closeMid',
+    u'\u0153': 'openMid',
+    'y': 'close',
+    u'\u0153': 'close',
+    'u': 'close',
+    u'\028a': 'close',
+}
+vowelTypes = ['close', 'closeMid', 'neutral', 'openMid', 'open']
+phonemeCategoryList = list(set(phonemeCategory.values()))
+ignoreDiphthongs = True
+print phonemeCategoryList
+
+# Set threshold
+threshold = 2 # number of standard deviations
+# not using this yet:
+categoryThreshold = 2 # number of categories that must meet threshold
+
+# main script
+
+for poem in poemCorpus:
+    filename = './texts/' + poem
+    name = poem.split('.')[0]
     content = [line.rstrip('\n') for line in codecs.open(filename, encoding='utf-8')]
-    
+
     # gather set of unicode characters
     unicodeSetRaw = []
     for line in content:
@@ -59,7 +119,7 @@ def poemAnalysisByLine(filename, categories, categoryDict, ignoreDiphthongs, thr
                 phonemeTotal += 1
             rawTally[phoneme] += 1
             if phoneme in phonemeCategory.keys():
-                print 'Line ' + str(i) + ', Character: ' + str(j) + ', ' + phoneme + ', ' + phonemeCategory[phoneme]
+                # print 'Line ' + str(i) + ', Character: ' + str(j) + ', ' + phoneme + ', ' + phonemeCategory[phoneme]
                 if ignoreDiphthongs == False or content[i-1][j-2] != ':':
                     categoryTally[phonemeCategory[phoneme]] += 1
                     if phonemeCategory[phoneme] in vowelTypes:
@@ -132,7 +192,7 @@ def poemAnalysisByLine(filename, categories, categoryDict, ignoreDiphthongs, thr
 
     # write data to file - glyphs
     
-    outputFileName = name + '-dataByGlyph.csv'
+    outputFileName = './statOutput/' + name + '-dataByGlyph.csv'
     with open(outputFileName, 'w') as csvfile:
         headerRow = []
         headerRow.append('Phoneme')
@@ -145,7 +205,7 @@ def poemAnalysisByLine(filename, categories, categoryDict, ignoreDiphthongs, thr
             w.writerow(row)
     print outputFileName, 'successfully created.'
 
-    outputFileName = name + '-dataByGlyph-probability.csv'
+    outputFileName = './statOutput/' + name + '-dataByGlyph-probability.csv'
     with open(outputFileName, 'w') as csvfile:
         headerRow = []
         headerRow.append('Phoneme')
@@ -158,7 +218,7 @@ def poemAnalysisByLine(filename, categories, categoryDict, ignoreDiphthongs, thr
             w.writerow(row)
     print outputFileName, 'successfully created.'
 
-    outputFileName = name + '-dataByCategory-probability.csv'
+    outputFileName = './statOutput/' + name + '-dataByCategory-probability.csv'
     with open(outputFileName, 'w') as csvfile:
         headerRow = []
         headerRow.append('Category')
@@ -172,34 +232,3 @@ def poemAnalysisByLine(filename, categories, categoryDict, ignoreDiphthongs, thr
     print outputFileName, 'successfully created.', '\n'
 
     print '\n'
-
-    
-
-
-# main variables
-
-poemCorpus = ['NachtUndTraumeIPA.txt', 'WohinIPA.txt', 'DasWandernIPA.txt']
-vowelTypes = ['close', 'closeMid', 'neutral', 'openMid', 'open']
-phonemeCategory = {
-    'a': 'open',
-    u'\u0061': 'open',
-    'e': 'closeMid',
-    u'\u025b': 'openMid',
-    u'\u0259': 'neutral',
-    'i': 'close',
-    'I': 'open',
-#    u'\u026a': 'close',
-    'o': 'closeMid',
-    u'\u0254': 'openMid',
-    u'\u00f8': 'closeMid',
-    u'\u0153': 'openMid',
-    'y': 'close',
-    u'\u0153': 'close',
-    'u': 'close',
-    u'\028a': 'close',
-}
-    
-# run it
-
-for poem in poemCorpus:
-    poemAnalysisByLine(poem, categories=vowelTypes, categoryDict=phonemeCategory, ignoreDiphthongs=True, threshold=2)
