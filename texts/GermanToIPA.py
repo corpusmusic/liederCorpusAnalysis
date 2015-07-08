@@ -9,8 +9,6 @@
 # the Free Software Foundation, either version 3 of the License, or
 # (at your option) any later version.
 
-<<<<<<< HEAD:GermanToIPA.py
-=======
 # This program is distributed in the hope that it will be useful,
 # but WITHOUT ANY WARRANTY; without even the implied warranty of
 # MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
@@ -21,7 +19,6 @@
 
 import codecs
 
->>>>>>> 55ac5b07a1c89b98cfd1c78cd3c338c93a67882e:texts/GermanToIPA.py
 # import dictionary
 
 IPADict = {}
