@@ -22,38 +22,18 @@
 # names of German and IPA source files to use for training
 # edit this when running the script
 
-GermanSourceFile = 'NachtUndTraumeGerman.txt'
-IPASourceFile = 'NachtUndTraumeIPA.txt'
+GermanSourceFile = 'DesBachesWiegenliedGerman.txt'
+IPASourceFile = 'DesBachesWiegenliedIPA.txt'
 
 # do not change code below when running
 # (unless you want to change the name of the output file in the last line)
 
 import codecs
 import csv
-from GermanToIPA import stripPunc
-
-# wordify
-
-def wordify(textAsListOfLists):
-    wordifiedText = []
-    for line in textAsListOfLists:
-        wordList = line.split()
-        wordifiedText.append(wordList)
-    return wordifiedText
-
-def wordCount(wordifiedText):
-    totalWords = 0
-    for line in wordifiedText:
-        totalWords += len(line)
-    return totalWords
-    
-# import dictionary
-
-IPADict = {}
-translationDictionary = [line.rstrip('\n') for line in codecs.open('GermanIPADictionary.txt', encoding='utf-8')]
-for entry in translationDictionary:
-    x = entry.split(',')
-    IPADict[x[0].lower()] = x[1]
+from DictionaryModules import stripPunc as stripPunc
+from DictionaryModules import wordCount as wordCount
+from DictionaryModules import wordify as wordify
+from DictionaryModules import IPADict as IPADict
 
 # import German text and IPA
 
@@ -80,6 +60,6 @@ else:
 with open('GermanIPADictionary-new.txt', 'w') as csvfile:
     w = csv.writer(csvfile, delimiter=',')
     for entry in IPADict.keys():
-        rowToWrite = [entry.encode('utf-8'), IPADict[entry].encode('utf-8')]
+        rowToWrite = [entry.encode('utf-8'), IPADict[entry].encode('utf-8').replace('\r', '')]
         w.writerow(rowToWrite)
 print 'GermanIPADictionary-new.txt', 'successfully created.'
