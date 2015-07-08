@@ -253,8 +253,11 @@ for poem in poemCorpus:
     songStanzas = IPAText(stanzify(getText(sourceDirectory, poem)))
     songStanzasStressed = IPAText(stressedVowelsOnly(stanzify(getText(sourceDirectory, poem)), vowelList))
 
+    print poem, 'line-by-line\n'
     linesOutput = songLines.parseCategoryProb(ignore, phonemeCategory, moduleType = 'Line')
+    print poem, 'stanza-by-stanza\n'
     stanzasOutput = songStanzas.parseCategoryProb(ignore, phonemeCategory, moduleType = 'Stanza')
+    print poem, 'stanza-by-stanza, stressed only\n'
     stanzasStressedOutput = songStanzasStressed.parseCategoryProb(ignore, phonemeCategory, moduleType = 'Stanza')
     
     linesFileName = poem.split('.')[0] + '-categoryByLine.csv'
