@@ -238,6 +238,7 @@ phonemeCategory = {
     'u': 'close',
     u'\028a': 'close',
 }
+
 vowelList = phonemeCategory.keys()
 
 sourceDirectory = 'texts/'
@@ -247,21 +248,27 @@ for file in listdir(sourceDirectory):
     if fnmatch.fnmatch(file, '*IPA.txt'):
         poemCorpus.append(file)
 
-#for poem in poemCorpus:
-#    song = IPAText(sourceDirectory, poem)
-#    writeToCSV(song.parseCategoryProb(ignore, phonemeCategory, ignoreDiphthongs=True, label = 'Line'), (outputDirectory + song.name + '-categoryByLine.csv'))
+for poem in poemCorpus:
+    songLines = IPAText(getText(sourceDirectory, poem))
+    songStanzas = IPAText(stanzify(getText(sourceDirectory, poem)))
+    songStanzasStressed = IPAText(stressedVowelsOnly(stanzify(getText(sourceDirectory, poem)), vowelList))
 
-text = getText(sourceDirectory, 'DerJagerIPA-withStanzas.txt')
-stanzas = stanzify(text)
-stressedVowelVersion = stressedVowelsOnly(stanzas, vowelList)
-for line in stressedVowelVersion:
-    print line
-song = IPAText(stressedVowelVersion)
-songOutput = song.parseCategoryProb(ignore, phonemeCategory, moduleType = 'Stanza')
-writeToCSV(songOutput, (sourceDirectory + 'DerJagerIPA-categoryByStanza.csv'))
+    linesOutput = songLines.parseCategoryProb(ignore, phonemeCategory, moduleType = 'Line')
+    stanzasOutput = songStanzas.parseCategoryProb(ignore, phonemeCategory, moduleType = 'Stanza')
+    stanzasStressedOutput = songStanzasStressed.parseCategoryProb(ignore, phonemeCategory, moduleType = 'Stanza')
+    
+    linesFileName = poem.split('.')[0] + '-categoryByLine.csv'
+    stanzasFileName = poem.split('.')[0] + '-categoryByStanza.csv'
+    stanzasStressedFileName = poem.split('.')[0] + '-categoryByStanza-stressedOnly.csv'
+    writeToCSV(linesOutput, (outputDirectory + linesFileName))
+    writeToCSV(stanzasOutput, (outputDirectory + stanzasFileName))
+    writeToCSV(stanzasStressedOutput, (outputDirectory + stanzasStressedFileName))
 
-#song = IPAText(stressedVowelsOnly(stanzify(getText(sourceDirectory, 'DerJagerIPA.txt')), vowelList))
+#text = getText(sourceDirectory, linesFileName)
+#stanzas = stanzify(text)
+#stressedVowelVersion = stressedVowelsOnly(stanzas, vowelList)
+#for line in stressedVowelVersion:
+#    print line
+#song = IPAText(stressedVowelVersion)
 #songOutput = song.parseCategoryProb(ignore, phonemeCategory, moduleType = 'Stanza')
 #writeToCSV(songOutput, (sourceDirectory + 'DerJagerIPA-categoryByStanza.csv'))
-
-
