@@ -259,15 +259,12 @@ for file in listdir(sourceDirectory):
 
 for poem in poemCorpus:
     wholeSongText = IPAText(wholeSong(getText(sourceDirectory, poem)))
-    wholeSongStressed = IPAText(stressedVowelsOnly(wholeSong(getText(sourceDirectory, poem)), vowelList))
     songLines = IPAText(getText(sourceDirectory, poem))
     songStanzas = IPAText(stanzify(getText(sourceDirectory, poem)))
     songStanzasStressed = IPAText(stressedVowelsOnly(stanzify(getText(sourceDirectory, poem)), vowelList))
 
     print poem, 'whole song\n'
     songOutput = wholeSongText.parseCategoryProb(ignore, phonemeCategory, moduleType = poem)
-    print poem, 'whole song, stressed only\n'
-    songStressedOutput = wholeSongStressed.parseCategoryProb(ignore, phonemeCategory, moduleType = poem)
     print poem, 'line-by-line\n'
     linesOutput = songLines.parseCategoryProb(ignore, phonemeCategory, moduleType = 'Line')
     print poem, 'stanza-by-stanza\n'
@@ -276,12 +273,10 @@ for poem in poemCorpus:
     stanzasStressedOutput = songStanzasStressed.parseCategoryProb(ignore, phonemeCategory, moduleType = 'Stanza')
    
     wholeSongFileName = poem.split('.')[0] + '-categoryWholeSong.csv'
-    wholeSongStressedName = poem.split('.')[0] + '-wholeSongStressed.csv'
     linesFileName = poem.split('.')[0] + '-categoryByLine.csv'
     stanzasFileName = poem.split('.')[0] + '-categoryByStanza.csv'
     stanzasStressedFileName = poem.split('.')[0] + '-categoryByStanza-stressedOnly.csv'
     writeToCSV(songOutput, (outputDirectory + wholeSongFileName))
-    writeToCSV(songStressedOutput, (outputDirectory + wholeSongStressedName))
     writeToCSV(linesOutput, (outputDirectory + linesFileName))
     writeToCSV(stanzasOutput, (outputDirectory + stanzasFileName))
     writeToCSV(stanzasStressedOutput, (outputDirectory + stanzasStressedFileName))
