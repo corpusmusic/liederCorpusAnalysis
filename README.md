@@ -1,6 +1,6 @@
 # liederCorpusAnalysis
 
-[The Lieder Project](http://liederproject.shaffermusic.com/) — a research project of David Lonowski, Jordan Pyle, Stephen Rodgers, Kris Shaffer, and Leigh VanHandel. For an introduction to the project, please see our blog post, ["Getting Startet — The Lieder Project."](http://liederproject.shaffermusic.com/2015/getting-started-the-lieder-project).
+[The Lieder Project](http://liederproject.shaffermusic.com/) — a research project of David Lonowski, Jordan Pyle, Stephen Rodgers, Kris Shaffer, and Leigh VanHandel. For an introduction to the project, please see our blog post, ["Getting Startet — The Lieder Project"](http://liederproject.shaffermusic.com/2015/getting-started-the-lieder-project).
 
 The [texts](https://github.com/corpusmusic/liederCorpusAnalysis/tree/master/texts) folder contains a growing collection of German poems from prominent 19th-c. art songs and IPA (International Phonetic Alphabet) transcriptions of those songs. Songs have been transcribed using tools from [SIL](http://scripts.sil.org/cms/scripts/page.php?item_id=IPAhome).
 
