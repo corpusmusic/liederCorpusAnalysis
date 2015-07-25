@@ -1,7 +1,10 @@
+<<<<<<< Updated upstream
 Iç 'hœɾt a:In 'bɛç.la:In 'ra:ʊ.ʃən
 vol 'a:ʊs dem 'fɛl.sən.'kvɛl
 hi.'nap tsum 'ta.lə 'ra:ʊ.ʃən
 zo 'fɾIʃ ʊnt 'vʊn.dəʁ.'hɛl
+=======
+>>>>>>> Stashed changes
 
 Iç 'va:Is nIçt 'vi miʁ 'vʊɾ.də
 nIçt 'veʁ den 'ɾat miʁ 'gap

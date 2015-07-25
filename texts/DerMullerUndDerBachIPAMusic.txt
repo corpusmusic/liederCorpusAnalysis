@@ -15,12 +15,16 @@ di 'ze.lə tsuʁ 'ɾu
 dem 'ʃmɛrts ɛnt.'ɾIŋt
 a:In 'ʃtɛɾn.la:In a:In 'nɔ:Y.əs
 am 'hI.məl ɛɾ.'blIŋkt
+a:In 'ʃtɛɾn.la:In a:In 'nɔ:Y.əs
+am 'hI.məl ɛɾ.'blIŋkt
 da 'ʃpɾI.ŋən dɾa:I 'ɾo.sən
 halp 'rot ʊnt halp 'va:Is
 di 'vɛl.kən nIçt 'vi.dəʁ
 a:ʊs 'dɔɾ.nən.'ɾa:Is
 ʊnt di 'ɛŋ.ə.la:In 'ʃna:I.dən
 di 'fly.gəl zIç 'ap
+ʊnt 'gen a.lə 'mɔɾ.gən
+tsuʁ 'eɾ.də hɛʁ.'ap
 ʊnt 'gen a.lə 'mɔɾ.gən
 tsuʁ 'eɾ.də hɛʁ.'ap
 
@@ -30,5 +34,7 @@ aχ 'bɛχ.la:In a.bəʁ 'va:Ist du
 vi 'li.bə 'tut
 aχ 'ʊn.tən da 'ʊn.tən
 di 'ky.lə 'ru
+aχ 'bɛχ.la:In li.bəs 'bɛχ.la:In
+zo 'zI.ŋə nuʁ 'tsu
 aχ 'bɛχ.la:In li.bəs 'bɛχ.la:In
 zo 'zI.ŋə nuʁ 'tsu
