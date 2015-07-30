@@ -14,6 +14,7 @@ hIn.'ʊn.təʁ ʊnt 'I.məʁ 'va:I.təʁ
 ʊnt 'Im.əʁ dem 'ba.χə 'naχ
 ʊnt 'Im.əʁ 'hɛ.ləʁ 'ra:ʊ.ʃtə
 ʊnt 'Im.əʁ 'hɛl.əʁ deʁ 'baχ
+
 ʊnt 'Im.əʁ 'hɛ.ləʁ 'ra:ʊ.ʃtə
 ʊnt 'Im.əʁ 'hɛl.əʁ deʁ 'baχ
 
@@ -22,6 +23,7 @@ o 'bɛç.la:In 'ʃpɾIç vo.'hIn
 vo.'hIn 'ʃpɾIç vo.'hIn
 du 'hast mIt 'da:I.nəm 'ra:ʊ.ʃən
 miʁ 'gants bə.'ɾa:ʊʃt den 'zIn
+
 du 'hast mIt 'da:I.nəm 'ra:ʊ.ʃən
 miʁ 'gants bə.'ɾa:ʊʃt den 'zIn
 
@@ -29,6 +31,7 @@ vas 'zak Iç 'dɛn fɔm 'ɾa:ʊ.ʃən
 das 'kan ka:In 'ɾa:ʊ.ʃən 'za:In
 ɛs 'zIŋ.ən 'vol di 'nIk.sən
 tif 'ʊn.tən 'irən 'ra:In
+
 ɛs 'zIŋ.ən 'vol di 'nIk.sən
 tif 'ʊn.tən 'irən 'ra:In
 
@@ -36,8 +39,8 @@ las 'zI.ŋən gə.'zɛl las 'ra:ʊ.ʃən
 ʊnt 'van.drə 'frø.lIç 'naχ
 ɛs 'gen ja my.lən.'ɾe.dəʁ
 In 'je.dəm 'kla.ɾən 'baχ
+
 ɛs 'gen ja my.lən.'ɾe.dəʁ
 In 'je.dəm 'kla.ɾən 'baχ
 las 'zI.ŋən gə.'zɛl las 'ra:ʊ.ʃən
-ʊnt 'van.drə 'frø.lIç 'naχ
-'frø.lIç 'naχ 'frø.lIç 'naχ
+ʊnt 'van.drə 'frø.lIç 'naχ 'frø.lIç 'naχ 'frø.lIç 'naχ
