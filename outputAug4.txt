@@ -143,16 +143,6 @@ statOutput/DanksagungAnDenBachIPA-categoryWholeSong.csv successfully created.
 statOutput/DanksagungAnDenBachIPA-wholeSongStressed.csv successfully created.
 statOutput/DanksagungAnDenBachIPA-categoryByLine.csv successfully created.
 statOutput/DanksagungAnDenBachIPA-categoryByStanza.csv successfully created.
-_methods.py:55: RuntimeWarning: Mean of empty slice.
-  warnings.warn("Mean of empty slice.", RuntimeWarning)
-_methods.py:67: RuntimeWarning: invalid value encountered in double_scalars
-  ret = ret.dtype.type(ret / rcount)
-_methods.py:77: RuntimeWarning: Degrees of freedom <= 0 for slice
-  warnings.warn("Degrees of freedom <= 0 for slice", RuntimeWarning)
-_methods.py:89: RuntimeWarning: invalid value encountered in true_divide
-  arrmean, rcount, out=arrmean, casting='unsafe', subok=False)
-_methods.py:110: RuntimeWarning: invalid value encountered in double_scalars
-  ret = ret.dtype.type(ret / rcount)
 statOutput/DanksagungAnDenBachIPA-categoryByStanza-stressedOnly.csv successfully created.
 DasWandernIPA.txt whole song
 
@@ -945,6 +935,7 @@ MeinIPA.txt whole song, stressed only
 
 
 
+MeinIPA.txt 1-2: 0 categories exceed the threshold.
 
 
 MeinIPA.txt line-by-line
@@ -986,6 +977,7 @@ MeinIPA.txt stanza-by-stanza, stressed only
 
 
 
+Stanza 1-2: 0 categories exceed the threshold.
 
 
 statOutput/MeinIPA-categoryWholeSong.csv successfully created.
