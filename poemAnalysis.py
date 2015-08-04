@@ -272,7 +272,7 @@ sourceDirectory = 'texts/'
 outputDirectory = 'statOutput/'
 poemCorpus = []
 for file in listdir(sourceDirectory):
-    if fnmatch.fnmatch(file, '*IPA.txt'):
+    if fnmatch.fnmatch(file, '*IPAMusic.txt'):
         poemCorpus.append(file)
 
 

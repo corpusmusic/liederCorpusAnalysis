@@ -1,6 +1,6 @@
 ## this needs some work to shorten song titles
 
-allFiles <- list.files('statOutput', '*wholeSongStressed.csv', full.names=TRUE)
+allFiles <- list.files('statOutput', '*categoryWholeSong.csv', full.names=TRUE)
 corpus <- data.frame()
 for(file in allFiles) {
     corpus <- rbind(corpus, read.csv(file))
