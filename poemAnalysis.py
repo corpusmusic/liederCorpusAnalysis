@@ -238,10 +238,11 @@ phonemeCategory = {
     'o': 'close',
     u'\u0254': 'open',
     u'\u00f8': 'close',
-    u'\u0153': 'open',
+    u'\u0153': 'close',
     'y': 'close',
     'u': 'close',
-    u'\028a': 'close',
+    u'\u028a': 'close',
+    u'\u028f': 'open',
 }
 
 phonemeCategoryFive = {
