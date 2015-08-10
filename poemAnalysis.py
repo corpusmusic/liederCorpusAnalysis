@@ -230,19 +230,16 @@ def stressedVowelsOnly(content, vowelList):
 ignore=['.', ':', ' ']
 phonemeCategory = {
     'a': 'open',
-    u'\u0061': 'open',
     'e': 'close',
     u'\u025b': 'open',
     u'\u0259': 'neutral',
     'i': 'close',
-    'I': 'open',
-#    u'\u026a': 'close',
+    'I': 'close',
     'o': 'close',
     u'\u0254': 'open',
     u'\u00f8': 'close',
     u'\u0153': 'open',
     'y': 'close',
-    u'\u0153': 'close',
     'u': 'close',
     u'\028a': 'close',
 }
