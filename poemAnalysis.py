@@ -234,7 +234,7 @@ phonemeCategory = {
     u'\u025b': 'open',
     u'\u0259': 'neutral',
     'i': 'close',
-    'I': 'close',
+    u'\u026a': 'close',
     'o': 'close',
     u'\u0254': 'open',
     u'\u00f8': 'close',
