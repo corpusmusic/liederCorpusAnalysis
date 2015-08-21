@@ -17,23 +17,24 @@ AmFeierabendIPA.txt line-by-line
 Line 10 to 11, close
 Line 11 to 12, close
 Line 1 to 2, neutral
+Line 2 to 3, neutral
 Line 3 to 4, neutral
-Line 13 to 14, neutral
+Line 7 to 8, neutral
 
 
 Line 1-2: 1 categories exceed the threshold.
-Line 2-3: 0 categories exceed the threshold.
+Line 2-3: 1 categories exceed the threshold.
 Line 3-4: 1 categories exceed the threshold.
 Line 4-5: 0 categories exceed the threshold.
 Line 5-6: 0 categories exceed the threshold.
 Line 6-7: 0 categories exceed the threshold.
-Line 7-8: 0 categories exceed the threshold.
+Line 7-8: 1 categories exceed the threshold.
 Line 8-9: 0 categories exceed the threshold.
 Line 9-10: 0 categories exceed the threshold.
 Line 10-11: 1 categories exceed the threshold.
 Line 11-12: 1 categories exceed the threshold.
 Line 12-13: 0 categories exceed the threshold.
-Line 13-14: 1 categories exceed the threshold.
+Line 13-14: 0 categories exceed the threshold.
 Line 14-15: 0 categories exceed the threshold.
 Line 15-16: 0 categories exceed the threshold.
 Line 16-17: 0 categories exceed the threshold.
@@ -84,27 +85,32 @@ DanksagungAnDenBachIPA.txt 1-2: 0 categories exceed the threshold.
 
 DanksagungAnDenBachIPA.txt line-by-line
 
+Line 3 to 4, close
+Line 4 to 5, close
 Line 8 to 9, close
 Line 9 to 10, close
+Line 13 to 14, close
+Line 4 to 5, neutral
 Line 6 to 7, neutral
 Line 7 to 8, neutral
-Line 9 to 10, neutral
+Line 8 to 9, neutral
+Line 10 to 11, neutral
 Line 17 to 18, neutral
 
 
 Line 1-2: 0 categories exceed the threshold.
 Line 2-3: 0 categories exceed the threshold.
-Line 3-4: 0 categories exceed the threshold.
-Line 4-5: 0 categories exceed the threshold.
+Line 3-4: 1 categories exceed the threshold.
+Line 4-5: 2 categories exceed the threshold.
 Line 5-6: 0 categories exceed the threshold.
 Line 6-7: 1 categories exceed the threshold.
 Line 7-8: 1 categories exceed the threshold.
-Line 8-9: 1 categories exceed the threshold.
-Line 9-10: 2 categories exceed the threshold.
-Line 10-11: 0 categories exceed the threshold.
+Line 8-9: 2 categories exceed the threshold.
+Line 9-10: 1 categories exceed the threshold.
+Line 10-11: 1 categories exceed the threshold.
 Line 11-12: 0 categories exceed the threshold.
 Line 12-13: 0 categories exceed the threshold.
-Line 13-14: 0 categories exceed the threshold.
+Line 13-14: 1 categories exceed the threshold.
 Line 14-15: 0 categories exceed the threshold.
 Line 15-16: 0 categories exceed the threshold.
 Line 16-17: 0 categories exceed the threshold.
@@ -116,6 +122,18 @@ Line 20-21: 0 categories exceed the threshold.
 
 DanksagungAnDenBachIPA.txt stanza-by-stanza
 
+Stanza 1 to 2, neutral
+
+
+Stanza 1-2: 1 categories exceed the threshold.
+Stanza 2-3: 0 categories exceed the threshold.
+Stanza 3-4: 0 categories exceed the threshold.
+Stanza 4-5: 0 categories exceed the threshold.
+Stanza 5-6: 0 categories exceed the threshold.
+
+
+DanksagungAnDenBachIPA.txt stanza-by-stanza, stressed only
+
 Stanza 4 to 5, neutral
 
 
@@ -123,19 +141,6 @@ Stanza 1-2: 0 categories exceed the threshold.
 Stanza 2-3: 0 categories exceed the threshold.
 Stanza 3-4: 0 categories exceed the threshold.
 Stanza 4-5: 1 categories exceed the threshold.
-Stanza 5-6: 0 categories exceed the threshold.
-
-
-DanksagungAnDenBachIPA.txt stanza-by-stanza, stressed only
-
-Stanza 1 to 2, close
-Stanza 2 to 3, close
-
-
-Stanza 1-2: 1 categories exceed the threshold.
-Stanza 2-3: 1 categories exceed the threshold.
-Stanza 3-4: 0 categories exceed the threshold.
-Stanza 4-5: 0 categories exceed the threshold.
 Stanza 5-6: 0 categories exceed the threshold.
 
 
@@ -160,51 +165,53 @@ DasWandernIPA.txt 1-2: 0 categories exceed the threshold.
 
 DasWandernIPA.txt line-by-line
 
+Line 4 to 5, close
 Line 7 to 8, close
 Line 8 to 9, close
-Line 24 to 25, close
-Line 7 to 8, neutral
-Line 8 to 9, neutral
-Line 19 to 20, neutral
-Line 22 to 23, neutral
+Line 10 to 11, close
+Line 11 to 12, close
+Line 15 to 16, close
+Line 16 to 17, close
+Line 18 to 19, neutral
 
 
 Line 1-2: 0 categories exceed the threshold.
 Line 2-3: 0 categories exceed the threshold.
 Line 3-4: 0 categories exceed the threshold.
-Line 4-5: 0 categories exceed the threshold.
+Line 4-5: 1 categories exceed the threshold.
 Line 5-6: 0 categories exceed the threshold.
 Line 6-7: 0 categories exceed the threshold.
-Line 7-8: 2 categories exceed the threshold.
-Line 8-9: 2 categories exceed the threshold.
+Line 7-8: 1 categories exceed the threshold.
+Line 8-9: 1 categories exceed the threshold.
 Line 9-10: 0 categories exceed the threshold.
-Line 10-11: 0 categories exceed the threshold.
-Line 11-12: 0 categories exceed the threshold.
+Line 10-11: 1 categories exceed the threshold.
+Line 11-12: 1 categories exceed the threshold.
 Line 12-13: 0 categories exceed the threshold.
 Line 13-14: 0 categories exceed the threshold.
 Line 14-15: 0 categories exceed the threshold.
-Line 15-16: 0 categories exceed the threshold.
-Line 16-17: 0 categories exceed the threshold.
+Line 15-16: 1 categories exceed the threshold.
+Line 16-17: 1 categories exceed the threshold.
 Line 17-18: 0 categories exceed the threshold.
-Line 18-19: 0 categories exceed the threshold.
-Line 19-20: 1 categories exceed the threshold.
+Line 18-19: 1 categories exceed the threshold.
+Line 19-20: 0 categories exceed the threshold.
 Line 20-21: 0 categories exceed the threshold.
 Line 21-22: 0 categories exceed the threshold.
-Line 22-23: 1 categories exceed the threshold.
+Line 22-23: 0 categories exceed the threshold.
 Line 23-24: 0 categories exceed the threshold.
-Line 24-25: 1 categories exceed the threshold.
+Line 24-25: 0 categories exceed the threshold.
 Line 25-26: 0 categories exceed the threshold.
 
 
 DasWandernIPA.txt stanza-by-stanza
 
+Stanza 4 to 5, close
 Stanza 2 to 3, neutral
 
 
 Stanza 1-2: 0 categories exceed the threshold.
 Stanza 2-3: 1 categories exceed the threshold.
 Stanza 3-4: 0 categories exceed the threshold.
-Stanza 4-5: 0 categories exceed the threshold.
+Stanza 4-5: 1 categories exceed the threshold.
 Stanza 5-6: 0 categories exceed the threshold.
 
 
@@ -213,12 +220,11 @@ DasWandernIPA.txt stanza-by-stanza, stressed only
 Stanza 1 to 2, close
 Stanza 1 to 2, neutral
 Stanza 2 to 3, neutral
-Stanza 3 to 4, neutral
 
 
 Stanza 1-2: 2 categories exceed the threshold.
 Stanza 2-3: 1 categories exceed the threshold.
-Stanza 3-4: 1 categories exceed the threshold.
+Stanza 3-4: 0 categories exceed the threshold.
 Stanza 4-5: 0 categories exceed the threshold.
 Stanza 5-6: 0 categories exceed the threshold.
 
@@ -248,11 +254,11 @@ Line 1 to 2, close
 Line 2 to 3, close
 Line 5 to 6, close
 Line 7 to 8, close
-Line 9 to 10, close
+Line 9 to 10, neutral
+Line 11 to 12, neutral
 Line 12 to 13, neutral
 Line 13 to 14, neutral
 Line 14 to 15, neutral
-Line 15 to 16, neutral
 Line 16 to 17, neutral
 
 
@@ -266,11 +272,11 @@ Line 7-8: 1 categories exceed the threshold.
 Line 8-9: 0 categories exceed the threshold.
 Line 9-10: 1 categories exceed the threshold.
 Line 10-11: 0 categories exceed the threshold.
-Line 11-12: 0 categories exceed the threshold.
+Line 11-12: 1 categories exceed the threshold.
 Line 12-13: 1 categories exceed the threshold.
 Line 13-14: 1 categories exceed the threshold.
 Line 14-15: 1 categories exceed the threshold.
-Line 15-16: 1 categories exceed the threshold.
+Line 15-16: 0 categories exceed the threshold.
 Line 16-17: 1 categories exceed the threshold.
 Line 17-18: 0 categories exceed the threshold.
 Line 18-19: 0 categories exceed the threshold.
@@ -316,15 +322,10 @@ DerMullerUndDerBachIPA.txt 1-2: 0 categories exceed the threshold.
 DerMullerUndDerBachIPA.txt line-by-line
 
 Line 6 to 7, close
-Line 10 to 11, close
-Line 11 to 12, close
 Line 17 to 18, close
 Line 18 to 19, close
-Line 28 to 29, close
-Line 29 to 30, close
+Line 19 to 20, neutral
 Line 27 to 28, neutral
-Line 28 to 29, neutral
-Line 29 to 30, neutral
 Line 30 to 31, neutral
 Line 31 to 32, neutral
 
@@ -338,8 +339,8 @@ Line 6-7: 1 categories exceed the threshold.
 Line 7-8: 0 categories exceed the threshold.
 Line 8-9: 0 categories exceed the threshold.
 Line 9-10: 0 categories exceed the threshold.
-Line 10-11: 1 categories exceed the threshold.
-Line 11-12: 1 categories exceed the threshold.
+Line 10-11: 0 categories exceed the threshold.
+Line 11-12: 0 categories exceed the threshold.
 Line 12-13: 0 categories exceed the threshold.
 Line 13-14: 0 categories exceed the threshold.
 Line 14-15: 0 categories exceed the threshold.
@@ -347,7 +348,7 @@ Line 15-16: 0 categories exceed the threshold.
 Line 16-17: 0 categories exceed the threshold.
 Line 17-18: 1 categories exceed the threshold.
 Line 18-19: 1 categories exceed the threshold.
-Line 19-20: 0 categories exceed the threshold.
+Line 19-20: 1 categories exceed the threshold.
 Line 20-21: 0 categories exceed the threshold.
 Line 21-22: 0 categories exceed the threshold.
 Line 22-23: 0 categories exceed the threshold.
@@ -356,8 +357,8 @@ Line 24-25: 0 categories exceed the threshold.
 Line 25-26: 0 categories exceed the threshold.
 Line 26-27: 0 categories exceed the threshold.
 Line 27-28: 1 categories exceed the threshold.
-Line 28-29: 2 categories exceed the threshold.
-Line 29-30: 2 categories exceed the threshold.
+Line 28-29: 0 categories exceed the threshold.
+Line 29-30: 0 categories exceed the threshold.
 Line 30-31: 1 categories exceed the threshold.
 Line 31-32: 1 categories exceed the threshold.
 Line 32-33: 0 categories exceed the threshold.
@@ -375,11 +376,12 @@ Stanza 3-4: 0 categories exceed the threshold.
 
 DerMullerUndDerBachIPA.txt stanza-by-stanza, stressed only
 
-Stanza 2 to 3, close
+Stanza 1 to 2, close
 Stanza 1 to 2, neutral
+Stanza 2 to 3, neutral
 
 
-Stanza 1-2: 1 categories exceed the threshold.
+Stanza 1-2: 2 categories exceed the threshold.
 Stanza 2-3: 1 categories exceed the threshold.
 Stanza 3-4: 0 categories exceed the threshold.
 
@@ -411,6 +413,7 @@ Line 18 to 19, close
 Line 19 to 20, close
 Line 5 to 6, neutral
 Line 6 to 7, neutral
+Line 12 to 13, neutral
 Line 14 to 15, neutral
 
 
@@ -425,7 +428,7 @@ Line 8-9: 0 categories exceed the threshold.
 Line 9-10: 0 categories exceed the threshold.
 Line 10-11: 1 categories exceed the threshold.
 Line 11-12: 0 categories exceed the threshold.
-Line 12-13: 0 categories exceed the threshold.
+Line 12-13: 1 categories exceed the threshold.
 Line 13-14: 0 categories exceed the threshold.
 Line 14-15: 1 categories exceed the threshold.
 Line 15-16: 0 categories exceed the threshold.
@@ -440,27 +443,26 @@ DerNeugierigeIPA.txt stanza-by-stanza
 
 Stanza 1 to 2, close
 Stanza 2 to 3, neutral
+Stanza 3 to 4, neutral
 
 
 Stanza 1-2: 1 categories exceed the threshold.
 Stanza 2-3: 1 categories exceed the threshold.
-Stanza 3-4: 0 categories exceed the threshold.
+Stanza 3-4: 1 categories exceed the threshold.
 Stanza 4-5: 0 categories exceed the threshold.
 Stanza 5-6: 0 categories exceed the threshold.
 
 
 DerNeugierigeIPA.txt stanza-by-stanza, stressed only
 
-Stanza 1 to 2, close
 Stanza 2 to 3, close
 Stanza 3 to 4, close
-Stanza 4 to 5, close
-Stanza 2 to 3, neutral
 Stanza 3 to 4, neutral
+Stanza 4 to 5, neutral
 
 
-Stanza 1-2: 1 categories exceed the threshold.
-Stanza 2-3: 2 categories exceed the threshold.
+Stanza 1-2: 0 categories exceed the threshold.
+Stanza 2-3: 1 categories exceed the threshold.
 Stanza 3-4: 2 categories exceed the threshold.
 Stanza 4-5: 1 categories exceed the threshold.
 Stanza 5-6: 0 categories exceed the threshold.
@@ -491,12 +493,13 @@ Line 9 to 10, close
 Line 12 to 13, close
 Line 16 to 17, close
 Line 18 to 19, close
+Line 21 to 22, close
 Line 23 to 24, close
-Line 10 to 11, neutral
+Line 9 to 10, neutral
 Line 12 to 13, neutral
 Line 13 to 14, neutral
+Line 15 to 16, neutral
 Line 16 to 17, neutral
-Line 28 to 29, neutral
 
 
 Line 1-2: 0 categories exceed the threshold.
@@ -507,26 +510,26 @@ Line 5-6: 0 categories exceed the threshold.
 Line 6-7: 0 categories exceed the threshold.
 Line 7-8: 0 categories exceed the threshold.
 Line 8-9: 0 categories exceed the threshold.
-Line 9-10: 1 categories exceed the threshold.
-Line 10-11: 1 categories exceed the threshold.
+Line 9-10: 2 categories exceed the threshold.
+Line 10-11: 0 categories exceed the threshold.
 Line 11-12: 0 categories exceed the threshold.
 Line 12-13: 2 categories exceed the threshold.
 Line 13-14: 1 categories exceed the threshold.
 Line 14-15: 0 categories exceed the threshold.
-Line 15-16: 0 categories exceed the threshold.
+Line 15-16: 1 categories exceed the threshold.
 Line 16-17: 2 categories exceed the threshold.
 Line 17-18: 0 categories exceed the threshold.
 Line 18-19: 1 categories exceed the threshold.
 Line 19-20: 0 categories exceed the threshold.
 Line 20-21: 0 categories exceed the threshold.
-Line 21-22: 0 categories exceed the threshold.
+Line 21-22: 1 categories exceed the threshold.
 Line 22-23: 0 categories exceed the threshold.
 Line 23-24: 1 categories exceed the threshold.
 Line 24-25: 0 categories exceed the threshold.
 Line 25-26: 0 categories exceed the threshold.
 Line 26-27: 0 categories exceed the threshold.
 Line 27-28: 0 categories exceed the threshold.
-Line 28-29: 1 categories exceed the threshold.
+Line 28-29: 0 categories exceed the threshold.
 Line 29-30: 0 categories exceed the threshold.
 Line 30-31: 0 categories exceed the threshold.
 
@@ -534,10 +537,11 @@ Line 30-31: 0 categories exceed the threshold.
 DesBachesWiegenliedIPA.txt stanza-by-stanza
 
 Stanza 1 to 2, close
+Stanza 2 to 3, close
 
 
 Stanza 1-2: 1 categories exceed the threshold.
-Stanza 2-3: 0 categories exceed the threshold.
+Stanza 2-3: 1 categories exceed the threshold.
 Stanza 3-4: 0 categories exceed the threshold.
 Stanza 4-5: 0 categories exceed the threshold.
 Stanza 5-6: 0 categories exceed the threshold.
@@ -546,14 +550,13 @@ Stanza 5-6: 0 categories exceed the threshold.
 DesBachesWiegenliedIPA.txt stanza-by-stanza, stressed only
 
 Stanza 1 to 2, close
-Stanza 2 to 3, close
-Stanza 3 to 4, close
 Stanza 4 to 5, close
+Stanza 1 to 2, neutral
 
 
-Stanza 1-2: 1 categories exceed the threshold.
-Stanza 2-3: 1 categories exceed the threshold.
-Stanza 3-4: 1 categories exceed the threshold.
+Stanza 1-2: 2 categories exceed the threshold.
+Stanza 2-3: 0 categories exceed the threshold.
+Stanza 3-4: 0 categories exceed the threshold.
 Stanza 4-5: 1 categories exceed the threshold.
 Stanza 5-6: 0 categories exceed the threshold.
 
@@ -624,13 +627,14 @@ Stanza 4-5: 0 categories exceed the threshold.
 
 DesMullersBlumenIPA.txt stanza-by-stanza, stressed only
 
-Stanza 1 to 2, close
 Stanza 2 to 3, close
+Stanza 3 to 4, close
+Stanza 3 to 4, neutral
 
 
-Stanza 1-2: 1 categories exceed the threshold.
+Stanza 1-2: 0 categories exceed the threshold.
 Stanza 2-3: 1 categories exceed the threshold.
-Stanza 3-4: 0 categories exceed the threshold.
+Stanza 3-4: 2 categories exceed the threshold.
 Stanza 4-5: 0 categories exceed the threshold.
 
 
@@ -655,25 +659,25 @@ DieBoseFarbeIPA.txt 1-2: 0 categories exceed the threshold.
 
 DieBoseFarbeIPA.txt line-by-line
 
+Line 11 to 12, close
 Line 16 to 17, close
-Line 3 to 4, neutral
-Line 4 to 5, neutral
 Line 12 to 13, neutral
 Line 14 to 15, neutral
 Line 16 to 17, neutral
+Line 20 to 21, neutral
 
 
 Line 1-2: 0 categories exceed the threshold.
 Line 2-3: 0 categories exceed the threshold.
-Line 3-4: 1 categories exceed the threshold.
-Line 4-5: 1 categories exceed the threshold.
+Line 3-4: 0 categories exceed the threshold.
+Line 4-5: 0 categories exceed the threshold.
 Line 5-6: 0 categories exceed the threshold.
 Line 6-7: 0 categories exceed the threshold.
 Line 7-8: 0 categories exceed the threshold.
 Line 8-9: 0 categories exceed the threshold.
 Line 9-10: 0 categories exceed the threshold.
 Line 10-11: 0 categories exceed the threshold.
-Line 11-12: 0 categories exceed the threshold.
+Line 11-12: 1 categories exceed the threshold.
 Line 12-13: 1 categories exceed the threshold.
 Line 13-14: 0 categories exceed the threshold.
 Line 14-15: 1 categories exceed the threshold.
@@ -682,7 +686,7 @@ Line 16-17: 2 categories exceed the threshold.
 Line 17-18: 0 categories exceed the threshold.
 Line 18-19: 0 categories exceed the threshold.
 Line 19-20: 0 categories exceed the threshold.
-Line 20-21: 0 categories exceed the threshold.
+Line 20-21: 1 categories exceed the threshold.
 Line 21-22: 0 categories exceed the threshold.
 Line 22-23: 0 categories exceed the threshold.
 Line 23-24: 0 categories exceed the threshold.
@@ -707,18 +711,16 @@ Stanza 6-7: 0 categories exceed the threshold.
 
 DieBoseFarbeIPA.txt stanza-by-stanza, stressed only
 
-Stanza 1 to 2, close
-Stanza 2 to 3, close
-Stanza 3 to 4, close
 Stanza 4 to 5, close
 Stanza 4 to 5, neutral
+Stanza 5 to 6, neutral
 
 
-Stanza 1-2: 1 categories exceed the threshold.
-Stanza 2-3: 1 categories exceed the threshold.
-Stanza 3-4: 1 categories exceed the threshold.
+Stanza 1-2: 0 categories exceed the threshold.
+Stanza 2-3: 0 categories exceed the threshold.
+Stanza 3-4: 0 categories exceed the threshold.
 Stanza 4-5: 2 categories exceed the threshold.
-Stanza 5-6: 0 categories exceed the threshold.
+Stanza 5-6: 1 categories exceed the threshold.
 Stanza 6-7: 0 categories exceed the threshold.
 
 
@@ -743,21 +745,19 @@ DieLiebeFarbeIPA.txt 1-2: 0 categories exceed the threshold.
 
 DieLiebeFarbeIPA.txt line-by-line
 
-Line 1 to 2, close
 Line 2 to 3, close
 Line 3 to 4, close
-Line 5 to 6, close
 Line 14 to 15, close
 Line 11 to 12, neutral
 Line 16 to 17, neutral
 Line 17 to 18, neutral
 
 
-Line 1-2: 1 categories exceed the threshold.
+Line 1-2: 0 categories exceed the threshold.
 Line 2-3: 1 categories exceed the threshold.
 Line 3-4: 1 categories exceed the threshold.
 Line 4-5: 0 categories exceed the threshold.
-Line 5-6: 1 categories exceed the threshold.
+Line 5-6: 0 categories exceed the threshold.
 Line 6-7: 0 categories exceed the threshold.
 Line 7-8: 0 categories exceed the threshold.
 Line 8-9: 0 categories exceed the threshold.
@@ -787,11 +787,10 @@ DieLiebeFarbeIPA.txt stanza-by-stanza, stressed only
 
 Stanza 1 to 2, close
 Stanza 2 to 3, close
-Stanza 1 to 2, neutral
 Stanza 2 to 3, neutral
 
 
-Stanza 1-2: 2 categories exceed the threshold.
+Stanza 1-2: 1 categories exceed the threshold.
 Stanza 2-3: 2 categories exceed the threshold.
 Stanza 3-4: 0 categories exceed the threshold.
 
@@ -817,16 +816,18 @@ EifersuchtUndStolzIPA.txt 1-2: 0 categories exceed the threshold.
 
 EifersuchtUndStolzIPA.txt line-by-line
 
+Line 6 to 7, close
 Line 9 to 10, close
+Line 2 to 3, neutral
 Line 11 to 12, neutral
 
 
 Line 1-2: 0 categories exceed the threshold.
-Line 2-3: 0 categories exceed the threshold.
+Line 2-3: 1 categories exceed the threshold.
 Line 3-4: 0 categories exceed the threshold.
 Line 4-5: 0 categories exceed the threshold.
 Line 5-6: 0 categories exceed the threshold.
-Line 6-7: 0 categories exceed the threshold.
+Line 6-7: 1 categories exceed the threshold.
 Line 7-8: 0 categories exceed the threshold.
 Line 8-9: 0 categories exceed the threshold.
 Line 9-10: 1 categories exceed the threshold.
@@ -847,8 +848,8 @@ Stanza 3-4: 0 categories exceed the threshold.
 
 EifersuchtUndStolzIPA.txt stanza-by-stanza, stressed only
 
-Stanza 1 to 2, close
 Stanza 2 to 3, close
+Stanza 1 to 2, neutral
 Stanza 2 to 3, neutral
 
 
@@ -878,17 +879,19 @@ HaltIPA.txt 1-2: 0 categories exceed the threshold.
 
 HaltIPA.txt line-by-line
 
+Line 1 to 2, close
 Line 6 to 7, close
+Line 1 to 2, neutral
+Line 2 to 3, neutral
 Line 5 to 6, neutral
-Line 6 to 7, neutral
 
 
-Line 1-2: 0 categories exceed the threshold.
-Line 2-3: 0 categories exceed the threshold.
+Line 1-2: 2 categories exceed the threshold.
+Line 2-3: 1 categories exceed the threshold.
 Line 3-4: 0 categories exceed the threshold.
 Line 4-5: 0 categories exceed the threshold.
 Line 5-6: 1 categories exceed the threshold.
-Line 6-7: 2 categories exceed the threshold.
+Line 6-7: 1 categories exceed the threshold.
 Line 7-8: 0 categories exceed the threshold.
 Line 8-9: 0 categories exceed the threshold.
 Line 9-10: 0 categories exceed the threshold.
@@ -910,12 +913,11 @@ Stanza 3-4: 0 categories exceed the threshold.
 HaltIPA.txt stanza-by-stanza, stressed only
 
 Stanza 1 to 2, close
-Stanza 2 to 3, close
-Stanza 2 to 3, neutral
+Stanza 1 to 2, neutral
 
 
-Stanza 1-2: 1 categories exceed the threshold.
-Stanza 2-3: 2 categories exceed the threshold.
+Stanza 1-2: 2 categories exceed the threshold.
+Stanza 2-3: 0 categories exceed the threshold.
 Stanza 3-4: 0 categories exceed the threshold.
 
 
@@ -940,28 +942,29 @@ MeinIPA.txt 1-2: 0 categories exceed the threshold.
 
 MeinIPA.txt line-by-line
 
-Line 2 to 3, close
-Line 4 to 5, close
-Line 5 to 6, close
+Line 8 to 9, close
+Line 9 to 10, close
 Line 10 to 11, close
-Line 6 to 7, neutral
+Line 12 to 13, close
+Line 13 to 14, close
+Line 8 to 9, neutral
 Line 9 to 10, neutral
 Line 10 to 11, neutral
 
 
 Line 1-2: 0 categories exceed the threshold.
-Line 2-3: 1 categories exceed the threshold.
+Line 2-3: 0 categories exceed the threshold.
 Line 3-4: 0 categories exceed the threshold.
-Line 4-5: 1 categories exceed the threshold.
-Line 5-6: 1 categories exceed the threshold.
-Line 6-7: 1 categories exceed the threshold.
+Line 4-5: 0 categories exceed the threshold.
+Line 5-6: 0 categories exceed the threshold.
+Line 6-7: 0 categories exceed the threshold.
 Line 7-8: 0 categories exceed the threshold.
-Line 8-9: 0 categories exceed the threshold.
-Line 9-10: 1 categories exceed the threshold.
+Line 8-9: 2 categories exceed the threshold.
+Line 9-10: 2 categories exceed the threshold.
 Line 10-11: 2 categories exceed the threshold.
 Line 11-12: 0 categories exceed the threshold.
-Line 12-13: 0 categories exceed the threshold.
-Line 13-14: 0 categories exceed the threshold.
+Line 12-13: 1 categories exceed the threshold.
+Line 13-14: 1 categories exceed the threshold.
 Line 14-15: 0 categories exceed the threshold.
 Line 15-16: 0 categories exceed the threshold.
 
@@ -1004,26 +1007,25 @@ MitDemGrunenLautenbandeIPA.txt line-by-line
 Line 1 to 2, close
 Line 8 to 9, close
 Line 9 to 10, close
-Line 3 to 4, neutral
 Line 4 to 5, neutral
-Line 8 to 9, neutral
 Line 9 to 10, neutral
+Line 13 to 14, neutral
 Line 17 to 18, neutral
 
 
 Line 1-2: 1 categories exceed the threshold.
 Line 2-3: 0 categories exceed the threshold.
-Line 3-4: 1 categories exceed the threshold.
+Line 3-4: 0 categories exceed the threshold.
 Line 4-5: 1 categories exceed the threshold.
 Line 5-6: 0 categories exceed the threshold.
 Line 6-7: 0 categories exceed the threshold.
 Line 7-8: 0 categories exceed the threshold.
-Line 8-9: 2 categories exceed the threshold.
+Line 8-9: 1 categories exceed the threshold.
 Line 9-10: 2 categories exceed the threshold.
 Line 10-11: 0 categories exceed the threshold.
 Line 11-12: 0 categories exceed the threshold.
 Line 12-13: 0 categories exceed the threshold.
-Line 13-14: 0 categories exceed the threshold.
+Line 13-14: 1 categories exceed the threshold.
 Line 14-15: 0 categories exceed the threshold.
 Line 15-16: 0 categories exceed the threshold.
 Line 16-17: 0 categories exceed the threshold.
@@ -1035,11 +1037,11 @@ MitDemGrunenLautenbandeIPA.txt stanza-by-stanza
 
 Stanza 1 to 2, close
 Stanza 2 to 3, close
-Stanza 2 to 3, neutral
+Stanza 1 to 2, neutral
 
 
-Stanza 1-2: 1 categories exceed the threshold.
-Stanza 2-3: 2 categories exceed the threshold.
+Stanza 1-2: 2 categories exceed the threshold.
+Stanza 2-3: 1 categories exceed the threshold.
 Stanza 3-4: 0 categories exceed the threshold.
 
 
@@ -1081,8 +1083,7 @@ Line 20 to 21, close
 Line 5 to 6, neutral
 Line 6 to 7, neutral
 Line 8 to 9, neutral
-Line 9 to 10, neutral
-Line 19 to 20, neutral
+Line 21 to 22, neutral
 
 
 Line 1-2: 1 categories exceed the threshold.
@@ -1093,7 +1094,7 @@ Line 5-6: 2 categories exceed the threshold.
 Line 6-7: 1 categories exceed the threshold.
 Line 7-8: 0 categories exceed the threshold.
 Line 8-9: 1 categories exceed the threshold.
-Line 9-10: 1 categories exceed the threshold.
+Line 9-10: 0 categories exceed the threshold.
 Line 10-11: 0 categories exceed the threshold.
 Line 11-12: 0 categories exceed the threshold.
 Line 12-13: 0 categories exceed the threshold.
@@ -1103,9 +1104,9 @@ Line 15-16: 0 categories exceed the threshold.
 Line 16-17: 0 categories exceed the threshold.
 Line 17-18: 1 categories exceed the threshold.
 Line 18-19: 0 categories exceed the threshold.
-Line 19-20: 1 categories exceed the threshold.
+Line 19-20: 0 categories exceed the threshold.
 Line 20-21: 1 categories exceed the threshold.
-Line 21-22: 0 categories exceed the threshold.
+Line 21-22: 1 categories exceed the threshold.
 Line 22-23: 0 categories exceed the threshold.
 Line 23-24: 0 categories exceed the threshold.
 Line 24-25: 0 categories exceed the threshold.
@@ -1113,9 +1114,10 @@ Line 24-25: 0 categories exceed the threshold.
 
 MorgengrussIPA.txt stanza-by-stanza
 
+Stanza 1 to 2, close
 
 
-Stanza 1-2: 0 categories exceed the threshold.
+Stanza 1-2: 1 categories exceed the threshold.
 Stanza 2-3: 0 categories exceed the threshold.
 Stanza 3-4: 0 categories exceed the threshold.
 Stanza 4-5: 0 categories exceed the threshold.
@@ -1123,10 +1125,12 @@ Stanza 4-5: 0 categories exceed the threshold.
 
 MorgengrussIPA.txt stanza-by-stanza, stressed only
 
+Stanza 1 to 2, close
 Stanza 2 to 3, close
+Stanza 1 to 2, neutral
 
 
-Stanza 1-2: 0 categories exceed the threshold.
+Stanza 1-2: 2 categories exceed the threshold.
 Stanza 2-3: 1 categories exceed the threshold.
 Stanza 3-4: 0 categories exceed the threshold.
 Stanza 4-5: 0 categories exceed the threshold.
@@ -1153,7 +1157,6 @@ NachtUndTraumeIPA.txt 1-2: 0 categories exceed the threshold.
 
 NachtUndTraumeIPA.txt line-by-line
 
-Line 3 to 4, close
 Line 6 to 7, close
 Line 5 to 6, neutral
 Line 6 to 7, neutral
@@ -1161,7 +1164,7 @@ Line 6 to 7, neutral
 
 Line 1-2: 0 categories exceed the threshold.
 Line 2-3: 0 categories exceed the threshold.
-Line 3-4: 1 categories exceed the threshold.
+Line 3-4: 0 categories exceed the threshold.
 Line 4-5: 0 categories exceed the threshold.
 Line 5-6: 1 categories exceed the threshold.
 Line 6-7: 2 categories exceed the threshold.
@@ -1210,10 +1213,8 @@ PauseIPA.txt 1-2: 0 categories exceed the threshold.
 
 PauseIPA.txt line-by-line
 
-Line 2 to 3, close
-Line 4 to 5, close
 Line 5 to 6, close
-Line 4 to 5, neutral
+Line 8 to 9, close
 Line 7 to 8, neutral
 Line 8 to 9, neutral
 Line 9 to 10, neutral
@@ -1221,13 +1222,13 @@ Line 10 to 11, neutral
 
 
 Line 1-2: 0 categories exceed the threshold.
-Line 2-3: 1 categories exceed the threshold.
+Line 2-3: 0 categories exceed the threshold.
 Line 3-4: 0 categories exceed the threshold.
-Line 4-5: 2 categories exceed the threshold.
+Line 4-5: 0 categories exceed the threshold.
 Line 5-6: 1 categories exceed the threshold.
 Line 6-7: 0 categories exceed the threshold.
 Line 7-8: 1 categories exceed the threshold.
-Line 8-9: 1 categories exceed the threshold.
+Line 8-9: 2 categories exceed the threshold.
 Line 9-10: 1 categories exceed the threshold.
 Line 10-11: 1 categories exceed the threshold.
 Line 11-12: 0 categories exceed the threshold.
@@ -1284,8 +1285,9 @@ TranenregenIPA.txt line-by-line
 Line 4 to 5, close
 Line 13 to 14, close
 Line 8 to 9, neutral
-Line 17 to 18, neutral
-Line 25 to 26, neutral
+Line 12 to 13, neutral
+Line 22 to 23, neutral
+Line 23 to 24, neutral
 
 
 Line 1-2: 0 categories exceed the threshold.
@@ -1299,20 +1301,20 @@ Line 8-9: 1 categories exceed the threshold.
 Line 9-10: 0 categories exceed the threshold.
 Line 10-11: 0 categories exceed the threshold.
 Line 11-12: 0 categories exceed the threshold.
-Line 12-13: 0 categories exceed the threshold.
+Line 12-13: 1 categories exceed the threshold.
 Line 13-14: 1 categories exceed the threshold.
 Line 14-15: 0 categories exceed the threshold.
 Line 15-16: 0 categories exceed the threshold.
 Line 16-17: 0 categories exceed the threshold.
-Line 17-18: 1 categories exceed the threshold.
+Line 17-18: 0 categories exceed the threshold.
 Line 18-19: 0 categories exceed the threshold.
 Line 19-20: 0 categories exceed the threshold.
 Line 20-21: 0 categories exceed the threshold.
 Line 21-22: 0 categories exceed the threshold.
-Line 22-23: 0 categories exceed the threshold.
-Line 23-24: 0 categories exceed the threshold.
+Line 22-23: 1 categories exceed the threshold.
+Line 23-24: 1 categories exceed the threshold.
 Line 24-25: 0 categories exceed the threshold.
-Line 25-26: 1 categories exceed the threshold.
+Line 25-26: 0 categories exceed the threshold.
 Line 26-27: 0 categories exceed the threshold.
 Line 27-28: 0 categories exceed the threshold.
 Line 28-29: 0 categories exceed the threshold.
@@ -1322,7 +1324,6 @@ TranenregenIPA.txt stanza-by-stanza
 
 Stanza 6 to 7, close
 Stanza 3 to 4, neutral
-Stanza 6 to 7, neutral
 
 
 Stanza 1-2: 0 categories exceed the threshold.
@@ -1330,18 +1331,20 @@ Stanza 2-3: 0 categories exceed the threshold.
 Stanza 3-4: 1 categories exceed the threshold.
 Stanza 4-5: 0 categories exceed the threshold.
 Stanza 5-6: 0 categories exceed the threshold.
-Stanza 6-7: 2 categories exceed the threshold.
+Stanza 6-7: 1 categories exceed the threshold.
 Stanza 7-8: 0 categories exceed the threshold.
 
 
 TranenregenIPA.txt stanza-by-stanza, stressed only
 
+Stanza 3 to 4, close
 Stanza 4 to 5, close
+Stanza 3 to 4, neutral
 
 
 Stanza 1-2: 0 categories exceed the threshold.
 Stanza 2-3: 0 categories exceed the threshold.
-Stanza 3-4: 0 categories exceed the threshold.
+Stanza 3-4: 2 categories exceed the threshold.
 Stanza 4-5: 1 categories exceed the threshold.
 Stanza 5-6: 0 categories exceed the threshold.
 Stanza 6-7: 0 categories exceed the threshold.
@@ -1369,25 +1372,21 @@ TrockneBlumenIPA.txt 1-2: 0 categories exceed the threshold.
 
 TrockneBlumenIPA.txt line-by-line
 
-Line 6 to 7, close
 Line 12 to 13, close
-Line 14 to 15, close
 Line 15 to 16, close
-Line 16 to 17, close
-Line 24 to 25, close
-Line 27 to 28, close
-Line 4 to 5, neutral
 Line 7 to 8, neutral
 Line 16 to 17, neutral
+Line 17 to 18, neutral
 Line 21 to 22, neutral
+Line 30 to 31, neutral
 
 
 Line 1-2: 0 categories exceed the threshold.
 Line 2-3: 0 categories exceed the threshold.
 Line 3-4: 0 categories exceed the threshold.
-Line 4-5: 1 categories exceed the threshold.
+Line 4-5: 0 categories exceed the threshold.
 Line 5-6: 0 categories exceed the threshold.
-Line 6-7: 1 categories exceed the threshold.
+Line 6-7: 0 categories exceed the threshold.
 Line 7-8: 1 categories exceed the threshold.
 Line 8-9: 0 categories exceed the threshold.
 Line 9-10: 0 categories exceed the threshold.
@@ -1395,23 +1394,23 @@ Line 10-11: 0 categories exceed the threshold.
 Line 11-12: 0 categories exceed the threshold.
 Line 12-13: 1 categories exceed the threshold.
 Line 13-14: 0 categories exceed the threshold.
-Line 14-15: 1 categories exceed the threshold.
+Line 14-15: 0 categories exceed the threshold.
 Line 15-16: 1 categories exceed the threshold.
-Line 16-17: 2 categories exceed the threshold.
-Line 17-18: 0 categories exceed the threshold.
+Line 16-17: 1 categories exceed the threshold.
+Line 17-18: 1 categories exceed the threshold.
 Line 18-19: 0 categories exceed the threshold.
 Line 19-20: 0 categories exceed the threshold.
 Line 20-21: 0 categories exceed the threshold.
 Line 21-22: 1 categories exceed the threshold.
 Line 22-23: 0 categories exceed the threshold.
 Line 23-24: 0 categories exceed the threshold.
-Line 24-25: 1 categories exceed the threshold.
+Line 24-25: 0 categories exceed the threshold.
 Line 25-26: 0 categories exceed the threshold.
 Line 26-27: 0 categories exceed the threshold.
-Line 27-28: 1 categories exceed the threshold.
+Line 27-28: 0 categories exceed the threshold.
 Line 28-29: 0 categories exceed the threshold.
 Line 29-30: 0 categories exceed the threshold.
-Line 30-31: 0 categories exceed the threshold.
+Line 30-31: 1 categories exceed the threshold.
 Line 31-32: 0 categories exceed the threshold.
 Line 32-33: 0 categories exceed the threshold.
 
@@ -1435,16 +1434,19 @@ TrockneBlumenIPA.txt stanza-by-stanza, stressed only
 
 Stanza 1 to 2, close
 Stanza 2 to 3, close
+Stanza 4 to 5, close
+Stanza 5 to 6, close
+Stanza 7 to 8, close
 Stanza 6 to 7, neutral
 
 
 Stanza 1-2: 1 categories exceed the threshold.
 Stanza 2-3: 1 categories exceed the threshold.
 Stanza 3-4: 0 categories exceed the threshold.
-Stanza 4-5: 0 categories exceed the threshold.
-Stanza 5-6: 0 categories exceed the threshold.
+Stanza 4-5: 1 categories exceed the threshold.
+Stanza 5-6: 1 categories exceed the threshold.
 Stanza 6-7: 1 categories exceed the threshold.
-Stanza 7-8: 0 categories exceed the threshold.
+Stanza 7-8: 1 categories exceed the threshold.
 Stanza 8-9: 0 categories exceed the threshold.
 
 
@@ -1469,22 +1471,25 @@ UngeduldIPA.txt 1-2: 0 categories exceed the threshold.
 
 UngeduldIPA.txt line-by-line
 
+Line 4 to 5, close
 Line 5 to 6, close
 Line 6 to 7, close
 Line 7 to 8, close
+Line 12 to 13, close
+Line 13 to 14, close
 Line 15 to 16, close
 Line 16 to 17, close
 Line 1 to 2, neutral
 Line 6 to 7, neutral
 Line 7 to 8, neutral
 Line 17 to 18, neutral
-Line 22 to 23, neutral
+Line 20 to 21, neutral
 
 
 Line 1-2: 1 categories exceed the threshold.
 Line 2-3: 0 categories exceed the threshold.
 Line 3-4: 0 categories exceed the threshold.
-Line 4-5: 0 categories exceed the threshold.
+Line 4-5: 1 categories exceed the threshold.
 Line 5-6: 1 categories exceed the threshold.
 Line 6-7: 2 categories exceed the threshold.
 Line 7-8: 2 categories exceed the threshold.
@@ -1492,17 +1497,17 @@ Line 8-9: 0 categories exceed the threshold.
 Line 9-10: 0 categories exceed the threshold.
 Line 10-11: 0 categories exceed the threshold.
 Line 11-12: 0 categories exceed the threshold.
-Line 12-13: 0 categories exceed the threshold.
-Line 13-14: 0 categories exceed the threshold.
+Line 12-13: 1 categories exceed the threshold.
+Line 13-14: 1 categories exceed the threshold.
 Line 14-15: 0 categories exceed the threshold.
 Line 15-16: 1 categories exceed the threshold.
 Line 16-17: 1 categories exceed the threshold.
 Line 17-18: 1 categories exceed the threshold.
 Line 18-19: 0 categories exceed the threshold.
 Line 19-20: 0 categories exceed the threshold.
-Line 20-21: 0 categories exceed the threshold.
+Line 20-21: 1 categories exceed the threshold.
 Line 21-22: 0 categories exceed the threshold.
-Line 22-23: 1 categories exceed the threshold.
+Line 22-23: 0 categories exceed the threshold.
 Line 23-24: 0 categories exceed the threshold.
 Line 24-25: 0 categories exceed the threshold.
 
@@ -1510,25 +1515,23 @@ Line 24-25: 0 categories exceed the threshold.
 UngeduldIPA.txt stanza-by-stanza
 
 Stanza 2 to 3, close
-Stanza 3 to 4, close
-Stanza 2 to 3, neutral
 
 
 Stanza 1-2: 0 categories exceed the threshold.
-Stanza 2-3: 2 categories exceed the threshold.
-Stanza 3-4: 1 categories exceed the threshold.
+Stanza 2-3: 1 categories exceed the threshold.
+Stanza 3-4: 0 categories exceed the threshold.
 Stanza 4-5: 0 categories exceed the threshold.
 
 
 UngeduldIPA.txt stanza-by-stanza, stressed only
 
 Stanza 1 to 2, close
-Stanza 2 to 3, close
+Stanza 1 to 2, neutral
 Stanza 2 to 3, neutral
 
 
-Stanza 1-2: 1 categories exceed the threshold.
-Stanza 2-3: 2 categories exceed the threshold.
+Stanza 1-2: 2 categories exceed the threshold.
+Stanza 2-3: 1 categories exceed the threshold.
 Stanza 3-4: 0 categories exceed the threshold.
 Stanza 4-5: 0 categories exceed the threshold.
 
@@ -1557,10 +1560,9 @@ WohinIPA.txt line-by-line
 Line 6 to 7, close
 Line 13 to 14, close
 Line 14 to 15, close
+Line 8 to 9, neutral
 Line 16 to 17, neutral
 Line 18 to 19, neutral
-Line 20 to 21, neutral
-Line 22 to 23, neutral
 
 
 Line 1-2: 0 categories exceed the threshold.
@@ -1570,7 +1572,7 @@ Line 4-5: 0 categories exceed the threshold.
 Line 5-6: 0 categories exceed the threshold.
 Line 6-7: 1 categories exceed the threshold.
 Line 7-8: 0 categories exceed the threshold.
-Line 8-9: 0 categories exceed the threshold.
+Line 8-9: 1 categories exceed the threshold.
 Line 9-10: 0 categories exceed the threshold.
 Line 10-11: 0 categories exceed the threshold.
 Line 11-12: 0 categories exceed the threshold.
@@ -1582,9 +1584,9 @@ Line 16-17: 1 categories exceed the threshold.
 Line 17-18: 0 categories exceed the threshold.
 Line 18-19: 1 categories exceed the threshold.
 Line 19-20: 0 categories exceed the threshold.
-Line 20-21: 1 categories exceed the threshold.
+Line 20-21: 0 categories exceed the threshold.
 Line 21-22: 0 categories exceed the threshold.
-Line 22-23: 1 categories exceed the threshold.
+Line 22-23: 0 categories exceed the threshold.
 Line 23-24: 0 categories exceed the threshold.
 Line 24-25: 0 categories exceed the threshold.
 
@@ -1594,27 +1596,26 @@ WohinIPA.txt stanza-by-stanza
 Stanza 2 to 3, close
 Stanza 3 to 4, close
 Stanza 3 to 4, neutral
-Stanza 5 to 6, neutral
 
 
 Stanza 1-2: 0 categories exceed the threshold.
 Stanza 2-3: 1 categories exceed the threshold.
 Stanza 3-4: 2 categories exceed the threshold.
 Stanza 4-5: 0 categories exceed the threshold.
-Stanza 5-6: 1 categories exceed the threshold.
+Stanza 5-6: 0 categories exceed the threshold.
 Stanza 6-7: 0 categories exceed the threshold.
 
 
 WohinIPA.txt stanza-by-stanza, stressed only
 
-Stanza 1 to 2, close
 Stanza 2 to 3, close
-Stanza 2 to 3, neutral
+Stanza 3 to 4, close
+Stanza 1 to 2, neutral
 
 
 Stanza 1-2: 1 categories exceed the threshold.
-Stanza 2-3: 2 categories exceed the threshold.
-Stanza 3-4: 0 categories exceed the threshold.
+Stanza 2-3: 1 categories exceed the threshold.
+Stanza 3-4: 1 categories exceed the threshold.
 Stanza 4-5: 0 categories exceed the threshold.
 Stanza 5-6: 0 categories exceed the threshold.
 Stanza 6-7: 0 categories exceed the threshold.
