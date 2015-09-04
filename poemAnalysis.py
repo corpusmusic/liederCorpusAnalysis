@@ -225,6 +225,7 @@ def stressedVowelsOnly(content, vowelList):
             stressedVowels.append(vowelLine)
     return stressedVowels
 
+    
 # run
 
 ignore=['.', ':', ' ']
