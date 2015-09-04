@@ -235,8 +235,7 @@ phonemeCategory = {
     u'\u025b': 'open',
     u'\u0259': 'neutral',
     'i': 'close',
-    'I': 'clse',
-    u'\u026a': 'close',
+    'I': 'close',
     'o': 'close',
     u'\u0254': 'open',
     u'\u00f8': 'close',
@@ -249,21 +248,19 @@ phonemeCategory = {
 
 phonemeCategoryFive = {
     'a': 'open',
-    u'\u0061': 'open',
     'e': 'closeMid',
     u'\u025b': 'openMid',
     u'\u0259': 'neutral',
     'i': 'close',
     'I': 'close',
-#    u'\u026a': 'close',
     'o': 'closeMid',
     u'\u0254': 'openMid',
     u'\u00f8': 'closeMid',
     u'\u0153': 'openMid',
     'y': 'close',
-    u'\u0153': 'close',
     'u': 'close',
-    u'\028a': 'close',
+    u'\u028a': 'close',
+   u'\u028f': 'close',
 }
 
 vowelList = phonemeCategory.keys()
