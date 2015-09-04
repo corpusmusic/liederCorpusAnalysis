@@ -235,6 +235,7 @@ phonemeCategory = {
     u'\u025b': 'open',
     u'\u0259': 'neutral',
     'i': 'close',
+    'I': 'open',
     u'\u026a': 'close',
     'o': 'close',
     u'\u0254': 'open',
@@ -271,7 +272,7 @@ sourceDirectory = 'texts/'
 outputDirectory = 'statOutput/'
 poemCorpus = []
 for file in listdir(sourceDirectory):
-    if fnmatch.fnmatch(file, '*IPA.txt'):
+    if fnmatch.fnmatch(file, '*IPAMusic.txt'):
         poemCorpus.append(file)
 
 
