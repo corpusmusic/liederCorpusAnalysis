@@ -19,9 +19,13 @@
 
 from music21 import *
 import codecs
+import fnmatch
+from os import listdir
 
 musicDirectory = 'music'
 textDirectory = 'texts'
+destinationDirectory = 'textAndMusic'
+
 musicFilename = 'DieLiebeFarbeMusic.xml'
 textFilename = 'DieLiebeFarbeIPAMusic.txt'
 
@@ -38,23 +42,36 @@ def wholeSong(content):
     
 def syllabify(songTextAsSingleString):
     return songTextAsSingleString.replace('.', ' ').split()
+
+# run
+
+musicCorpus = []
+for file in listdir(musicDirectory):
+    if fnmatch.fnmatch(file, '*Music.xml'):
+        musicCorpus.append(file)
+        
+for musicFilename in musicCorpus:
+    songTitle = musicFilename.split('Music.')[0]
+    textFilename = songTitle + 'IPAMusic.txt'
     
-text = syllabify(wholeSong(getText(textDirectory, textFilename)))
-s = converter.parse(musicDirectory + '/' + musicFilename)
+    text = syllabify(wholeSong(getText(textDirectory, textFilename)))
+    s = converter.parse(musicDirectory + '/' + musicFilename)
 
-for n in s.flat.notes:
-    if n.getSpannerSites() == []:
-        if text:
-            n.lyric = text.pop(0)            
-    else:
-        ss = n.getSpannerSites()
-        for thisSpanner in ss:
-            if 'Slur' in thisSpanner.classes:
-                if thisSpanner.isLast(n):
-                    if text:
-                        n.lyric = text.pop(0)
-                else:
-                    if text:
-                        n.lyric = text[0]
-
-s.write(fp='testXMLFile.xml')
+    for n in s.flat.notes:
+        if n.getSpannerSites() == []:
+            if text:
+                n.lyric = text.pop(0)            
+        else:
+            ss = n.getSpannerSites()
+            for thisSpanner in ss:
+                if 'Slur' in thisSpanner.classes:
+                    if thisSpanner.isLast(n):
+                        if text:
+                            n.lyric = text.pop(0)
+                    else:
+                        if text:
+                            n.lyric = text[0]
+                            
+    writePath = destinationDirectory + '/' + songTitle + '.xml'
+    s.write(fp=writePath)
+    print writePath, "created."
