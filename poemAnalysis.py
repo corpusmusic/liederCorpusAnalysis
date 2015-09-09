@@ -243,7 +243,7 @@ phonemeCategory = {
     'y': 'close',
     'u': 'close',
     u'\u028a': 'close',
-    u'\u028f': 'close',
+    'Y': 'close',
 }
 
 phonemeCategoryFive = {
@@ -260,7 +260,7 @@ phonemeCategoryFive = {
     'y': 'close',
     'u': 'close',
     u'\u028a': 'close',
-   u'\u028f': 'close',
+   'Y': 'close',
 }
 
 vowelList = phonemeCategory.keys()
