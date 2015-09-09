@@ -1,6 +1,6 @@
 ## this needs some work to shorten song titles
 
-allFiles <- list.files('statOutput', '*wholeSongStressed.csv', full.names=TRUE)
+allFiles <- list.files('statOutput', '*IPAMusic-wholeSongStressed.csv', full.names=TRUE)
 corpus <- data.frame()
 for(file in allFiles) {
     corpus <- rbind(corpus, read.csv(file))
@@ -24,4 +24,5 @@ for(i in 1:corpusSize) {
     means[i] <- mean(as.numeric(correlations[i,1:corpusSize]))
 }
 
-meanCorr <- data.frame(cbind(allFiles, means))
+write.csv(correlations, 'wholeCorpus-IPAMusic-songCorrelations-stressedVowels-Sep9.csv')
+write.csv(corpus, 'wholeCorpus-IPAMusic-wholeSongStressed-Sep9.csv')
