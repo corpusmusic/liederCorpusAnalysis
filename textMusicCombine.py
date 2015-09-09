@@ -26,9 +26,6 @@ musicDirectory = 'music'
 textDirectory = 'texts'
 destinationDirectory = 'textAndMusic'
 
-musicFilename = 'DieLiebeFarbeMusic.xml'
-textFilename = 'DieLiebeFarbeIPAMusic.txt'
-
 def getText(directory, filename):
     return [line.rstrip('\n') for line in codecs.open((directory + '/' + filename), encoding='utf-8')]
 
@@ -56,21 +53,46 @@ for musicFilename in musicCorpus:
     
     text = syllabify(wholeSong(getText(textDirectory, textFilename)))
     s = converter.parse(musicDirectory + '/' + musicFilename)
-
+    slurflag = False
+    
     for n in s.flat.notes:
-        if n.getSpannerSites() == []:
-            if text:
-                n.lyric = text.pop(0)            
-        else:
-            ss = n.getSpannerSites()
-            for thisSpanner in ss:
-                if 'Slur' in thisSpanner.classes:
-                    if thisSpanner.isLast(n):
-                        if text:
-                            n.lyric = text.pop(0)
-                    else:
-                        if text:
+        if n.isGrace == False:
+            if n.getSpannerSites() == []:
+                if text:
+                    if n.tie:
+                        if n.tie.type in ['stop', 'continue']:
+                            if slurflag == True:
+                                n.lyric = text[0]
+                            else:
+                                n.lyric = text.pop(0)
+                        else:
                             n.lyric = text[0]
+                    else:
+                        if slurflag == True:
+                            n.lyric = text[0]
+                        else:
+                            n.lyric = text.pop(0)           
+            else:
+                ss = n.getSpannerSites()
+                for thisSpanner in ss:
+                    if 'Slur' in thisSpanner.classes:
+                        if thisSpanner.isLast(n):
+                            slurflag = False
+                            if text:
+                                if n.tie:
+                                    if n.tie.type in ['stop', 'continue']:
+                                        n.lyric = text.pop(0)
+                                    else:
+                                        n.lyric = text[0]
+                                else:
+                                    n.lyric = text.pop(0)           
+                        else:
+                            if text:
+                                n.lyric = text[0]
+                            slurflag = True
+                        
+                    
+                            
                             
     writePath = destinationDirectory + '/' + songTitle + '.xml'
     s.write(fp=writePath)

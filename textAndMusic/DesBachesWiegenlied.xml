@@ -39,7 +39,7 @@
   <part-list>
     <score-part id="P1">
       <part-name></part-name>
-      <score-instrument id="I77505e6726637bc76b2fd6cccb18b72e">
+      <score-instrument id="I0db6997d80f4512daaaa3c28e8711800">
         <instrument-name></instrument-name>
       </score-instrument>
     </score-part>
@@ -441,7 +441,7 @@
         </notations>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>gən</text>
+          <text>'a:ʊ</text>
         </lyric>
       </note>
       <note>
@@ -456,7 +456,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'tsu</text>
+          <text>gən</text>
         </lyric>
       </note>
       <note>
@@ -471,7 +471,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'vand</text>
+          <text>'tsu</text>
         </lyric>
       </note>
       <note>
@@ -497,7 +497,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>ɾəʁ</text>
+          <text>'vand</text>
         </lyric>
       </note>
       <note>
@@ -512,7 +512,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>du</text>
+          <text>ɾəʁ</text>
         </lyric>
       </note>
       <note>
@@ -527,7 +527,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'my</text>
+          <text>du</text>
         </lyric>
       </note>
       <note>
@@ -545,7 +545,7 @@
         </notations>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>dəʁ</text>
+          <text>'my</text>
         </lyric>
       </note>
       <note>
@@ -564,7 +564,7 @@
         </notations>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>dəʁ</text>
+          <text>'my</text>
         </lyric>
       </note>
       <note>
@@ -579,7 +579,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>du</text>
+          <text>dəʁ</text>
         </lyric>
       </note>
       <note>
@@ -594,7 +594,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'bIst</text>
+          <text>du</text>
         </lyric>
       </note>
     </measure>
@@ -622,7 +622,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>tsu</text>
+          <text>'bIst</text>
         </lyric>
       </note>
       <note>
@@ -640,7 +640,7 @@
         </notations>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'ha:ʊs</text>
+          <text>tsu</text>
         </lyric>
       </note>
       <note>
@@ -658,7 +658,7 @@
         </notations>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'ha:ʊs</text>
+          <text>tsu</text>
         </lyric>
       </note>
       <note>
@@ -673,7 +673,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>di</text>
+          <text>'ha:ʊs</text>
         </lyric>
       </note>
       <note>
@@ -714,7 +714,7 @@
         </notations>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'tɾɔ:Y</text>
+          <text>di</text>
         </lyric>
       </note>
       <note>
@@ -733,7 +733,7 @@
         </notations>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'tɾɔ:Y</text>
+          <text>di</text>
         </lyric>
       </note>
     </measure>
@@ -752,7 +752,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>Ist</text>
+          <text>'tɾɔ:Y</text>
         </lyric>
       </note>
       <note>
@@ -770,7 +770,7 @@
         </notations>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'hiɾ</text>
+          <text>Ist</text>
         </lyric>
       </note>
       <note>
@@ -789,7 +789,7 @@
         </notations>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'hiɾ</text>
+          <text>Ist</text>
         </lyric>
       </note>
       <note>
@@ -804,7 +804,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>zɔlst</text>
+          <text>'hiɾ</text>
         </lyric>
       </note>
       <note>
@@ -819,7 +819,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'li</text>
+          <text>zɔlst</text>
         </lyric>
       </note>
     </measure>
@@ -841,7 +841,7 @@
         </notations>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>gən</text>
+          <text>'li</text>
         </lyric>
       </note>
       <note>
@@ -860,7 +860,7 @@
         </notations>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>gən</text>
+          <text>'li</text>
         </lyric>
       </note>
       <note>
@@ -876,7 +876,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>ba:I</text>
+          <text>gən</text>
         </lyric>
       </note>
       <note>
@@ -891,7 +891,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'miɾ</text>
+          <text>ba:I</text>
         </lyric>
       </note>
       <note>
@@ -906,7 +906,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>di</text>
+          <text>'miɾ</text>
         </lyric>
       </note>
       <note>
@@ -924,7 +924,7 @@
         </notations>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'tɾɔ:Y</text>
+          <text>di</text>
         </lyric>
       </note>
       <note>
@@ -941,7 +941,7 @@
         </notations>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'tɾɔ:Y</text>
+          <text>di</text>
         </lyric>
       </note>
     </measure>
@@ -960,7 +960,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>Ist</text>
+          <text>'tɾɔ:Y</text>
         </lyric>
       </note>
       <note>
@@ -978,7 +978,7 @@
         </notations>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'hiɾ</text>
+          <text>Ist</text>
         </lyric>
       </note>
       <note>
@@ -997,7 +997,7 @@
         </notations>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'hiɾ</text>
+          <text>Ist</text>
         </lyric>
       </note>
       <note>
@@ -1012,7 +1012,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>zɔlst</text>
+          <text>'hiɾ</text>
         </lyric>
       </note>
       <note>
@@ -1027,7 +1027,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'li</text>
+          <text>zɔlst</text>
         </lyric>
       </note>
     </measure>
@@ -1049,7 +1049,7 @@
         </notations>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>gən</text>
+          <text>'li</text>
         </lyric>
       </note>
       <note>
@@ -1068,7 +1068,7 @@
         </notations>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>gən</text>
+          <text>'li</text>
         </lyric>
       </note>
       <note>
@@ -1084,7 +1084,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>ba:I</text>
+          <text>gən</text>
         </lyric>
       </note>
       <note>
@@ -1099,7 +1099,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'miɾ</text>
+          <text>ba:I</text>
         </lyric>
       </note>
       <note>
@@ -1114,7 +1114,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>bis</text>
+          <text>'miɾ</text>
         </lyric>
       </note>
       <note>
@@ -1161,7 +1161,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>das</text>
+          <text>bis</text>
         </lyric>
       </note>
       <note>
@@ -1176,7 +1176,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'meɾ</text>
+          <text>das</text>
         </lyric>
       </note>
     </measure>
@@ -1198,7 +1198,7 @@
         </notations>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>vIl</text>
+          <text>'meɾ</text>
         </lyric>
       </note>
       <note>
@@ -1215,7 +1215,7 @@
         </notations>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>vIl</text>
+          <text>'meɾ</text>
         </lyric>
       </note>
       <note>
@@ -1230,7 +1230,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'tɾIŋ</text>
+          <text>vIl</text>
         </lyric>
       </note>
       <note>
@@ -1242,10 +1242,6 @@
         <type>eighth</type>
         <stem>up</stem>
         <notations/>
-        <lyric number="1">
-          <syllabic>single</syllabic>
-          <text>kən</text>
-        </lyric>
       </note>
       <note>
         <pitch>
@@ -1262,7 +1258,7 @@
         </notations>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>di</text>
+          <text>'tɾIŋ</text>
         </lyric>
       </note>
       <note>
@@ -1277,7 +1273,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'bɛç</text>
+          <text>kən</text>
         </lyric>
       </note>
       <note>
@@ -1292,7 +1288,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>la:In</text>
+          <text>di</text>
         </lyric>
       </note>
     </measure>
@@ -1314,7 +1310,7 @@
         </notations>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'a:ʊs</text>
+          <text>'bɛç</text>
         </lyric>
       </note>
       <note>
@@ -1331,7 +1327,7 @@
         </notations>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'a:ʊs</text>
+          <text>'bɛç</text>
         </lyric>
       </note>
       <note>
@@ -1346,7 +1342,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>bis</text>
+          <text>la:In</text>
         </lyric>
       </note>
       <note>
@@ -1362,7 +1358,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>das</text>
+          <text>'a:ʊs</text>
         </lyric>
       </note>
       <note>
@@ -1377,7 +1373,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'meɾ</text>
+          <text>bis</text>
         </lyric>
       </note>
       <note>
@@ -1392,7 +1388,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>vIl</text>
+          <text>das</text>
         </lyric>
       </note>
     </measure>
@@ -1415,7 +1411,7 @@
         </notations>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'tɾIŋ</text>
+          <text>'meɾ</text>
         </lyric>
       </note>
       <note>
@@ -1432,7 +1428,7 @@
         </notations>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'tɾIŋ</text>
+          <text>'meɾ</text>
         </lyric>
       </note>
       <note>
@@ -1447,7 +1443,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>kən</text>
+          <text>vIl</text>
         </lyric>
       </note>
       <note>
@@ -1465,7 +1461,7 @@
         </notations>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>di</text>
+          <text>'tɾIŋ</text>
         </lyric>
       </note>
       <note>
@@ -1482,7 +1478,7 @@
         </notations>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>di</text>
+          <text>'tɾIŋ</text>
         </lyric>
       </note>
       <note>
@@ -1497,7 +1493,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'bɛç</text>
+          <text>kən</text>
         </lyric>
       </note>
       <note>
@@ -1512,7 +1508,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>la:In</text>
+          <text>di</text>
         </lyric>
       </note>
     </measure>
@@ -1532,7 +1528,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'a:ʊs</text>
+          <text>'bɛç</text>
         </lyric>
       </note>
       <note>
@@ -1549,7 +1545,7 @@
         </notations>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>vIl</text>
+          <text>la:In</text>
         </lyric>
       </note>
       <note>
@@ -1567,7 +1563,7 @@
         </notations>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>vIl</text>
+          <text>la:In</text>
         </lyric>
       </note>
       <note>
@@ -1581,7 +1577,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'bɛ</text>
+          <text>'a:ʊs</text>
         </lyric>
       </note>
     </measure>
@@ -1627,7 +1623,7 @@
         </notations>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>tən</text>
+          <text>vIl</text>
         </lyric>
       </note>
       <note>
@@ -1644,7 +1640,7 @@
         </notations>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>tən</text>
+          <text>vIl</text>
         </lyric>
       </note>
     </measure>
@@ -1672,7 +1668,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>dIç</text>
+          <text>'bɛ</text>
         </lyric>
       </note>
       <note>
@@ -1688,7 +1684,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'kyl</text>
+          <text>tən</text>
         </lyric>
       </note>
       <note>
@@ -1703,7 +1699,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>a:ʊf</text>
+          <text>dIç</text>
         </lyric>
       </note>
       <note>
@@ -1718,7 +1714,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'va:I</text>
+          <text>'kyl</text>
         </lyric>
       </note>
       <note>
@@ -1732,7 +1728,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>çəm</text>
+          <text>a:ʊf</text>
         </lyric>
       </note>
     </measure>
@@ -1753,7 +1749,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'pfyl</text>
+          <text>'va:I</text>
         </lyric>
       </note>
       <note>
@@ -1767,7 +1763,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>vIl</text>
+          <text>çəm</text>
         </lyric>
       </note>
       <note>
@@ -1782,7 +1778,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'bɛ</text>
+          <text>'pfyl</text>
         </lyric>
       </note>
       <note>
@@ -1800,7 +1796,7 @@
         </notations>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>tən</text>
+          <text>vIl</text>
         </lyric>
       </note>
       <note>
@@ -1817,7 +1813,7 @@
         </notations>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>tən</text>
+          <text>vIl</text>
         </lyric>
       </note>
     </measure>
@@ -1836,7 +1832,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>dIç</text>
+          <text>'bɛ</text>
         </lyric>
       </note>
       <note>
@@ -1852,7 +1848,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'kyl</text>
+          <text>tən</text>
         </lyric>
       </note>
       <note>
@@ -1867,7 +1863,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>a:ʊf</text>
+          <text>dIç</text>
         </lyric>
       </note>
       <note>
@@ -1882,7 +1878,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'va:I</text>
+          <text>'kyl</text>
         </lyric>
       </note>
       <note>
@@ -1896,7 +1892,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>çəm</text>
+          <text>a:ʊf</text>
         </lyric>
       </note>
     </measure>
@@ -1919,7 +1915,7 @@
         </notations>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'pfyl</text>
+          <text>'va:I</text>
         </lyric>
       </note>
       <note>
@@ -1935,7 +1931,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'pfyl</text>
+          <text>'va:I</text>
         </lyric>
       </note>
       <note>
@@ -1953,7 +1949,7 @@
         </notations>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>In</text>
+          <text>'va:I</text>
         </lyric>
       </note>
       <note>
@@ -1968,7 +1964,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>dem</text>
+          <text>çəm</text>
         </lyric>
       </note>
       <note>
@@ -2000,7 +1996,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'bla:ʊ</text>
+          <text>'pfyl</text>
         </lyric>
       </note>
       <note>
@@ -2017,7 +2013,7 @@
         </notations>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>ən</text>
+          <text>In</text>
         </lyric>
       </note>
       <note>
@@ -2034,7 +2030,7 @@
         </notations>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>ən</text>
+          <text>In</text>
         </lyric>
       </note>
       <note>
@@ -2052,7 +2048,7 @@
         </notations>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>kɾIs</text>
+          <text>dem</text>
         </lyric>
       </note>
       <note>
@@ -2071,7 +2067,7 @@
         </notations>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>kɾIs</text>
+          <text>dem</text>
         </lyric>
       </note>
       <note>
@@ -2086,7 +2082,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'ta</text>
+          <text>'bla:ʊ</text>
         </lyric>
       </note>
       <note>
@@ -2101,7 +2097,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>lə</text>
+          <text>ən</text>
         </lyric>
       </note>
     </measure>
@@ -2120,7 +2116,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>nən</text>
+          <text>kɾIs</text>
         </lyric>
       </note>
       <note>
@@ -2136,7 +2132,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'kɛ</text>
+          <text>'ta</text>
         </lyric>
       </note>
       <note>
@@ -2152,7 +2148,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>məʁ</text>
+          <text>lə</text>
         </lyric>
       </note>
       <note>
@@ -2168,7 +2164,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'la:In</text>
+          <text>nən</text>
         </lyric>
       </note>
       <note>
@@ -2183,7 +2179,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>hɛ</text>
+          <text>'kɛ</text>
         </lyric>
       </note>
       <note>
@@ -2198,7 +2194,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'ɾan</text>
+          <text>məʁ</text>
         </lyric>
       </note>
     </measure>
@@ -2242,7 +2238,7 @@
         </notations>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>hɛ</text>
+          <text>'la:In</text>
         </lyric>
       </note>
       <note>
@@ -2261,7 +2257,7 @@
         </notations>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>hɛ</text>
+          <text>'la:In</text>
         </lyric>
       </note>
     </measure>
@@ -2280,7 +2276,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'ɾan</text>
+          <text>hɛ</text>
         </lyric>
       </note>
       <note>
@@ -2298,7 +2294,7 @@
         </notations>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>vas</text>
+          <text>'ɾan</text>
         </lyric>
       </note>
       <note>
@@ -2317,7 +2313,7 @@
         </notations>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>vas</text>
+          <text>'ɾan</text>
         </lyric>
       </note>
       <note>
@@ -2332,7 +2328,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'vi</text>
+          <text>hɛ</text>
         </lyric>
       </note>
       <note>
@@ -2347,7 +2343,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>gən</text>
+          <text>'ɾan</text>
         </lyric>
       </note>
     </measure>
@@ -2369,7 +2365,7 @@
         </notations>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'kan</text>
+          <text>vas</text>
         </lyric>
       </note>
       <note>
@@ -2388,7 +2384,7 @@
         </notations>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'kan</text>
+          <text>vas</text>
         </lyric>
       </note>
       <note>
@@ -2406,7 +2402,7 @@
         </notations>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>hɛ</text>
+          <text>'vi</text>
         </lyric>
       </note>
       <note>
@@ -2423,7 +2419,7 @@
         </notations>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>hɛ</text>
+          <text>'vi</text>
         </lyric>
       </note>
       <note>
@@ -2438,7 +2434,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'ɾan</text>
+          <text>gən</text>
         </lyric>
       </note>
       <note>
@@ -2456,7 +2452,7 @@
         </notations>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>hɛ</text>
+          <text>'kan</text>
         </lyric>
       </note>
       <note>
@@ -2473,7 +2469,7 @@
         </notations>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>hɛ</text>
+          <text>'kan</text>
         </lyric>
       </note>
     </measure>
@@ -2492,7 +2488,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'ɾan</text>
+          <text>hɛ</text>
         </lyric>
       </note>
       <note>
@@ -2510,7 +2506,7 @@
         </notations>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>vas</text>
+          <text>'ɾan</text>
         </lyric>
       </note>
       <note>
@@ -2529,7 +2525,7 @@
         </notations>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>vas</text>
+          <text>'ɾan</text>
         </lyric>
       </note>
       <note>
@@ -2544,7 +2540,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'vi</text>
+          <text>hɛ</text>
         </lyric>
       </note>
       <note>
@@ -2559,7 +2555,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>gən</text>
+          <text>'ɾan</text>
         </lyric>
       </note>
     </measure>
@@ -2581,7 +2577,7 @@
         </notations>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'kan</text>
+          <text>vas</text>
         </lyric>
       </note>
       <note>
@@ -2600,7 +2596,7 @@
         </notations>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'kan</text>
+          <text>vas</text>
         </lyric>
       </note>
       <note>
@@ -2616,7 +2612,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'vo</text>
+          <text>'vi</text>
         </lyric>
       </note>
       <note>
@@ -2631,7 +2627,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>gət</text>
+          <text>gən</text>
         </lyric>
       </note>
       <note>
@@ -2646,7 +2642,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>ʊnt</text>
+          <text>'kan</text>
         </lyric>
       </note>
       <note>
@@ -2710,118 +2706,6 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'vi</text>
-        </lyric>
-      </note>
-      <note>
-        <pitch>
-          <step>B</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>5040</duration>
-        <type>eighth</type>
-        <stem>down</stem>
-        <beam number="1">begin</beam>
-        <notations/>
-        <lyric number="1">
-          <syllabic>single</syllabic>
-          <text>gət</text>
-        </lyric>
-      </note>
-      <note>
-        <pitch>
-          <step>B</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>5040</duration>
-        <type>eighth</type>
-        <stem>down</stem>
-        <beam number="1">end</beam>
-        <notations/>
-        <lyric number="1">
-          <syllabic>single</syllabic>
-          <text>den</text>
-        </lyric>
-      </note>
-      <note>
-        <grace slash="yes"/>
-        <pitch>
-          <step>B</step>
-          <octave>4</octave>
-        </pitch>
-        <type>eighth</type>
-        <stem>up</stem>
-        <notations/>
-        <lyric number="1">
-          <syllabic>single</syllabic>
-          <text>'kna</text>
-        </lyric>
-      </note>
-      <note>
-        <pitch>
-          <step>G</step>
-          <alter>0</alter>
-          <octave>5</octave>
-        </pitch>
-        <duration>10080</duration>
-        <type>quarter</type>
-        <accidental>natural</accidental>
-        <stem>down</stem>
-        <notations>
-          <slur number="4" type="stop"/>
-        </notations>
-        <lyric number="1">
-          <syllabic>single</syllabic>
-          <text>bən</text>
-        </lyric>
-      </note>
-      <note>
-        <pitch>
-          <step>E</step>
-          <octave>5</octave>
-        </pitch>
-        <duration>5040</duration>
-        <type>eighth</type>
-        <stem>down</stem>
-        <beam number="1">begin</beam>
-        <notations/>
-        <lyric number="1">
-          <syllabic>single</syllabic>
-          <text>miɾ</text>
-        </lyric>
-      </note>
-      <note>
-        <pitch>
-          <step>B</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>5040</duration>
-        <type>eighth</type>
-        <stem>down</stem>
-        <beam number="1">end</beam>
-        <notations/>
-        <lyric number="1">
-          <syllabic>single</syllabic>
-          <text>'a:In</text>
-        </lyric>
-      </note>
-    </measure>
-    <measure number="33" width="166.41">
-      <attributes>
-        <divisions>10080</divisions>
-      </attributes>
-      <note>
-        <pitch>
-          <step>C</step>
-          <alter>1</alter>
-          <octave>5</octave>
-        </pitch>
-        <duration>10080</duration>
-        <type>quarter</type>
-        <stem>down</stem>
-        <notations/>
-        <lyric number="1">
-          <syllabic>single</syllabic>
           <text>'vo</text>
         </lyric>
       </note>
@@ -2856,6 +2740,114 @@
         </lyric>
       </note>
       <note>
+        <grace slash="yes"/>
+        <pitch>
+          <step>B</step>
+          <octave>4</octave>
+        </pitch>
+        <type>eighth</type>
+        <stem>up</stem>
+        <notations/>
+      </note>
+      <note>
+        <pitch>
+          <step>G</step>
+          <alter>0</alter>
+          <octave>5</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <accidental>natural</accidental>
+        <stem>down</stem>
+        <notations>
+          <slur number="4" type="stop"/>
+        </notations>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>'vi</text>
+        </lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>E</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>5040</duration>
+        <type>eighth</type>
+        <stem>down</stem>
+        <beam number="1">begin</beam>
+        <notations/>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>gət</text>
+        </lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>B</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>5040</duration>
+        <type>eighth</type>
+        <stem>down</stem>
+        <beam number="1">end</beam>
+        <notations/>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>den</text>
+        </lyric>
+      </note>
+    </measure>
+    <measure number="33" width="166.41">
+      <attributes>
+        <divisions>10080</divisions>
+      </attributes>
+      <note>
+        <pitch>
+          <step>C</step>
+          <alter>1</alter>
+          <octave>5</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>down</stem>
+        <notations/>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>'kna</text>
+        </lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>B</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>5040</duration>
+        <type>eighth</type>
+        <stem>down</stem>
+        <beam number="1">begin</beam>
+        <notations/>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>bən</text>
+        </lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>B</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>5040</duration>
+        <type>eighth</type>
+        <stem>down</stem>
+        <beam number="1">end</beam>
+        <notations/>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>miɾ</text>
+        </lyric>
+      </note>
+      <note>
         <pitch>
           <step>G</step>
           <alter>1</alter>
@@ -2868,7 +2860,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'vi</text>
+          <text>'a:In</text>
         </lyric>
       </note>
       <note>
@@ -2901,7 +2893,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>gət</text>
+          <text>'vo</text>
         </lyric>
       </note>
       <note>
@@ -2916,7 +2908,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>den</text>
+          <text>gət</text>
         </lyric>
       </note>
       <note>
@@ -2931,7 +2923,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'kna</text>
+          <text>ʊnt</text>
         </lyric>
       </note>
       <note>
@@ -2949,7 +2941,7 @@
         </notations>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>bən</text>
+          <text>'vi</text>
         </lyric>
       </note>
       <note>
@@ -2966,7 +2958,7 @@
         </notations>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>bən</text>
+          <text>'vi</text>
         </lyric>
       </note>
       <note>
@@ -2981,7 +2973,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>miɾ</text>
+          <text>gət</text>
         </lyric>
       </note>
       <note>
@@ -2996,7 +2988,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'a:In</text>
+          <text>den</text>
         </lyric>
       </note>
     </measure>
@@ -3016,7 +3008,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>vɛn</text>
+          <text>'kna</text>
         </lyric>
       </note>
       <note>
@@ -3031,7 +3023,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>a:In</text>
+          <text>bən</text>
         </lyric>
       </note>
       <note>
@@ -3047,7 +3039,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'jakt</text>
+          <text>miɾ</text>
         </lyric>
       </note>
       <note>
@@ -3061,7 +3053,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>hɔɾn</text>
+          <text>'a:In</text>
         </lyric>
       </note>
     </measure>
@@ -3105,7 +3097,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'ʃalt</text>
+          <text>vɛn</text>
         </lyric>
       </note>
       <note>
@@ -3120,7 +3112,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>a:ʊs</text>
+          <text>a:In</text>
         </lyric>
       </note>
     </measure>
@@ -3139,7 +3131,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>dem</text>
+          <text>'jakt</text>
         </lyric>
       </note>
       <note>
@@ -3157,7 +3149,7 @@
         </notations>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'gɾy</text>
+          <text>hɔɾn</text>
         </lyric>
       </note>
       <note>
@@ -3174,7 +3166,7 @@
         </notations>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'gɾy</text>
+          <text>hɔɾn</text>
         </lyric>
       </note>
       <note>
@@ -3188,7 +3180,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>nən</text>
+          <text>'ʃalt</text>
         </lyric>
       </note>
       <note>
@@ -3203,7 +3195,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'valt</text>
+          <text>a:ʊs</text>
         </lyric>
       </note>
       <note>
@@ -3218,7 +3210,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>vɛn</text>
+          <text>dem</text>
         </lyric>
       </note>
     </measure>
@@ -3248,7 +3240,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>a:In</text>
+          <text>'gɾy</text>
         </lyric>
       </note>
       <note>
@@ -3262,7 +3254,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'jakt</text>
+          <text>nən</text>
         </lyric>
       </note>
       <note>
@@ -3277,7 +3269,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>hɔɾn</text>
+          <text>'valt</text>
         </lyric>
       </note>
       <note>
@@ -3293,7 +3285,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'ʃalt</text>
+          <text>vɛn</text>
         </lyric>
       </note>
       <note>
@@ -3308,7 +3300,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>a:ʊs</text>
+          <text>a:In</text>
         </lyric>
       </note>
     </measure>
@@ -3327,7 +3319,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>dem</text>
+          <text>'jakt</text>
         </lyric>
       </note>
       <note>
@@ -3345,7 +3337,7 @@
         </notations>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'gɾy</text>
+          <text>hɔɾn</text>
         </lyric>
       </note>
       <note>
@@ -3362,7 +3354,7 @@
         </notations>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'gɾy</text>
+          <text>hɔɾn</text>
         </lyric>
       </note>
       <note>
@@ -3376,7 +3368,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>nən</text>
+          <text>'ʃalt</text>
         </lyric>
       </note>
       <note>
@@ -3391,7 +3383,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'valt</text>
+          <text>a:ʊs</text>
         </lyric>
       </note>
       <note>
@@ -3406,7 +3398,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>vIl</text>
+          <text>dem</text>
         </lyric>
       </note>
     </measure>
@@ -3429,7 +3421,7 @@
         </notations>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>Iç</text>
+          <text>'gɾy</text>
         </lyric>
       </note>
       <note>
@@ -3447,7 +3439,7 @@
         </notations>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>Iç</text>
+          <text>'gɾy</text>
         </lyric>
       </note>
       <note>
@@ -3465,7 +3457,7 @@
         </notations>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'za:ʊ</text>
+          <text>nən</text>
         </lyric>
       </note>
       <note>
@@ -3482,7 +3474,7 @@
         </notations>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'za:ʊ</text>
+          <text>nən</text>
         </lyric>
       </note>
       <note>
@@ -3497,7 +3489,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>zən</text>
+          <text>'valt</text>
         </lyric>
       </note>
       <note>
@@ -3513,7 +3505,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>ʊnt</text>
+          <text>vIl</text>
         </lyric>
       </note>
       <note>
@@ -3529,7 +3521,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'bɾa:ʊ</text>
+          <text>Iç</text>
         </lyric>
       </note>
     </measure>
@@ -3549,7 +3541,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>zən</text>
+          <text>'za:ʊ</text>
         </lyric>
       </note>
       <note>
@@ -3564,7 +3556,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>vol</text>
+          <text>zən</text>
         </lyric>
       </note>
       <note>
@@ -3579,7 +3571,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'ʊm</text>
+          <text>ʊnt</text>
         </lyric>
       </note>
       <note>
@@ -3597,7 +3589,7 @@
         </notations>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>dIç</text>
+          <text>'bɾa:ʊ</text>
         </lyric>
       </note>
       <note>
@@ -3616,7 +3608,7 @@
         </notations>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>dIç</text>
+          <text>'bɾa:ʊ</text>
         </lyric>
       </note>
       <note>
@@ -3631,7 +3623,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'heʁ</text>
+          <text>zən</text>
         </lyric>
       </note>
       <note>
@@ -3646,7 +3638,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'blIkt</text>
+          <text>vol</text>
         </lyric>
       </note>
     </measure>
@@ -3665,7 +3657,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>nIçt</text>
+          <text>'ʊm</text>
         </lyric>
       </note>
       <note>
@@ -3683,7 +3675,7 @@
         </notations>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>hɛ</text>
+          <text>dIç</text>
         </lyric>
       </note>
       <note>
@@ -3701,7 +3693,7 @@
         </notations>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>hɛ</text>
+          <text>dIç</text>
         </lyric>
       </note>
       <note>
@@ -3716,7 +3708,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'ɾa:In</text>
+          <text>'heʁ</text>
         </lyric>
       </note>
       <note>
@@ -3779,7 +3771,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>bla:ʊ</text>
+          <text>'blIkt</text>
         </lyric>
       </note>
       <note>
@@ -3795,7 +3787,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>ə</text>
+          <text>nIçt</text>
         </lyric>
       </note>
       <note>
@@ -3812,7 +3804,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'bly</text>
+          <text>hɛ</text>
         </lyric>
       </note>
       <note>
@@ -3826,7 +3818,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>mə</text>
+          <text>'ɾa:In</text>
         </lyric>
       </note>
       <note>
@@ -3841,7 +3833,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'la:In</text>
+          <text>bla:ʊ</text>
         </lyric>
       </note>
       <note>
@@ -3856,7 +3848,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'blIkt</text>
+          <text>ə</text>
         </lyric>
       </note>
     </measure>
@@ -3878,7 +3870,7 @@
         </notations>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>nIçt</text>
+          <text>'bly</text>
         </lyric>
       </note>
       <note>
@@ -3897,7 +3889,7 @@
         </notations>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>nIçt</text>
+          <text>'bly</text>
         </lyric>
       </note>
       <note>
@@ -3915,7 +3907,7 @@
         </notations>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>hɛ</text>
+          <text>mə</text>
         </lyric>
       </note>
       <note>
@@ -3932,7 +3924,7 @@
         </notations>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>hɛ</text>
+          <text>mə</text>
         </lyric>
       </note>
       <note>
@@ -3947,7 +3939,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'ɾa:In</text>
+          <text>'la:In</text>
         </lyric>
       </note>
       <note>
@@ -3978,7 +3970,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>bla:ʊ</text>
+          <text>'blIkt</text>
         </lyric>
       </note>
       <note>
@@ -3994,7 +3986,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>ə</text>
+          <text>nIçt</text>
         </lyric>
       </note>
       <note>
@@ -4011,7 +4003,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'bly</text>
+          <text>hɛ</text>
         </lyric>
       </note>
       <note>
@@ -4025,7 +4017,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>mə</text>
+          <text>'ɾa:In</text>
         </lyric>
       </note>
       <note>
@@ -4040,7 +4032,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'la:In</text>
+          <text>bla:ʊ</text>
         </lyric>
       </note>
       <note>
@@ -4055,7 +4047,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>iɾ</text>
+          <text>ə</text>
         </lyric>
       </note>
     </measure>
@@ -4077,7 +4069,7 @@
         </notations>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'maχt</text>
+          <text>'bly</text>
         </lyric>
       </note>
       <note>
@@ -4096,7 +4088,7 @@
         </notations>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'maχt</text>
+          <text>'bly</text>
         </lyric>
       </note>
       <note>
@@ -4114,7 +4106,7 @@
         </notations>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>ma:I</text>
+          <text>mə</text>
         </lyric>
       </note>
       <note>
@@ -4131,7 +4123,7 @@
         </notations>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>ma:I</text>
+          <text>mə</text>
         </lyric>
       </note>
       <note>
@@ -4146,7 +4138,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>nəm</text>
+          <text>'la:In</text>
         </lyric>
       </note>
       <note>
@@ -4189,132 +4181,11 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'ʃlɛ</text>
-        </lyric>
-      </note>
-    </measure>
-    <measure number="50" width="191.89">
-      <attributes>
-        <divisions>10080</divisions>
-      </attributes>
-      <note>
-        <pitch>
-          <step>C</step>
-          <alter>1</alter>
-          <octave>5</octave>
-        </pitch>
-        <duration>10080</duration>
-        <type>quarter</type>
-        <stem>down</stem>
-        <notations/>
-        <lyric number="1">
-          <syllabic>single</syllabic>
-          <text>fəʁ</text>
-        </lyric>
-      </note>
-      <note>
-        <pitch>
-          <step>B</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>5040</duration>
-        <type>eighth</type>
-        <stem>down</stem>
-        <beam number="1">begin</beam>
-        <notations/>
-        <lyric number="1">
-          <syllabic>single</syllabic>
-          <text>di</text>
-        </lyric>
-      </note>
-      <note>
-        <pitch>
-          <step>B</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>5040</duration>
-        <type>eighth</type>
-        <stem>down</stem>
-        <beam number="1">end</beam>
-        <notations/>
-        <lyric number="1">
-          <syllabic>single</syllabic>
-          <text>'tɾɔ:Y</text>
-        </lyric>
-      </note>
-      <note>
-        <grace slash="yes"/>
-        <pitch>
-          <step>B</step>
-          <octave>4</octave>
-        </pitch>
-        <type>eighth</type>
-        <stem>up</stem>
-        <notations/>
-        <lyric number="1">
-          <syllabic>single</syllabic>
-          <text>mə</text>
-        </lyric>
-      </note>
-      <note>
-        <pitch>
-          <step>G</step>
-          <alter>0</alter>
-          <octave>5</octave>
-        </pitch>
-        <duration>10080</duration>
-        <type>quarter</type>
-        <accidental>natural</accidental>
-        <stem>down</stem>
-        <notations>
-          <slur number="4" type="stop"/>
-        </notations>
-        <lyric number="1">
-          <syllabic>single</syllabic>
-          <text>zo</text>
-        </lyric>
-      </note>
-      <note>
-        <pitch>
-          <step>E</step>
-          <octave>5</octave>
-        </pitch>
-        <duration>5040</duration>
-        <type>eighth</type>
-        <stem>down</stem>
-        <beam number="1">begin</beam>
-        <notations/>
-        <lyric number="1">
-          <syllabic>single</syllabic>
-          <text>'ʃveʁ</text>
-        </lyric>
-      </note>
-      <note>
-        <pitch>
-          <step>B</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>5040</duration>
-        <type>eighth</type>
-        <stem>down</stem>
-        <beam number="1">end</beam>
-        <notations/>
-        <lyric number="1">
-          <syllabic>single</syllabic>
           <text>iɾ</text>
         </lyric>
       </note>
     </measure>
-    <measure number="51" width="247.94">
-      <print new-system="yes">
-        <system-layout>
-          <system-margins>
-            <left-margin>0.0</left-margin>
-            <right-margin>0.0</right-margin>
-          </system-margins>
-          <system-distance>98.41</system-distance>
-        </system-layout>
-      </print>
+    <measure number="50" width="191.89">
       <attributes>
         <divisions>10080</divisions>
       </attributes>
@@ -4364,6 +4235,123 @@
         </lyric>
       </note>
       <note>
+        <grace slash="yes"/>
+        <pitch>
+          <step>B</step>
+          <octave>4</octave>
+        </pitch>
+        <type>eighth</type>
+        <stem>up</stem>
+        <notations/>
+      </note>
+      <note>
+        <pitch>
+          <step>G</step>
+          <alter>0</alter>
+          <octave>5</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <accidental>natural</accidental>
+        <stem>down</stem>
+        <notations>
+          <slur number="4" type="stop"/>
+        </notations>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>'ʃlɛ</text>
+        </lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>E</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>5040</duration>
+        <type>eighth</type>
+        <stem>down</stem>
+        <beam number="1">begin</beam>
+        <notations/>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>fəʁ</text>
+        </lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>B</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>5040</duration>
+        <type>eighth</type>
+        <stem>down</stem>
+        <beam number="1">end</beam>
+        <notations/>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>di</text>
+        </lyric>
+      </note>
+    </measure>
+    <measure number="51" width="247.94">
+      <print new-system="yes">
+        <system-layout>
+          <system-margins>
+            <left-margin>0.0</left-margin>
+            <right-margin>0.0</right-margin>
+          </system-margins>
+          <system-distance>98.41</system-distance>
+        </system-layout>
+      </print>
+      <attributes>
+        <divisions>10080</divisions>
+      </attributes>
+      <note>
+        <pitch>
+          <step>C</step>
+          <alter>1</alter>
+          <octave>5</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>down</stem>
+        <notations/>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>'tɾɔ:Y</text>
+        </lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>B</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>5040</duration>
+        <type>eighth</type>
+        <stem>down</stem>
+        <beam number="1">begin</beam>
+        <notations/>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>mə</text>
+        </lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>B</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>5040</duration>
+        <type>eighth</type>
+        <stem>down</stem>
+        <beam number="1">end</beam>
+        <notations/>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>zo</text>
+        </lyric>
+      </note>
+      <note>
         <pitch>
           <step>G</step>
           <alter>1</alter>
@@ -4376,7 +4364,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'ʃlɛ</text>
+          <text>'ʃveʁ</text>
         </lyric>
       </note>
       <note>
@@ -4396,7 +4384,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>fəʁ</text>
+          <text>iɾ</text>
         </lyric>
       </note>
     </measure>
@@ -4417,7 +4405,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>di</text>
+          <text>'maχt</text>
         </lyric>
       </note>
       <note>
@@ -4432,7 +4420,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'tɾɔ:Y</text>
+          <text>ma:I</text>
         </lyric>
       </note>
       <note>
@@ -4447,7 +4435,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>mə</text>
+          <text>nəm</text>
         </lyric>
       </note>
       <note>
@@ -4465,7 +4453,7 @@
         </notations>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>zo</text>
+          <text>'ʃlɛ</text>
         </lyric>
       </note>
       <note>
@@ -4482,7 +4470,7 @@
         </notations>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>zo</text>
+          <text>'ʃlɛ</text>
         </lyric>
       </note>
       <note>
@@ -4497,7 +4485,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'ʃveʁ</text>
+          <text>fəʁ</text>
         </lyric>
       </note>
       <note>
@@ -4512,7 +4500,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>hIn</text>
+          <text>di</text>
         </lyric>
       </note>
     </measure>
@@ -4532,7 +4520,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'vek</text>
+          <text>'tɾɔ:Y</text>
         </lyric>
       </note>
       <note>
@@ -4547,7 +4535,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>hIn</text>
+          <text>mə</text>
         </lyric>
       </note>
       <note>
@@ -4563,7 +4551,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'vek</text>
+          <text>zo</text>
         </lyric>
       </note>
       <note>
@@ -4577,7 +4565,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>fɔn</text>
+          <text>'ʃveʁ</text>
         </lyric>
       </note>
     </measure>
@@ -4623,7 +4611,7 @@
         </notations>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>dem</text>
+          <text>hIn</text>
         </lyric>
       </note>
       <note>
@@ -4640,7 +4628,7 @@
         </notations>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>dem</text>
+          <text>hIn</text>
         </lyric>
       </note>
     </measure>
@@ -4659,7 +4647,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'my</text>
+          <text>'vek</text>
         </lyric>
       </note>
       <note>
@@ -4677,7 +4665,7 @@
         </notations>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>lən</text>
+          <text>hIn</text>
         </lyric>
       </note>
       <note>
@@ -4694,7 +4682,7 @@
         </notations>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>lən</text>
+          <text>hIn</text>
         </lyric>
       </note>
       <note>
@@ -4708,7 +4696,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'ʃtek</text>
+          <text>'vek</text>
         </lyric>
       </note>
       <note>
@@ -4723,7 +4711,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>hIn</text>
+          <text>fɔn</text>
         </lyric>
       </note>
       <note>
@@ -4738,7 +4726,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'vek</text>
+          <text>dem</text>
         </lyric>
       </note>
     </measure>
@@ -4759,7 +4747,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>hIn</text>
+          <text>'my</text>
         </lyric>
       </note>
       <note>
@@ -4773,7 +4761,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'vek</text>
+          <text>lən</text>
         </lyric>
       </note>
       <note>
@@ -4788,7 +4776,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>bœ</text>
+          <text>'ʃtek</text>
         </lyric>
       </note>
       <note>
@@ -4806,7 +4794,7 @@
         </notations>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>zəs</text>
+          <text>hIn</text>
         </lyric>
       </note>
       <note>
@@ -4823,7 +4811,7 @@
         </notations>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>zəs</text>
+          <text>hIn</text>
         </lyric>
       </note>
     </measure>
@@ -4851,7 +4839,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'mɛg</text>
+          <text>'vek</text>
         </lyric>
       </note>
       <note>
@@ -4869,7 +4857,7 @@
         </notations>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>də</text>
+          <text>hIn</text>
         </lyric>
       </note>
       <note>
@@ -4886,7 +4874,7 @@
         </notations>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>də</text>
+          <text>hIn</text>
         </lyric>
       </note>
       <note>
@@ -4900,7 +4888,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'la:In</text>
+          <text>'vek</text>
         </lyric>
       </note>
       <note>
@@ -4915,7 +4903,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'das</text>
+          <text>bœ</text>
         </lyric>
       </note>
       <note>
@@ -4930,7 +4918,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>In</text>
+          <text>zəs</text>
         </lyric>
       </note>
     </measure>
@@ -4953,7 +4941,7 @@
         </notations>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>da:In</text>
+          <text>'mɛg</text>
         </lyric>
       </note>
       <note>
@@ -4969,7 +4957,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>da:In</text>
+          <text>'mɛg</text>
         </lyric>
       </note>
       <note>
@@ -4987,7 +4975,7 @@
         </notations>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'ʃa</text>
+          <text>'mɛg</text>
         </lyric>
       </note>
       <note>
@@ -5002,7 +4990,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>tən</text>
+          <text>də</text>
         </lyric>
       </note>
       <note>
@@ -5017,7 +5005,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>da:In</text>
+          <text>'la:In</text>
         </lyric>
       </note>
       <note>
@@ -5043,7 +5031,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'ʃa</text>
+          <text>'das</text>
         </lyric>
       </note>
       <note>
@@ -5058,7 +5046,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>tən</text>
+          <text>In</text>
         </lyric>
       </note>
       <note>
@@ -5073,7 +5061,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>nIçt</text>
+          <text>da:In</text>
         </lyric>
       </note>
       <note>
@@ -5091,7 +5079,7 @@
         </notations>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'vɛkt</text>
+          <text>'ʃa</text>
         </lyric>
       </note>
       <note>
@@ -5110,7 +5098,7 @@
         </notations>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'vɛkt</text>
+          <text>'ʃa</text>
         </lyric>
       </note>
       <note>
@@ -5125,7 +5113,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'vIɾf</text>
+          <text>tən</text>
         </lyric>
       </note>
       <note>
@@ -5140,7 +5128,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>miɾ</text>
+          <text>da:In</text>
         </lyric>
       </note>
     </measure>
@@ -5159,7 +5147,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>hɛ</text>
+          <text>'ʃa</text>
         </lyric>
       </note>
       <note>
@@ -5175,7 +5163,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'ɾa:In</text>
+          <text>tən</text>
         </lyric>
       </note>
       <note>
@@ -5191,7 +5179,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>da:In</text>
+          <text>nIçt</text>
         </lyric>
       </note>
       <note>
@@ -5206,7 +5194,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'tyç</text>
+          <text>'vɛkt</text>
         </lyric>
       </note>
       <note>
@@ -5260,7 +5248,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>la:In</text>
+          <text>'vIɾf</text>
         </lyric>
       </note>
       <note>
@@ -5276,7 +5264,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'fa:In</text>
+          <text>miɾ</text>
         </lyric>
       </note>
       <note>
@@ -5293,7 +5281,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'vIɾf</text>
+          <text>hɛ</text>
         </lyric>
       </note>
       <note>
@@ -5308,7 +5296,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>miɾ</text>
+          <text>'ɾa:In</text>
         </lyric>
       </note>
       <note>
@@ -5323,7 +5311,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>hɛ</text>
+          <text>da:In</text>
         </lyric>
       </note>
     </measure>
@@ -5354,7 +5342,7 @@
         </notations>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'ɾa:In</text>
+          <text>'tyç</text>
         </lyric>
       </note>
       <note>
@@ -5373,7 +5361,7 @@
         </notations>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'ɾa:In</text>
+          <text>'tyç</text>
         </lyric>
       </note>
       <note>
@@ -5391,7 +5379,7 @@
         </notations>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>da:In</text>
+          <text>la:In</text>
         </lyric>
       </note>
       <note>
@@ -5408,7 +5396,7 @@
         </notations>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>da:In</text>
+          <text>la:In</text>
         </lyric>
       </note>
       <note>
@@ -5423,7 +5411,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'tyç</text>
+          <text>'fa:In</text>
         </lyric>
       </note>
       <note>
@@ -5454,7 +5442,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>la:In</text>
+          <text>'vIɾf</text>
         </lyric>
       </note>
       <note>
@@ -5470,7 +5458,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'fa:In</text>
+          <text>miɾ</text>
         </lyric>
       </note>
       <note>
@@ -5487,7 +5475,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'das</text>
+          <text>hɛ</text>
         </lyric>
       </note>
       <note>
@@ -5502,7 +5490,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>Iç</text>
+          <text>'ɾa:In</text>
         </lyric>
       </note>
       <note>
@@ -5517,7 +5505,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>di</text>
+          <text>da:In</text>
         </lyric>
       </note>
     </measure>
@@ -5539,7 +5527,7 @@
         </notations>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'a:ʊ</text>
+          <text>'tyç</text>
         </lyric>
       </note>
       <note>
@@ -5558,7 +5546,7 @@
         </notations>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'a:ʊ</text>
+          <text>'tyç</text>
         </lyric>
       </note>
       <note>
@@ -5576,7 +5564,7 @@
         </notations>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>gən</text>
+          <text>la:In</text>
         </lyric>
       </note>
       <note>
@@ -5593,7 +5581,7 @@
         </notations>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>gən</text>
+          <text>la:In</text>
         </lyric>
       </note>
       <note>
@@ -5608,7 +5596,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>Im</text>
+          <text>'fa:In</text>
         </lyric>
       </note>
       <note>
@@ -5663,6 +5651,114 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
+          <text>'das</text>
+        </lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>B</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>5040</duration>
+        <type>eighth</type>
+        <stem>down</stem>
+        <beam number="1">begin</beam>
+        <notations/>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>Iç</text>
+        </lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>B</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>5040</duration>
+        <type>eighth</type>
+        <stem>down</stem>
+        <beam number="1">end</beam>
+        <notations/>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>di</text>
+        </lyric>
+      </note>
+      <note>
+        <grace slash="yes"/>
+        <pitch>
+          <step>B</step>
+          <octave>4</octave>
+        </pitch>
+        <type>eighth</type>
+        <stem>up</stem>
+        <notations/>
+      </note>
+      <note>
+        <pitch>
+          <step>G</step>
+          <alter>0</alter>
+          <octave>5</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <accidental>natural</accidental>
+        <stem>down</stem>
+        <notations>
+          <slur number="4" type="stop"/>
+        </notations>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>'a:ʊ</text>
+        </lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>E</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>5040</duration>
+        <type>eighth</type>
+        <stem>down</stem>
+        <beam number="1">begin</beam>
+        <notations/>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>gən</text>
+        </lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>B</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>5040</duration>
+        <type>eighth</type>
+        <stem>down</stem>
+        <beam number="1">end</beam>
+        <notations/>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>Im</text>
+        </lyric>
+      </note>
+    </measure>
+    <measure number="69" width="171.78">
+      <attributes>
+        <divisions>10080</divisions>
+      </attributes>
+      <note>
+        <pitch>
+          <step>C</step>
+          <alter>1</alter>
+          <octave>5</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>down</stem>
+        <notations/>
+        <lyric number="1">
+          <syllabic>single</syllabic>
           <text>'hal</text>
         </lyric>
       </note>
@@ -5697,118 +5793,6 @@
         </lyric>
       </note>
       <note>
-        <grace slash="yes"/>
-        <pitch>
-          <step>B</step>
-          <octave>4</octave>
-        </pitch>
-        <type>eighth</type>
-        <stem>up</stem>
-        <notations/>
-        <lyric number="1">
-          <syllabic>single</syllabic>
-          <text>'dɛkt</text>
-        </lyric>
-      </note>
-      <note>
-        <pitch>
-          <step>G</step>
-          <alter>0</alter>
-          <octave>5</octave>
-        </pitch>
-        <duration>10080</duration>
-        <type>quarter</type>
-        <accidental>natural</accidental>
-        <stem>down</stem>
-        <notations>
-          <slur number="4" type="stop"/>
-        </notations>
-        <lyric number="1">
-          <syllabic>single</syllabic>
-          <text>'das</text>
-        </lyric>
-      </note>
-      <note>
-        <pitch>
-          <step>E</step>
-          <octave>5</octave>
-        </pitch>
-        <duration>5040</duration>
-        <type>eighth</type>
-        <stem>down</stem>
-        <beam number="1">begin</beam>
-        <notations/>
-        <lyric number="1">
-          <syllabic>single</syllabic>
-          <text>Iç</text>
-        </lyric>
-      </note>
-      <note>
-        <pitch>
-          <step>B</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>5040</duration>
-        <type>eighth</type>
-        <stem>down</stem>
-        <beam number="1">end</beam>
-        <notations/>
-        <lyric number="1">
-          <syllabic>single</syllabic>
-          <text>di</text>
-        </lyric>
-      </note>
-    </measure>
-    <measure number="69" width="171.78">
-      <attributes>
-        <divisions>10080</divisions>
-      </attributes>
-      <note>
-        <pitch>
-          <step>C</step>
-          <alter>1</alter>
-          <octave>5</octave>
-        </pitch>
-        <duration>10080</duration>
-        <type>quarter</type>
-        <stem>down</stem>
-        <notations/>
-        <lyric number="1">
-          <syllabic>single</syllabic>
-          <text>'a:ʊ</text>
-        </lyric>
-      </note>
-      <note>
-        <pitch>
-          <step>B</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>5040</duration>
-        <type>eighth</type>
-        <stem>down</stem>
-        <beam number="1">begin</beam>
-        <notations/>
-        <lyric number="1">
-          <syllabic>single</syllabic>
-          <text>gən</text>
-        </lyric>
-      </note>
-      <note>
-        <pitch>
-          <step>B</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>5040</duration>
-        <type>eighth</type>
-        <stem>down</stem>
-        <beam number="1">end</beam>
-        <notations/>
-        <lyric number="1">
-          <syllabic>single</syllabic>
-          <text>Im</text>
-        </lyric>
-      </note>
-      <note>
         <pitch>
           <step>G</step>
           <alter>1</alter>
@@ -5821,7 +5805,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'hal</text>
+          <text>'dɛkt</text>
         </lyric>
       </note>
       <note>
@@ -5863,7 +5847,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>tə</text>
+          <text>'das</text>
         </lyric>
       </note>
       <note>
@@ -5878,7 +5862,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>bə</text>
+          <text>Iç</text>
         </lyric>
       </note>
       <note>
@@ -5893,7 +5877,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'dɛkt</text>
+          <text>di</text>
         </lyric>
       </note>
       <note>
@@ -5911,7 +5895,7 @@
         </notations>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>gu</text>
+          <text>'a:ʊ</text>
         </lyric>
       </note>
       <note>
@@ -5928,7 +5912,7 @@
         </notations>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>gu</text>
+          <text>'a:ʊ</text>
         </lyric>
       </note>
       <note>
@@ -5943,7 +5927,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>tə</text>
+          <text>gən</text>
         </lyric>
       </note>
       <note>
@@ -5958,7 +5942,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'naχt</text>
+          <text>Im</text>
         </lyric>
       </note>
     </measure>
@@ -5978,7 +5962,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>gu</text>
+          <text>'hal</text>
         </lyric>
       </note>
       <note>
@@ -6009,7 +5993,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'naχt</text>
+          <text>bə</text>
         </lyric>
       </note>
       <note>
@@ -6023,7 +6007,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>bis</text>
+          <text>'dɛkt</text>
         </lyric>
       </note>
     </measure>
@@ -6067,7 +6051,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'a</text>
+          <text>gu</text>
         </lyric>
       </note>
       <note>
@@ -6082,7 +6066,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>ləs</text>
+          <text>tə</text>
         </lyric>
       </note>
     </measure>
@@ -6101,7 +6085,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'vaχt</text>
+          <text>'naχt</text>
         </lyric>
       </note>
       <note>
@@ -6161,7 +6145,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>gu</text>
+          <text>bis</text>
         </lyric>
       </note>
     </measure>
@@ -6182,51 +6166,6 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>tə</text>
-        </lyric>
-      </note>
-      <note>
-        <pitch>
-          <step>A</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>5040</duration>
-        <type>eighth</type>
-        <stem>up</stem>
-        <notations/>
-        <lyric number="1">
-          <syllabic>single</syllabic>
-          <text>'naχt</text>
-        </lyric>
-      </note>
-      <note>
-        <pitch>
-          <step>G</step>
-          <alter>1</alter>
-          <octave>4</octave>
-        </pitch>
-        <duration>10080</duration>
-        <type>quarter</type>
-        <stem>up</stem>
-        <notations/>
-        <lyric number="1">
-          <syllabic>single</syllabic>
-          <text>bis</text>
-        </lyric>
-      </note>
-      <note>
-        <pitch>
-          <step>G</step>
-          <alter>1</alter>
-          <octave>4</octave>
-        </pitch>
-        <duration>5040</duration>
-        <type>eighth</type>
-        <stem>up</stem>
-        <beam number="1">begin</beam>
-        <notations/>
-        <lyric number="1">
-          <syllabic>single</syllabic>
           <text>'a</text>
         </lyric>
       </note>
@@ -6238,26 +6177,21 @@
         <duration>5040</duration>
         <type>eighth</type>
         <stem>up</stem>
-        <beam number="1">end</beam>
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
           <text>ləs</text>
         </lyric>
       </note>
-    </measure>
-    <measure number="76" width="154.71">
-      <attributes>
-        <divisions>10080</divisions>
-      </attributes>
       <note>
         <pitch>
-          <step>B</step>
+          <step>G</step>
+          <alter>1</alter>
           <octave>4</octave>
         </pitch>
         <duration>10080</duration>
         <type>quarter</type>
-        <stem>down</stem>
+        <stem>up</stem>
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
@@ -6277,7 +6211,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>ʃlaf</text>
+          <text>gu</text>
         </lyric>
       </note>
       <note>
@@ -6292,7 +6226,57 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'a:ʊs</text>
+          <text>tə</text>
+        </lyric>
+      </note>
+    </measure>
+    <measure number="76" width="154.71">
+      <attributes>
+        <divisions>10080</divisions>
+      </attributes>
+      <note>
+        <pitch>
+          <step>B</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <stem>down</stem>
+        <notations/>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>'naχt</text>
+        </lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>G</step>
+          <alter>1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>5040</duration>
+        <type>eighth</type>
+        <stem>up</stem>
+        <beam number="1">begin</beam>
+        <notations/>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>gu</text>
+        </lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>A</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>5040</duration>
+        <type>eighth</type>
+        <stem>up</stem>
+        <beam number="1">end</beam>
+        <notations/>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>tə</text>
         </lyric>
       </note>
       <note>
@@ -6307,7 +6291,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>da:I</text>
+          <text>'naχt</text>
         </lyric>
       </note>
       <note>
@@ -6321,7 +6305,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>nə</text>
+          <text>bis</text>
         </lyric>
       </note>
     </measure>
@@ -6353,7 +6337,7 @@
         </notations>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'fɾɔ:Y</text>
+          <text>'a</text>
         </lyric>
       </note>
       <note>
@@ -6369,7 +6353,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'fɾɔ:Y</text>
+          <text>'a</text>
         </lyric>
       </note>
       <note>
@@ -6387,7 +6371,7 @@
         </notations>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>də</text>
+          <text>'a</text>
         </lyric>
       </note>
       <note>
@@ -6402,7 +6386,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>ʃlaf</text>
+          <text>ləs</text>
         </lyric>
       </note>
       <note>
@@ -6417,7 +6401,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'a:ʊs</text>
+          <text>'vaχt</text>
         </lyric>
       </note>
       <note>
@@ -6438,7 +6422,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>da:In</text>
+          <text>ʃlaf</text>
         </lyric>
       </note>
     </measure>
@@ -6458,7 +6442,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'la:It</text>
+          <text>'a:ʊs</text>
         </lyric>
       </note>
       <note>
@@ -6473,7 +6457,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>deʁ</text>
+          <text>da:I</text>
         </lyric>
       </note>
       <note>
@@ -6488,7 +6472,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'fɔl</text>
+          <text>nə</text>
         </lyric>
       </note>
       <note>
@@ -6506,7 +6490,7 @@
         </notations>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>mɔnt</text>
+          <text>'fɾɔ:Y</text>
         </lyric>
       </note>
       <note>
@@ -6525,7 +6509,7 @@
         </notations>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>mɔnt</text>
+          <text>'fɾɔ:Y</text>
         </lyric>
       </note>
       <note>
@@ -6540,7 +6524,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'ʃta:Ikt</text>
+          <text>də</text>
         </lyric>
       </note>
       <note>
@@ -6555,7 +6539,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>deʁ</text>
+          <text>ʃlaf</text>
         </lyric>
       </note>
     </measure>
@@ -6574,7 +6558,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'ne</text>
+          <text>'a:ʊs</text>
         </lyric>
       </note>
       <note>
@@ -6592,7 +6576,7 @@
         </notations>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>bəl</text>
+          <text>da:In</text>
         </lyric>
       </note>
       <note>
@@ -6610,7 +6594,7 @@
         </notations>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>bəl</text>
+          <text>da:In</text>
         </lyric>
       </note>
       <note>
@@ -6625,7 +6609,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'va:Içt</text>
+          <text>'la:It</text>
         </lyric>
       </note>
       <note>
@@ -6880,7 +6864,7 @@
         </notations>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>ʊnt</text>
+          <text>deʁ</text>
         </lyric>
       </note>
       <note>
@@ -6897,7 +6881,7 @@
         </notations>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>ʊnt</text>
+          <text>deʁ</text>
         </lyric>
       </note>
     </measure>
@@ -6925,7 +6909,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>deʁ</text>
+          <text>'fɔl</text>
         </lyric>
       </note>
       <note>
@@ -6943,7 +6927,7 @@
         </notations>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'hI</text>
+          <text>mɔnt</text>
         </lyric>
       </note>
       <note>
@@ -6962,7 +6946,7 @@
         </notations>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'hI</text>
+          <text>mɔnt</text>
         </lyric>
       </note>
       <note>
@@ -6977,7 +6961,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>məl</text>
+          <text>'ʃta:Ikt</text>
         </lyric>
       </note>
       <note>
@@ -6992,7 +6976,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>da</text>
+          <text>deʁ</text>
         </lyric>
       </note>
     </measure>
@@ -7014,7 +6998,7 @@
         </notations>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'o</text>
+          <text>'ne</text>
         </lyric>
       </note>
       <note>
@@ -7033,7 +7017,7 @@
         </notations>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'o</text>
+          <text>'ne</text>
         </lyric>
       </note>
       <note>
@@ -7051,7 +7035,7 @@
         </notations>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>bən</text>
+          <text>bəl</text>
         </lyric>
       </note>
       <note>
@@ -7068,7 +7052,7 @@
         </notations>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>bən</text>
+          <text>bəl</text>
         </lyric>
       </note>
       <note>
@@ -7083,7 +7067,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>vi</text>
+          <text>'va:Içt</text>
         </lyric>
       </note>
       <note>
@@ -7121,7 +7105,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'Ist</text>
+          <text>ʊnt</text>
         </lyric>
       </note>
       <note>
@@ -7136,7 +7120,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>eʁ</text>
+          <text>deʁ</text>
         </lyric>
       </note>
     </measure>
@@ -7156,75 +7140,13 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>zo</text>
-        </lyric>
-      </note>
-      <note>
-        <pitch>
-          <step>B</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>5040</duration>
-        <type>eighth</type>
-        <stem>down</stem>
-        <beam number="1">begin</beam>
-        <notations/>
-        <lyric number="1">
-          <syllabic>single</syllabic>
-          <text>'va:It</text>
-        </lyric>
-      </note>
-      <note>
-        <pitch>
-          <step>B</step>
-          <octave>4</octave>
-        </pitch>
-        <duration>5040</duration>
-        <type>eighth</type>
-        <stem>down</stem>
-        <beam number="1">end</beam>
-        <notations/>
-        <lyric number="1">
-          <syllabic>single</syllabic>
-          <text>ʊnt</text>
-        </lyric>
-      </note>
-      <note>
-        <grace slash="yes"/>
-        <pitch>
-          <step>B</step>
-          <octave>4</octave>
-        </pitch>
-        <type>eighth</type>
-        <stem>up</stem>
-        <notations/>
-        <lyric number="1">
-          <syllabic>single</syllabic>
-          <text>deʁ</text>
-        </lyric>
-      </note>
-      <note>
-        <pitch>
-          <step>G</step>
-          <alter>0</alter>
-          <octave>5</octave>
-        </pitch>
-        <duration>10080</duration>
-        <type>quarter</type>
-        <accidental>natural</accidental>
-        <stem>down</stem>
-        <notations>
-          <slur number="5" type="stop"/>
-        </notations>
-        <lyric number="1">
-          <syllabic>single</syllabic>
           <text>'hI</text>
         </lyric>
       </note>
       <note>
         <pitch>
-          <step>E</step>
-          <octave>5</octave>
+          <step>B</step>
+          <octave>4</octave>
         </pitch>
         <duration>5040</duration>
         <type>eighth</type>
@@ -7251,21 +7173,29 @@
           <text>da</text>
         </lyric>
       </note>
-    </measure>
-    <measure number="87" width="177.72">
-      <attributes>
-        <divisions>10080</divisions>
-      </attributes>
+      <note>
+        <grace slash="yes"/>
+        <pitch>
+          <step>B</step>
+          <octave>4</octave>
+        </pitch>
+        <type>eighth</type>
+        <stem>up</stem>
+        <notations/>
+      </note>
       <note>
         <pitch>
-          <step>C</step>
-          <alter>1</alter>
+          <step>G</step>
+          <alter>0</alter>
           <octave>5</octave>
         </pitch>
         <duration>10080</duration>
         <type>quarter</type>
+        <accidental>natural</accidental>
         <stem>down</stem>
-        <notations/>
+        <notations>
+          <slur number="5" type="stop"/>
+        </notations>
         <lyric number="1">
           <syllabic>single</syllabic>
           <text>'o</text>
@@ -7273,8 +7203,8 @@
       </note>
       <note>
         <pitch>
-          <step>B</step>
-          <octave>4</octave>
+          <step>E</step>
+          <octave>5</octave>
         </pitch>
         <duration>5040</duration>
         <type>eighth</type>
@@ -7301,16 +7231,20 @@
           <text>vi</text>
         </lyric>
       </note>
+    </measure>
+    <measure number="87" width="177.72">
+      <attributes>
+        <divisions>10080</divisions>
+      </attributes>
       <note>
         <pitch>
-          <step>G</step>
+          <step>C</step>
           <alter>1</alter>
-          <octave>4</octave>
+          <octave>5</octave>
         </pitch>
         <duration>10080</duration>
         <type>quarter</type>
-        <accidental>sharp</accidental>
-        <stem>up</stem>
+        <stem>down</stem>
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
@@ -7347,6 +7281,52 @@
           <text>zo</text>
         </lyric>
       </note>
+      <note>
+        <pitch>
+          <step>G</step>
+          <alter>1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>10080</duration>
+        <type>quarter</type>
+        <accidental>sharp</accidental>
+        <stem>up</stem>
+        <notations/>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>'va:It</text>
+        </lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>B</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>5040</duration>
+        <type>eighth</type>
+        <stem>down</stem>
+        <beam number="1">begin</beam>
+        <notations/>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>ʊnt</text>
+        </lyric>
+      </note>
+      <note>
+        <pitch>
+          <step>B</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>5040</duration>
+        <type>eighth</type>
+        <stem>down</stem>
+        <beam number="1">end</beam>
+        <notations/>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>deʁ</text>
+        </lyric>
+      </note>
     </measure>
     <measure number="88" width="171.93">
       <attributes>
@@ -7365,7 +7345,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'va:It</text>
+          <text>'hI</text>
         </lyric>
       </note>
       <note>
@@ -7378,6 +7358,10 @@
         <stem>up</stem>
         <beam number="1">begin</beam>
         <notations/>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>məl</text>
+        </lyric>
       </note>
       <note>
         <pitch>
@@ -7389,6 +7373,10 @@
         <stem>up</stem>
         <beam number="1">end</beam>
         <notations/>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>da</text>
+        </lyric>
       </note>
       <note>
         <pitch>
@@ -7403,6 +7391,10 @@
         <notations>
           <slur number="6" type="start"/>
         </notations>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>'o</text>
+        </lyric>
       </note>
       <note>
         <pitch>
@@ -7416,6 +7408,10 @@
         <notations>
           <slur number="6" type="stop"/>
         </notations>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>'o</text>
+        </lyric>
       </note>
       <note>
         <pitch>
@@ -7427,6 +7423,10 @@
         <stem>down</stem>
         <beam number="1">continue</beam>
         <notations/>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>bən</text>
+        </lyric>
       </note>
       <note>
         <pitch>
@@ -7438,6 +7438,10 @@
         <stem>down</stem>
         <beam number="1">end</beam>
         <notations/>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>vi</text>
+        </lyric>
       </note>
     </measure>
     <measure number="89" width="335.15">
@@ -7463,6 +7467,10 @@
         <type>quarter</type>
         <stem>down</stem>
         <notations/>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>'Ist</text>
+        </lyric>
       </note>
       <note>
         <pitch>
@@ -7474,6 +7482,10 @@
         <stem>down</stem>
         <beam number="1">begin</beam>
         <notations/>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>eʁ</text>
+        </lyric>
       </note>
       <note>
         <pitch>
@@ -7486,6 +7498,10 @@
         <stem>down</stem>
         <beam number="1">end</beam>
         <notations/>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>zo</text>
+        </lyric>
       </note>
       <note>
         <pitch>
@@ -7496,6 +7512,10 @@
         <type>half</type>
         <stem>down</stem>
         <notations/>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>'va:It</text>
+        </lyric>
       </note>
     </measure>
   </part>

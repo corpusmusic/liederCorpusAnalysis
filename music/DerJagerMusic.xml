@@ -6,7 +6,7 @@
     <creator type="composer">Music21</creator>
     <encoding>
       <software>MuseScore 2.0.2</software>
-      <encoding-date>2015-07-31</encoding-date>
+      <encoding-date>2015-09-09</encoding-date>
       <supports element="accidental" type="yes"/>
       <supports element="beam" type="yes"/>
       <supports element="print" attribute="new-page" type="yes" value="yes"/>
@@ -39,10 +39,10 @@
     <lyric-font font-family="FreeSerif" font-size="11"/>
     </defaults>
   <credit page="1">
-    <credit-words default-x="600" default-y="1640" justify="center" valign="top" font-size="24">Music21 Fragment</credit-words>
+    <credit-words default-x="1142.86" default-y="1515" justify="right" valign="bottom" font-size="12">Music21</credit-words>
     </credit>
   <credit page="1">
-    <credit-words default-x="1142.86" default-y="1540" justify="right" valign="bottom" font-size="12">Music21</credit-words>
+    <credit-words default-x="600" default-y="1640" justify="center" valign="top" font-size="24">Music21 Fragment</credit-words>
     </credit>
   <part-list>
     <score-part id="P1">
@@ -63,10 +63,10 @@
       <print>
         <system-layout>
           <system-margins>
-            <left-margin>0.00</left-margin>
-            <right-margin>0.00</right-margin>
+            <left-margin>-0.00</left-margin>
+            <right-margin>-0.00</right-margin>
             </system-margins>
-          <top-system-distance>170.00</top-system-distance>
+          <top-system-distance>195.00</top-system-distance>
           </system-layout>
         </print>
       <attributes>
@@ -494,10 +494,10 @@
       <print new-system="yes">
         <system-layout>
           <system-margins>
-            <left-margin>0.00</left-margin>
-            <right-margin>0.00</right-margin>
+            <left-margin>-0.00</left-margin>
+            <right-margin>-0.00</right-margin>
             </system-margins>
-          <system-distance>137.96</system-distance>
+          <system-distance>134.39</system-distance>
           </system-layout>
         </print>
       <note default-x="83.18" default-y="-25.00">
@@ -923,10 +923,10 @@
       <print new-system="yes">
         <system-layout>
           <system-margins>
-            <left-margin>0.00</left-margin>
+            <left-margin>-0.00</left-margin>
             <right-margin>0.00</right-margin>
             </system-margins>
-          <system-distance>137.96</system-distance>
+          <system-distance>134.39</system-distance>
           </system-layout>
         </print>
       <note default-x="83.18" default-y="-10.00">
@@ -1375,10 +1375,10 @@
       <print new-system="yes">
         <system-layout>
           <system-margins>
-            <left-margin>0.00</left-margin>
-            <right-margin>0.00</right-margin>
+            <left-margin>-0.00</left-margin>
+            <right-margin>-0.00</right-margin>
             </system-margins>
-          <system-distance>137.96</system-distance>
+          <system-distance>134.39</system-distance>
           </system-layout>
         </print>
       <note default-x="94.53" default-y="-20.00">
@@ -1753,10 +1753,10 @@
       <print new-system="yes">
         <system-layout>
           <system-margins>
-            <left-margin>0.00</left-margin>
-            <right-margin>0.00</right-margin>
+            <left-margin>-0.00</left-margin>
+            <right-margin>-0.00</right-margin>
             </system-margins>
-          <system-distance>137.96</system-distance>
+          <system-distance>134.39</system-distance>
           </system-layout>
         </print>
       <note default-x="83.18" default-y="-25.00">
@@ -2141,10 +2141,10 @@
       <print new-system="yes">
         <system-layout>
           <system-margins>
-            <left-margin>0.00</left-margin>
-            <right-margin>0.00</right-margin>
+            <left-margin>-0.00</left-margin>
+            <right-margin>-0.00</right-margin>
             </system-margins>
-          <system-distance>137.96</system-distance>
+          <system-distance>134.39</system-distance>
           </system-layout>
         </print>
       <note default-x="83.18" default-y="-30.00">
@@ -2576,10 +2576,10 @@
       <print new-system="yes">
         <system-layout>
           <system-margins>
-            <left-margin>0.00</left-margin>
-            <right-margin>0.00</right-margin>
+            <left-margin>-0.00</left-margin>
+            <right-margin>-0.00</right-margin>
             </system-margins>
-          <system-distance>137.96</system-distance>
+          <system-distance>134.39</system-distance>
           </system-layout>
         </print>
       <note default-x="83.18" default-y="-30.00">
@@ -3021,10 +3021,10 @@
       <print new-system="yes">
         <system-layout>
           <system-margins>
-            <left-margin>0.00</left-margin>
-            <right-margin>0.00</right-margin>
+            <left-margin>-0.00</left-margin>
+            <right-margin>-0.00</right-margin>
             </system-margins>
-          <system-distance>137.96</system-distance>
+          <system-distance>134.39</system-distance>
           </system-layout>
         </print>
       <note default-x="83.18" default-y="-10.00">
@@ -3130,6 +3130,9 @@
         <type>eighth</type>
         <stem>down</stem>
         <beam number="1">begin</beam>
+        <notations>
+          <slur type="start" number="1"/>
+          </notations>
         </note>
       <note default-x="239.24" default-y="-15.00">
         <pitch>
@@ -3141,6 +3144,9 @@
         <type>eighth</type>
         <stem>down</stem>
         <beam number="1">continue</beam>
+        <notations>
+          <slur type="stop" number="1"/>
+          </notations>
         </note>
       <note default-x="296.05" default-y="-15.00">
         <pitch>

@@ -31,15 +31,15 @@
     </page-layout>
   </defaults>
   <credit page="1">
-    <credit-words default-x="600" default-y="1640" font-size="24.0" justify="center" valign="top">Music21 Fragment</credit-words>
+    <credit-words default-x="1142.86" default-y="1515" font-size="12.0" justify="right" valign="bottom">Music21</credit-words>
   </credit>
   <credit page="1">
-    <credit-words default-x="1142.86" default-y="1540" font-size="12.0" justify="right" valign="bottom">Music21</credit-words>
+    <credit-words default-x="600" default-y="1640" font-size="24.0" justify="center" valign="top">Music21 Fragment</credit-words>
   </credit>
   <part-list>
     <score-part id="P1">
       <part-name></part-name>
-      <score-instrument id="I1623a8d1bb7cec8ec4e17268a5de9c9a">
+      <score-instrument id="I4072d1303f25aed9efd75a5afe7a0d39">
         <instrument-name></instrument-name>
       </score-instrument>
     </score-part>
@@ -49,10 +49,10 @@
       <print>
         <system-layout>
           <system-margins>
-            <left-margin>0.0</left-margin>
-            <right-margin>0.0</right-margin>
+            <left-margin>-0.0</left-margin>
+            <right-margin>-0.0</right-margin>
           </system-margins>
-          <top-system-distance>170.0</top-system-distance>
+          <top-system-distance>195.0</top-system-distance>
         </system-layout>
       </print>
       <attributes>
@@ -629,10 +629,10 @@
       <print new-system="yes">
         <system-layout>
           <system-margins>
-            <left-margin>0.0</left-margin>
-            <right-margin>0.0</right-margin>
+            <left-margin>-0.0</left-margin>
+            <right-margin>-0.0</right-margin>
           </system-margins>
-          <system-distance>137.96</system-distance>
+          <system-distance>134.39</system-distance>
         </system-layout>
       </print>
       <attributes>
@@ -1229,10 +1229,10 @@
       <print new-system="yes">
         <system-layout>
           <system-margins>
-            <left-margin>0.0</left-margin>
+            <left-margin>-0.0</left-margin>
             <right-margin>0.0</right-margin>
           </system-margins>
-          <system-distance>137.96</system-distance>
+          <system-distance>134.39</system-distance>
         </system-layout>
       </print>
       <attributes>
@@ -1853,10 +1853,10 @@
       <print new-system="yes">
         <system-layout>
           <system-margins>
-            <left-margin>0.0</left-margin>
-            <right-margin>0.0</right-margin>
+            <left-margin>-0.0</left-margin>
+            <right-margin>-0.0</right-margin>
           </system-margins>
-          <system-distance>137.96</system-distance>
+          <system-distance>134.39</system-distance>
         </system-layout>
       </print>
       <attributes>
@@ -2377,10 +2377,10 @@
       <print new-system="yes">
         <system-layout>
           <system-margins>
-            <left-margin>0.0</left-margin>
-            <right-margin>0.0</right-margin>
+            <left-margin>-0.0</left-margin>
+            <right-margin>-0.0</right-margin>
           </system-margins>
-          <system-distance>137.96</system-distance>
+          <system-distance>134.39</system-distance>
         </system-layout>
       </print>
       <attributes>
@@ -2915,10 +2915,10 @@
       <print new-system="yes">
         <system-layout>
           <system-margins>
-            <left-margin>0.0</left-margin>
-            <right-margin>0.0</right-margin>
+            <left-margin>-0.0</left-margin>
+            <right-margin>-0.0</right-margin>
           </system-margins>
-          <system-distance>137.96</system-distance>
+          <system-distance>134.39</system-distance>
         </system-layout>
       </print>
       <attributes>
@@ -3525,10 +3525,10 @@
       <print new-system="yes">
         <system-layout>
           <system-margins>
-            <left-margin>0.0</left-margin>
-            <right-margin>0.0</right-margin>
+            <left-margin>-0.0</left-margin>
+            <right-margin>-0.0</right-margin>
           </system-margins>
-          <system-distance>137.96</system-distance>
+          <system-distance>134.39</system-distance>
         </system-layout>
       </print>
       <attributes>
@@ -4145,10 +4145,10 @@
       <print new-system="yes">
         <system-layout>
           <system-margins>
-            <left-margin>0.0</left-margin>
-            <right-margin>0.0</right-margin>
+            <left-margin>-0.0</left-margin>
+            <right-margin>-0.0</right-margin>
           </system-margins>
-          <system-distance>137.96</system-distance>
+          <system-distance>134.39</system-distance>
         </system-layout>
       </print>
       <attributes>
@@ -4291,7 +4291,9 @@
         <type>eighth</type>
         <stem>down</stem>
         <beam number="1">begin</beam>
-        <notations/>
+        <notations>
+          <slur number="3" type="start"/>
+        </notations>
         <lyric number="1">
           <syllabic>single</syllabic>
           <text>'ʃis</text>
@@ -4306,10 +4308,12 @@
         <type>eighth</type>
         <stem>down</stem>
         <beam number="1">continue</beam>
-        <notations/>
+        <notations>
+          <slur number="3" type="stop"/>
+        </notations>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>du</text>
+          <text>'ʃis</text>
         </lyric>
       </note>
       <note>
@@ -4324,7 +4328,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'jɛ</text>
+          <text>du</text>
         </lyric>
       </note>
     </measure>
@@ -4343,7 +4347,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>gəʁ</text>
+          <text>'jɛ</text>
         </lyric>
       </note>
       <note>
@@ -4357,7 +4361,7 @@
         <notations/>
         <lyric number="1">
           <syllabic>single</syllabic>
-          <text>'hɛlt</text>
+          <text>gəʁ</text>
         </lyric>
       </note>
       <note>
@@ -4369,6 +4373,10 @@
         <type>quarter</type>
         <stem>down</stem>
         <notations/>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>'hɛlt</text>
+        </lyric>
       </note>
       <note>
         <rest/>
