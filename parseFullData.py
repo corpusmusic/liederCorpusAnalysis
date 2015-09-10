@@ -75,13 +75,14 @@ def parseByNote(xmlsong):
     song = converter.parse(xmlsong)
     songOutput = []
     for note in song.flat.notes:
-        noteOutput = []
-        noteOutput.append(note.nameWithOctave)
-        noteOutput.append(note.diatonicNoteNum)
-        noteOutput.append(note.duration.quarterLength)
-        noteOutput.append(note.lyric)
-        noteOutput.append(vowelCategoryOfSyllable(note.lyric))
-        songOutput.append(noteOutput)
+        if note.isGrace == False:
+            noteOutput = []
+            noteOutput.append(note.nameWithOctave)
+            noteOutput.append(note.diatonicNoteNum)
+            noteOutput.append(note.duration.quarterLength)
+            noteOutput.append(note.lyric)
+            noteOutput.append(vowelCategoryOfSyllable(note.lyric))
+            songOutput.append(noteOutput)
     return songOutput
     
 def writeToCSV(dataToWrite, outputFileName):
