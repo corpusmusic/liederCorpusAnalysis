@@ -79,6 +79,7 @@ def parseByNote(xmlsong):
             noteOutput = []
             noteOutput.append(note.nameWithOctave)
             noteOutput.append(note.diatonicNoteNum)
+            noteOutput.append(note.beat)
             noteOutput.append(note.duration.quarterLength)
             noteOutput.append(note.lyric)
             noteOutput.append(vowelCategoryOfSyllable(note.lyric))
@@ -88,7 +89,7 @@ def parseByNote(xmlsong):
 def writeToCSV(dataToWrite, outputFileName):
     with open(outputFileName, 'w') as csvfile:
         w = csv.writer(csvfile, delimiter=',')
-        w.writerow(['pitch','diatonicNumber','duration','IPA','vowelCategory'])
+        w.writerow(['pitch','diatonicNumber','beat','duration','IPA','vowelCategory'])
         for row in dataToWrite:
             w.writerow(row)
     print outputFileName, 'successfully created.'
