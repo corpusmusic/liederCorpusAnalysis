@@ -39,7 +39,7 @@
   <part-list>
     <score-part id="P1">
       <part-name></part-name>
-      <score-instrument id="Id8a985662ef810de2dddc1d3ceb3b4a1">
+      <score-instrument id="I8db6ceee366e527bd9538b0d7c6e7367">
         <instrument-name></instrument-name>
       </score-instrument>
     </score-part>
@@ -4652,6 +4652,10 @@
         <type>eighth</type>
         <stem>down</stem>
         <notations/>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>stʊm</text>
+        </lyric>
       </note>
     </measure>
     <measure number="57" width="183.31">
@@ -4669,6 +4673,10 @@
         <stem>down</stem>
         <beam number="1">begin</beam>
         <notations/>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>'ap</text>
+        </lyric>
       </note>
       <note>
         <pitch>
@@ -4683,6 +4691,10 @@
         <notations>
           <slur number="2" type="start"/>
         </notations>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>ʃit</text>
+        </lyric>
       </note>
       <note>
         <pitch>
@@ -4699,6 +4711,10 @@
         <notations>
           <slur number="2" type="stop"/>
         </notations>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>ʃit</text>
+        </lyric>
       </note>
       <note>
         <pitch>
@@ -4714,6 +4730,10 @@
         <notations>
           <slur number="3" type="start"/>
         </notations>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>'da:I</text>
+        </lyric>
       </note>
       <note>
         <pitch>
@@ -4728,6 +4748,10 @@
         <notations>
           <slur number="3" type="stop"/>
         </notations>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>'da:I</text>
+        </lyric>
       </note>
       <note>
         <pitch>
@@ -4742,6 +4766,10 @@
         <notations>
           <slur number="4" type="start"/>
         </notations>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>nə</text>
+        </lyric>
       </note>
       <note>
         <pitch>
@@ -4757,6 +4785,10 @@
         <notations>
           <slur number="4" type="stop"/>
         </notations>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>nə</text>
+        </lyric>
       </note>
     </measure>
     <measure number="58" width="286.04">
@@ -4781,6 +4813,10 @@
         <type>quarter</type>
         <stem>down</stem>
         <notations/>
+        <lyric number="1">
+          <syllabic>single</syllabic>
+          <text>'hant</text>
+        </lyric>
       </note>
       <note>
         <rest/>
