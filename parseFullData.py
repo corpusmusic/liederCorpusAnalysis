@@ -23,47 +23,11 @@ import fnmatch
 import math
 from os import listdir
 from os import remove
+# from phonemeDictionaries import phonemeCategoryNumbers as phonemeCategory
+from phonemeDictionaries import phonemeCategoryFiveNumbers as phonemeCategory
 
 sourceDirectory = 'textAndMusic'
 destinationDirectory = 'parsedTextAndMusic'
-
-phonemeCategory = {
-    'a': 0,
-    'e': 2,
-    u'\u025b': 0,
-    u'\u0259': 1,
-    'i': 2,
-    'I': 2,
-    u'\u026a': 2,
-    'o': 2,
-    u'\u0254': 0,
-    u'\u00f8': 2,
-    u'\u0153': 0,
-    'y': 2,
-    'u': 2,
-    u'\u028a': 2,
-    u'\u028f': 2,
-}
-
-phonemeCategoryFive = {
-    'a': 'open',
-    u'\u0061': 'open',
-    'e': 'closeMid',
-    u'\u025b': 'openMid',
-    u'\u0259': 'neutral',
-    'i': 'close',
-    'I': 'close',
-#    u'\u026a': 'close',
-    'o': 'closeMid',
-    u'\u0254': 'openMid',
-    u'\u00f8': 'closeMid',
-    u'\u0153': 'openMid',
-    'y': 'close',
-    u'\u0153': 'close',
-    'u': 'close',
-    u'\028a': 'close',
-}
-
 
 vowelList = phonemeCategory.keys()
 
