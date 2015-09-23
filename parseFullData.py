@@ -20,7 +20,9 @@
 from music21 import *
 import csv
 import fnmatch
+import math
 from os import listdir
+from os import remove
 
 sourceDirectory = 'textAndMusic'
 destinationDirectory = 'parsedTextAndMusic'
@@ -71,34 +73,68 @@ def vowelCategoryOfSyllable(syllable):
             return phonemeCategory[character]
     return 'none'
 
+def isStressed(syllable):
+    if syllable[0] == "'":
+        return "1" #stressed
+    else:
+        return "0" #unstressed
+
+def beatStrength(noteBeat):
+    if math.modf(noteBeat)[0] == 0.0:
+        return 2
+    if math.modf(noteBeat)[0] == 0.5:
+        return 1
+    else:
+        return 0
+    
 def parseByNote(xmlsong):
     song = converter.parse(xmlsong)
     songOutput = []
     for note in song.flat.notes:
         if note.isGrace == False:
             noteOutput = []
+            noteOutput.append(xmlsong.split('.')[0].split('/')[1])
             noteOutput.append(note.nameWithOctave)
             noteOutput.append(note.diatonicNoteNum)
             noteOutput.append(note.beat)
+            noteOutput.append(beatStrength(note.beat))
             noteOutput.append(note.duration.quarterLength)
             noteOutput.append(note.lyric)
             noteOutput.append(vowelCategoryOfSyllable(note.lyric))
+            noteOutput.append(isStressed(note.lyric))
             songOutput.append(noteOutput)
     return songOutput
     
 def writeToCSV(dataToWrite, outputFileName):
     with open(outputFileName, 'w') as csvfile:
         w = csv.writer(csvfile, delimiter=',')
-        w.writerow(['pitch','diatonicNumber','beat','duration','IPA','vowelCategory'])
+        w.writerow(['song','pitch','diatonicNumber','beat','beatStrength','duration','IPA','vowelCategory','stress'])
         for row in dataToWrite:
             w.writerow(row)
     print outputFileName, 'successfully created.'
+
+def appendToCSV(dataToWrite, outputFileName):
+    with open(outputFileName, 'a') as csvfile:
+        w = csv.writer(csvfile, delimiter=',')
+        for row in dataToWrite:
+            w.writerow(row)
+    print outputFileName, 'successfully appended.'
 
 poemCorpus = []
 for file in listdir(sourceDirectory):
     if fnmatch.fnmatch(file, '*.xml'):
         poemCorpus.append(file)
+
+if '00-corpus.csv' in listdir(destinationDirectory):
+    remove(destinationDirectory + '/' + '00-corpus.csv')
+
+if '00-corpus.csv' not in listdir(destinationDirectory):
+    with open((destinationDirectory + '/' + '00-corpus.csv'), 'w') as csvfile:
+        w = csv.writer(csvfile, delimiter=',')
+        w.writerow(['song','pitch','diatonicNumber','beat','beatStrength','duration','IPA','vowelCategory','stress'])
     
+
 for filename in poemCorpus:
     destinationFilename = filename.split('.')[0] + '.csv'
     writeToCSV(parseByNote(sourceDirectory + '/' + filename), (destinationDirectory + '/' + destinationFilename))
+    appendToCSV(parseByNote(sourceDirectory + '/' + filename), (destinationDirectory + '/' + '00-corpus.csv'))
