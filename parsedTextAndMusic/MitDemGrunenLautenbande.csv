@@ -2,7 +2,7 @@ song,pitch,diatonicNumber,beat,beatStrength,duration,IPA,vowelCategory,stress
 MitDemGrunenLautenbande,D5,37,1.0,2,0.5,'ʃad,0,1
 MitDemGrunenLautenbande,C5,36,1.5,1,0.25,ʊm,4,0
 MitDemGrunenLautenbande,A4,34,1.75,0,0.25,das,0,0
-MitDemGrunenLautenbande,B-4,35,2.0,2,0.5,'ʃɶ,none,1
+MitDemGrunenLautenbande,B-4,35,2.0,2,0.5,'ʃɶ,0,1
 MitDemGrunenLautenbande,F4,32,2.5,1,0.5,nə,2,0
 MitDemGrunenLautenbande,E-5,38,1.0,2,0.5,'gry,4,1
 MitDemGrunenLautenbande,D5,37,1.5,1,0.5,nə,2,0

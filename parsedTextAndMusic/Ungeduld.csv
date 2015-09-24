@@ -20,7 +20,7 @@ Ungeduld,A4,34,1.0,2,0.75,'ki,4,1
 Ungeduld,G#4,33,1.75,0,0.25,səl,2,0
 Ungeduld,G#4,33,2.0,2,1.0,'ʃta:In,0,1
 Ungeduld,C#5,36,3.5,1,0.5,Iç,4,0
-Ungeduld,E5,38,1.0,2,0.75,'mɶçt,none,1
+Ungeduld,E5,38,1.0,2,0.75,'mɶçt,0,1
 Ungeduld,D5,37,1.75,0,0.25,ɛs,1,0
 Ungeduld,B4,35,2.0,2,0.75,'sɛn,1,1
 Ungeduld,G#4,33,2.75,0,0.25,a:ʊf,0,0
@@ -46,7 +46,7 @@ Ungeduld,F#5,39,2.0,2,0.75,'va:I,0,1
 Ungeduld,E5,38,2.75,0,0.25,sən,2,0
 Ungeduld,E5,38,3.0,2,0.75,'tsɛ,1,1
 Ungeduld,D5,37,3.75,0,0.25,təl,2,0
-Ungeduld,D5,37,1.0,2,0.75,'mɶçt,none,1
+Ungeduld,D5,37,1.0,2,0.75,'mɶçt,0,1
 Ungeduld,C#5,36,1.75,0,0.25,Içs,4,0
 Ungeduld,C#5,36,2.0,2,0.75,'ʃɾa:I,0,1
 Ungeduld,B4,35,2.75,0,0.25,'ʃɾa:I,0,1
@@ -79,7 +79,7 @@ Ungeduld,C#5,36,3.25,0,0.25,'bla:I,0,1
 Ungeduld,B4,35,3.5,1,0.5,'bla:I,0,1
 Ungeduld,A4,34,1.0,2,1.0,bən,2,0
 Ungeduld,E4,31,3.5,1,0.5,Iç,4,0
-Ungeduld,C#5,36,1.0,2,0.75,'mɶçt,none,1
+Ungeduld,C#5,36,1.0,2,0.75,'mɶçt,0,1
 Ungeduld,B4,35,1.75,0,0.25,mir,4,0
 Ungeduld,A4,34,2.0,2,0.75,'tsi,4,1
 Ungeduld,G#4,33,2.75,0,0.25,ən,2,0

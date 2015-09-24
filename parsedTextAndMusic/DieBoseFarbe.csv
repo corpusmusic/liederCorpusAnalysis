@@ -142,7 +142,7 @@ DieBoseFarbe,C#5,36,2.0,2,0.75,'naχt,0,1
 DieBoseFarbe,C#5,36,2.75,0,0.25,das,0,0
 DieBoseFarbe,D5,37,1.0,2,0.5,'a:I,0,1
 DieBoseFarbe,B4,35,1.5,1,0.5,nə,2,0
-DieBoseFarbe,C#5,36,2.0,2,0.5,'vɶɾt,none,1
+DieBoseFarbe,C#5,36,2.0,2,0.5,'vɶɾt,0,1
 DieBoseFarbe,F#4,32,2.5,1,0.25,çən,2,0
 DieBoseFarbe,F#4,32,2.75,0,0.25,a,0,0
 DieBoseFarbe,F#5,39,1.0,2,0.5,'de,3,1
@@ -151,8 +151,8 @@ DieBoseFarbe,G5,40,2.5,1,0.5,das,0,0
 DieBoseFarbe,F#5,39,1.0,2,0.5,'a:I,0,1
 DieBoseFarbe,E5,38,1.5,1,0.25,nə,2,0
 DieBoseFarbe,D5,37,1.75,0,0.25,nə,2,0
-DieBoseFarbe,C#5,36,2.0,2,0.25,'vɶɾt,none,1
-DieBoseFarbe,E5,38,2.25,0,0.25,'vɶɾt,none,1
+DieBoseFarbe,C#5,36,2.0,2,0.25,'vɶɾt,0,1
+DieBoseFarbe,E5,38,2.25,0,0.25,'vɶɾt,0,1
 DieBoseFarbe,D5,37,2.5,1,0.25,çən,2,0
 DieBoseFarbe,C#5,36,2.75,0,0.25,a,0,0
 DieBoseFarbe,B4,35,1.0,2,1.0,'de,3,1

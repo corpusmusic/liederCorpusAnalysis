@@ -17,7 +17,7 @@ AmFeierabend,A4,34,2.0,2,1.0,'ɾe,3,1
 AmFeierabend,F5,39,2.6666666666666665,0,0.5,dəʁ,2,0
 AmFeierabend,E5,38,1.0,2,1.0,'fy,4,1
 AmFeierabend,B4,35,1.6666666666666665,0,0.5,ɾən,2,0
-AmFeierabend,B4,35,2.3333333333333335,0,0.5,'kɶnt,none,1
+AmFeierabend,B4,35,2.3333333333333335,0,0.5,'kɶnt,0,1
 AmFeierabend,B4,35,2.6666666666666665,0,0.5,Iç,4,0
 AmFeierabend,B4,35,1.0,2,0.5,'ve,3,1
 AmFeierabend,B4,35,1.3333333333333333,0,0.5,ən,2,0
@@ -26,7 +26,7 @@ AmFeierabend,F#5,39,2.0,2,1.0,'a,0,1
 AmFeierabend,D#5,37,2.6666666666666665,0,0.5,lə,2,0
 AmFeierabend,E5,38,1.0,2,1.0,'ha:I,0,1
 AmFeierabend,B4,35,1.6666666666666665,0,0.5,nə,2,0
-AmFeierabend,C#5,36,2.3333333333333335,0,0.5,'kɶnt,none,1
+AmFeierabend,C#5,36,2.3333333333333335,0,0.5,'kɶnt,0,1
 AmFeierabend,B4,35,2.6666666666666665,0,0.5,Iç,4,0
 AmFeierabend,B4,35,1.0,2,1.0,'dɾe,3,1
 AmFeierabend,D#5,37,1.6666666666666665,0,0.5,ən,2,0
@@ -204,7 +204,7 @@ AmFeierabend,A4,34,2.0,2,1.0,'ɾe,3,1
 AmFeierabend,F5,39,2.6666666666666665,0,0.5,dəʁ,2,0
 AmFeierabend,E5,38,1.0,2,1.0,'fy,4,1
 AmFeierabend,B4,35,1.6666666666666665,0,0.5,ɾən,2,0
-AmFeierabend,B4,35,2.3333333333333335,0,0.5,'kɶnt,none,1
+AmFeierabend,B4,35,2.3333333333333335,0,0.5,'kɶnt,0,1
 AmFeierabend,B4,35,2.6666666666666665,0,0.5,Iç,4,0
 AmFeierabend,B4,35,1.0,2,0.5,'ve,3,1
 AmFeierabend,B4,35,1.3333333333333333,0,0.5,ən,2,0
@@ -213,7 +213,7 @@ AmFeierabend,F#5,39,2.0,2,1.0,'a,0,1
 AmFeierabend,D#5,37,2.6666666666666665,0,0.5,lə,2,0
 AmFeierabend,E5,38,1.0,2,1.0,'ha:I,0,1
 AmFeierabend,B4,35,1.6666666666666665,0,0.5,nə,2,0
-AmFeierabend,C#5,36,2.3333333333333335,0,0.5,'kɶnt,none,1
+AmFeierabend,C#5,36,2.3333333333333335,0,0.5,'kɶnt,0,1
 AmFeierabend,B4,35,2.6666666666666665,0,0.5,Iç,4,0
 AmFeierabend,B4,35,1.0,2,1.0,'dɾe,3,1
 AmFeierabend,D#5,37,1.6666666666666665,0,0.5,ən,2,0

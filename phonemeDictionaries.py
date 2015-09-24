@@ -9,6 +9,7 @@ phonemeCategory = {
     u'\u0254': 'open',
     u'\u00f8': 'close',
     u'\u0153': 'open',
+    u'\u0276': 'open', #other oe thing
     'y': 'close',
     'u': 'close',
     u'\u028a': 'close',
@@ -26,6 +27,7 @@ phonemeCategoryFive = {
     u'\u0254': 'openMid',
     u'\u00f8': 'closeMid',
     u'\u0153': 'openMid',
+    u'\u0276': 'openMid', #other oe thing
     'y': 'close',
     'u': 'close',
     u'\u028a': 'close',
@@ -43,6 +45,7 @@ phonemeCategoryNumbers = {
     u'\u0254': '0',
     u'\u00f8': '2',
     u'\u0153': '0',
+    u'\u0276': '0', #other oe thing
     'y': '2',
     'u': '2',
     u'\u028a': '2',
@@ -60,6 +63,7 @@ phonemeCategoryFiveNumbers = {
     u'\u0254': '1',
     u'\u00f8': '3',
     u'\u0153': '1',
+    u'\u0276': '0', #other oe thing
     'y': '4',
     'u': '4',
     u'\u028a': '4',

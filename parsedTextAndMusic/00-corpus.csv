@@ -17,7 +17,7 @@ AmFeierabend,A4,34,2.0,2,1.0,'ɾe,3,1
 AmFeierabend,F5,39,2.6666666666666665,0,0.5,dəʁ,2,0
 AmFeierabend,E5,38,1.0,2,1.0,'fy,4,1
 AmFeierabend,B4,35,1.6666666666666665,0,0.5,ɾən,2,0
-AmFeierabend,B4,35,2.3333333333333335,0,0.5,'kɶnt,none,1
+AmFeierabend,B4,35,2.3333333333333335,0,0.5,'kɶnt,0,1
 AmFeierabend,B4,35,2.6666666666666665,0,0.5,Iç,4,0
 AmFeierabend,B4,35,1.0,2,0.5,'ve,3,1
 AmFeierabend,B4,35,1.3333333333333333,0,0.5,ən,2,0
@@ -26,7 +26,7 @@ AmFeierabend,F#5,39,2.0,2,1.0,'a,0,1
 AmFeierabend,D#5,37,2.6666666666666665,0,0.5,lə,2,0
 AmFeierabend,E5,38,1.0,2,1.0,'ha:I,0,1
 AmFeierabend,B4,35,1.6666666666666665,0,0.5,nə,2,0
-AmFeierabend,C#5,36,2.3333333333333335,0,0.5,'kɶnt,none,1
+AmFeierabend,C#5,36,2.3333333333333335,0,0.5,'kɶnt,0,1
 AmFeierabend,B4,35,2.6666666666666665,0,0.5,Iç,4,0
 AmFeierabend,B4,35,1.0,2,1.0,'dɾe,3,1
 AmFeierabend,D#5,37,1.6666666666666665,0,0.5,ən,2,0
@@ -204,7 +204,7 @@ AmFeierabend,A4,34,2.0,2,1.0,'ɾe,3,1
 AmFeierabend,F5,39,2.6666666666666665,0,0.5,dəʁ,2,0
 AmFeierabend,E5,38,1.0,2,1.0,'fy,4,1
 AmFeierabend,B4,35,1.6666666666666665,0,0.5,ɾən,2,0
-AmFeierabend,B4,35,2.3333333333333335,0,0.5,'kɶnt,none,1
+AmFeierabend,B4,35,2.3333333333333335,0,0.5,'kɶnt,0,1
 AmFeierabend,B4,35,2.6666666666666665,0,0.5,Iç,4,0
 AmFeierabend,B4,35,1.0,2,0.5,'ve,3,1
 AmFeierabend,B4,35,1.3333333333333333,0,0.5,ən,2,0
@@ -213,7 +213,7 @@ AmFeierabend,F#5,39,2.0,2,1.0,'a,0,1
 AmFeierabend,D#5,37,2.6666666666666665,0,0.5,lə,2,0
 AmFeierabend,E5,38,1.0,2,1.0,'ha:I,0,1
 AmFeierabend,B4,35,1.6666666666666665,0,0.5,nə,2,0
-AmFeierabend,C#5,36,2.3333333333333335,0,0.5,'kɶnt,none,1
+AmFeierabend,C#5,36,2.3333333333333335,0,0.5,'kɶnt,0,1
 AmFeierabend,B4,35,2.6666666666666665,0,0.5,Iç,4,0
 AmFeierabend,B4,35,1.0,2,1.0,'dɾe,3,1
 AmFeierabend,D#5,37,1.6666666666666665,0,0.5,ən,2,0
@@ -1740,7 +1740,7 @@ DieBoseFarbe,C#5,36,2.0,2,0.75,'naχt,0,1
 DieBoseFarbe,C#5,36,2.75,0,0.25,das,0,0
 DieBoseFarbe,D5,37,1.0,2,0.5,'a:I,0,1
 DieBoseFarbe,B4,35,1.5,1,0.5,nə,2,0
-DieBoseFarbe,C#5,36,2.0,2,0.5,'vɶɾt,none,1
+DieBoseFarbe,C#5,36,2.0,2,0.5,'vɶɾt,0,1
 DieBoseFarbe,F#4,32,2.5,1,0.25,çən,2,0
 DieBoseFarbe,F#4,32,2.75,0,0.25,a,0,0
 DieBoseFarbe,F#5,39,1.0,2,0.5,'de,3,1
@@ -1749,8 +1749,8 @@ DieBoseFarbe,G5,40,2.5,1,0.5,das,0,0
 DieBoseFarbe,F#5,39,1.0,2,0.5,'a:I,0,1
 DieBoseFarbe,E5,38,1.5,1,0.25,nə,2,0
 DieBoseFarbe,D5,37,1.75,0,0.25,nə,2,0
-DieBoseFarbe,C#5,36,2.0,2,0.25,'vɶɾt,none,1
-DieBoseFarbe,E5,38,2.25,0,0.25,'vɶɾt,none,1
+DieBoseFarbe,C#5,36,2.0,2,0.25,'vɶɾt,0,1
+DieBoseFarbe,E5,38,2.25,0,0.25,'vɶɾt,0,1
 DieBoseFarbe,D5,37,2.5,1,0.25,çən,2,0
 DieBoseFarbe,C#5,36,2.75,0,0.25,a,0,0
 DieBoseFarbe,B4,35,1.0,2,1.0,'de,3,1
@@ -2174,7 +2174,7 @@ EifersuchtUndStolz,G4,33,1.5,1,0.5,dɔx,1,0
 EifersuchtUndStolz,F#4,32,2.0,2,0.5,'sak,0,1
 EifersuchtUndStolz,G4,33,2.5,1,0.5,iʁ,4,0
 EifersuchtUndStolz,A4,34,1.0,2,1.0,'nIçt,4,1
-EifersuchtUndStolz,D5,37,1.0,2,1.0,hɶrst,none,0
+EifersuchtUndStolz,D5,37,1.0,2,1.0,hɶrst,0,0
 EifersuchtUndStolz,A4,34,2.0,2,0.5,'du,4,1
 EifersuchtUndStolz,A4,34,2.75,0,0.25,ka:In,0,0
 EifersuchtUndStolz,B-4,35,1.0,2,2.0,'vɔɾt,1,1
@@ -2600,7 +2600,7 @@ Mein,F5,39,2.0,2,0.5,'va:I,0,1
 Mein,E-5,38,2.25,0,0.5,'va:I,0,1
 Mein,D5,37,2.5,1,0.5,tən,2,0
 Mein,C5,36,2.75,0,0.5,tən,2,0
-Mein,B-4,35,1.0,2,3.0,'ʃɶp,none,1
+Mein,B-4,35,1.0,2,3.0,'ʃɶp,0,1
 Mein,C5,36,2.5,1,1.0,fʊŋ,4,0
 Mein,C5,36,1.0,2,1.0,'za:In,0,1
 Mein,D5,37,1.5,1,1.0,'za:In,0,1
@@ -2617,8 +2617,8 @@ Mein,F5,39,2.0,2,0.5,'va:I,0,1
 Mein,E-5,38,2.25,0,0.5,'va:I,0,1
 Mein,D5,37,2.5,1,0.5,tən,2,0
 Mein,C5,36,2.75,0,0.5,tən,2,0
-Mein,B-4,35,1.0,2,2.0,'ʃɶp,none,1
-Mein,D5,37,2.0,2,1.5,'ʃɶp,none,1
+Mein,B-4,35,1.0,2,2.0,'ʃɶp,0,1
+Mein,D5,37,2.0,2,1.5,'ʃɶp,0,1
 Mein,C5,36,2.75,0,0.5,fʊŋ,4,0
 Mein,B-4,35,1.0,2,2.0,'za:In,0,1
 Mein,F#4,32,1.0,2,1.0,'bɛç,1,1
@@ -2769,7 +2769,7 @@ Mein,D4,30,1.0,2,2.0,'ma:In,0,1
 MitDemGrunenLautenbande,D5,37,1.0,2,0.5,'ʃad,0,1
 MitDemGrunenLautenbande,C5,36,1.5,1,0.25,ʊm,4,0
 MitDemGrunenLautenbande,A4,34,1.75,0,0.25,das,0,0
-MitDemGrunenLautenbande,B-4,35,2.0,2,0.5,'ʃɶ,none,1
+MitDemGrunenLautenbande,B-4,35,2.0,2,0.5,'ʃɶ,0,1
 MitDemGrunenLautenbande,F4,32,2.5,1,0.5,nə,2,0
 MitDemGrunenLautenbande,E-5,38,1.0,2,0.5,'gry,4,1
 MitDemGrunenLautenbande,D5,37,1.5,1,0.5,nə,2,0
@@ -3773,7 +3773,7 @@ Ungeduld,A4,34,1.0,2,0.75,'ki,4,1
 Ungeduld,G#4,33,1.75,0,0.25,səl,2,0
 Ungeduld,G#4,33,2.0,2,1.0,'ʃta:In,0,1
 Ungeduld,C#5,36,3.5,1,0.5,Iç,4,0
-Ungeduld,E5,38,1.0,2,0.75,'mɶçt,none,1
+Ungeduld,E5,38,1.0,2,0.75,'mɶçt,0,1
 Ungeduld,D5,37,1.75,0,0.25,ɛs,1,0
 Ungeduld,B4,35,2.0,2,0.75,'sɛn,1,1
 Ungeduld,G#4,33,2.75,0,0.25,a:ʊf,0,0
@@ -3799,7 +3799,7 @@ Ungeduld,F#5,39,2.0,2,0.75,'va:I,0,1
 Ungeduld,E5,38,2.75,0,0.25,sən,2,0
 Ungeduld,E5,38,3.0,2,0.75,'tsɛ,1,1
 Ungeduld,D5,37,3.75,0,0.25,təl,2,0
-Ungeduld,D5,37,1.0,2,0.75,'mɶçt,none,1
+Ungeduld,D5,37,1.0,2,0.75,'mɶçt,0,1
 Ungeduld,C#5,36,1.75,0,0.25,Içs,4,0
 Ungeduld,C#5,36,2.0,2,0.75,'ʃɾa:I,0,1
 Ungeduld,B4,35,2.75,0,0.25,'ʃɾa:I,0,1
@@ -3832,7 +3832,7 @@ Ungeduld,C#5,36,3.25,0,0.25,'bla:I,0,1
 Ungeduld,B4,35,3.5,1,0.5,'bla:I,0,1
 Ungeduld,A4,34,1.0,2,1.0,bən,2,0
 Ungeduld,E4,31,3.5,1,0.5,Iç,4,0
-Ungeduld,C#5,36,1.0,2,0.75,'mɶçt,none,1
+Ungeduld,C#5,36,1.0,2,0.75,'mɶçt,0,1
 Ungeduld,B4,35,1.75,0,0.25,mir,4,0
 Ungeduld,A4,34,2.0,2,0.75,'tsi,4,1
 Ungeduld,G#4,33,2.75,0,0.25,ən,2,0
