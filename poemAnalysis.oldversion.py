@@ -23,43 +23,11 @@ import numpy
 import fnmatch
 from os import listdir
 
-class threedim(object):
-    def __init__(self, x, y, z):
-        self.x = x
-        self.y = y
-        self.z = z
-
-def threedimdistance(i, j):
-    deltaxsquared = (i.x - j.x) ** 2
-    deltaysquared = (i.y - j.y) ** 2
-    deltazsquared = (i.z - j.z) ** 2
-    return (deltaxsquared + deltaysquared + deltazsquared) ** 0.5
-
-def threedimmean(threedimlist):
-    xvalues = []
-    yvalues = []
-    zvalues = []
-    for point in threedimlist:
-        xvalues.append(point.x)
-        yvalues.append(point.y)
-        zvalues.append(point.z)
-    xmean = sum(xvalues)/float(len(xvalues))
-    ymean = sum(yvalues)/float(len(yvalues))
-    zmean = sum(zvalues)/float(len(zvalues))
-    return threedim(xmean, ymean, zmean)
-
-def threedimSD(threedimlist):
-    squareddistances = []
-    listmean = threedimmean(threedimlist)
-    for point in threedimlist:
-        squareddistances.append(threedimdistance(point, listmean) ** 2)
-    return (sum(squareddistances)/float(len(squareddistances)) ** 0.5)
-
 class IPAText(object):
-
+    
     def __init__(self, content):
         self.content = content
-
+    
     def unicodeSet(self):
         unicodeSetRaw = []
         for line in self.content:
@@ -75,7 +43,7 @@ class IPAText(object):
             for member in line:
                 unicodeCount[member] += 1
         return unicodeCount
-
+            
     def unicodeCount(self,character):
         unicodeCount = {}
         for phoneme in self.unicodeSet():
@@ -109,7 +77,7 @@ class IPAText(object):
                 rawTally[phoneme] += 1
                 j += 1
 
-            for phoneme in self.unicodeSet():
+            for phoneme in self.unicodeSet(): 
                 outputLine.append(rawTally[phoneme])
 
             i += 1
@@ -153,6 +121,56 @@ class IPAText(object):
 
                 outputDataCategoryProbability.append(outputLineCategoryProbability)
             i += 1
+           
+        meanLine = []
+        meanLine.append('Mean')
+        stDevLine = []
+        stDevLine.append('StDev')
+
+        columnTotal = len(outputDataCategoryProbability[0])
+        rowTotal = len(outputDataCategoryProbability)
+
+        # setting up STDev analysis
+        # will need to move with the statistical analysis module
+        timesExceedingThreshold = {} 
+        lineTransitionNames = []
+        l = 1
+        while l < rowTotal:
+            lineTransitionNames.append(moduleType + ' ' + str(l) + '-' + str(l+1))
+            l += 1
+        for item in lineTransitionNames:
+            timesExceedingThreshold[item] = 0
+
+        j = 2 # columns
+        while j <= columnTotal:
+            i = 2 # rows
+            probabilities = []
+            while i <= rowTotal:
+                probabilities.append(outputDataCategoryProbability[i-1][j-1])
+                i += 1
+            meanLine.append(numpy.mean(probabilities))
+            stDev = numpy.std(probabilities, dtype=numpy.float64)
+            stDevLine.append(stDev)
+
+            # Search for locations where line-to-line difference exceeds threshold | this will be moved to its own module, possibly in R
+            threshold = 2 # number of standard deviations
+            k = 1
+            while k < len(probabilities):
+                if abs(probabilities[k] - probabilities[k-1]) >= stDev*threshold:
+                    print moduleType + ' ' + str(k) + " to " + str(k+1) + ", " + phonemeCategoryList[j-2]
+                    timesExceedingThreshold[moduleType + ' ' + str(k) + '-' + str(k+1)] += 1
+                k += 1
+        
+            j += 1
+    
+        print '\n'
+        for key in lineTransitionNames:
+            print key + ':', timesExceedingThreshold[key], 'categories exceed the threshold.'
+        print '\n'
+
+        # leaving out mean & stDev lines from CSV file for easier processing in R
+        # outputDataCategoryProbability.append(meanLine)
+        # outputDataCategoryProbability.append(stDevLine)
 
         return outputDataCategoryProbability
 
@@ -182,7 +200,7 @@ def stanzify(content):
         if j < len(content):
             stanzas.append('')
     return stanzas
-
+            
 def wholeSong(content):
     song = ['']
     for line in content:
@@ -190,7 +208,7 @@ def wholeSong(content):
             song[0] += line
             song[0] += ' '
     return song
-
+    
 def stressedVowelsOnly(content, vowelList):
     stressedVowels = []
     for line in content:
@@ -207,71 +225,7 @@ def stressedVowelsOnly(content, vowelList):
             stressedVowels.append(vowelLine)
     return stressedVowels
 
-def threeDimAnalysis(coordinatesList):
-    linesAsThreeDim = []
-    i = 0
-    for lineOfText in coordinatesList:
-        if i > 0:
-            linesAsThreeDim.append(threedim(lineOfText[0], lineOfText[1], lineOfText[2]))
-        i += 1
-    songMean = threedimmean(linesAsThreeDim)
-    songSD = threedimSD(linesAsThreeDim)
-
-    outputAnalysis = []
-
-    i = 0
-    for lineOfText in coordinatesList:
-        lineAnalysis = []
-        if i == 0:
-            lineAnalysis.append('lineNumber')
-            for heading in lineOfText:
-                lineAnalysis.append(heading)
-            lineAnalysis.append('distFromPrev')
-            lineAnalysis.append('ZNorm')
-        else:
-            lineAnalysis.append('line ' + str(i))
-            for element in lineOfText:
-                lineAnalysis.append(element)
-            if i > 1:
-                lineDistFromPrev = threedimdistance(linesAsThreeDim[i-1],linesAsThreeDim[i-2])
-                lineAnalysis.append(lineDistFromPrev)
-                lineAnalysis.append(lineDistFromPrev/songSD)
-            else:
-                lineAnalysis.append('NULL')
-                lineAnalysis.append('NULL')
-        i += 1
-        outputAnalysis.append(lineAnalysis)
-    return outputAnalysis
-
-def combineCorpusAnalyses(listOfPoems):
-    corpusOutput = []
-    i = 0
-    for poem in listOfPoems:
-        poemLines = IPAText(getText(sourceDirectory, poem))
-        poemAnalysis = threeDimAnalysis(poemLines.parseCategoryProb(ignore, phonemeCategory, moduleType = 'Line'))
-        if i == 0:
-            j = 0
-            for line in poemAnalysis:
-                lineOutput = []
-                if j == 0:
-                    lineOutput.append('poem')
-                    j += 1
-                else:
-                    lineOutput.append(str(poem))
-                for element in line:
-                    lineOutput.append(element)
-                corpusOutput.append(lineOutput)
-        else:
-            for line in poemAnalysis:
-                if line[0] != 'lineNumber':
-                    lineOutput = []
-                    lineOutput.append(str(poem))
-                    for element in line:
-                        lineOutput.append(element)
-                corpusOutput.append(lineOutput)
-        i += 1
-    return corpusOutput
-
+    
 # run
 
 ignore=['.', ':', ' ']
@@ -319,4 +273,31 @@ for file in listdir(sourceDirectory):
         poemCorpus.append(file)
 
 
-writeToCSV(combineCorpusAnalyses(poemCorpus), (outputDirectory + 'corpus-3DAnalysisByLine.csv'))
+for poem in poemCorpus:
+    wholeSongText = IPAText(wholeSong(getText(sourceDirectory, poem)))
+    wholeSongStressed = IPAText(stressedVowelsOnly(wholeSong(getText(sourceDirectory, poem)), vowelList))
+    songLines = IPAText(getText(sourceDirectory, poem))
+    songStanzas = IPAText(stanzify(getText(sourceDirectory, poem)))
+    songStanzasStressed = IPAText(stressedVowelsOnly(stanzify(getText(sourceDirectory, poem)), vowelList))
+
+    print poem, 'whole song\n'
+    songOutput = wholeSongText.parseCategoryProb(ignore, phonemeCategory, moduleType = poem)
+    print poem, 'whole song, stressed only\n'
+    songStressedOutput = wholeSongStressed.parseCategoryProb(ignore, phonemeCategory, moduleType = poem)
+    print poem, 'line-by-line\n'
+    linesOutput = songLines.parseCategoryProb(ignore, phonemeCategory, moduleType = 'Line')
+    print poem, 'stanza-by-stanza\n'
+    stanzasOutput = songStanzas.parseCategoryProb(ignore, phonemeCategory, moduleType = 'Stanza')
+    print poem, 'stanza-by-stanza, stressed only\n'
+    stanzasStressedOutput = songStanzasStressed.parseCategoryProb(ignore, phonemeCategory, moduleType = 'Stanza')
+   
+    wholeSongFileName = poem.split('.')[0] + '-categoryWholeSong.csv'
+    wholeSongStressedName = poem.split('.')[0] + '-wholeSongStressed.csv'
+    linesFileName = poem.split('.')[0] + '-categoryByLine.csv'
+    stanzasFileName = poem.split('.')[0] + '-categoryByStanza.csv'
+    stanzasStressedFileName = poem.split('.')[0] + '-categoryByStanza-stressedOnly.csv'
+    writeToCSV(songOutput, (outputDirectory + wholeSongFileName))
+    writeToCSV(songStressedOutput, (outputDirectory + wholeSongStressedName))
+    writeToCSV(linesOutput, (outputDirectory + linesFileName))
+    writeToCSV(stanzasOutput, (outputDirectory + stanzasFileName))
+    writeToCSV(stanzasStressedOutput, (outputDirectory + stanzasStressedFileName))
