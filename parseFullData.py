@@ -50,7 +50,7 @@ def beatStrength(noteBeat):
         return 1
     else:
         return 0
-    
+
 def parseByNote(xmlsong):
     song = converter.parse(xmlsong)
     songOutput = []
@@ -68,7 +68,7 @@ def parseByNote(xmlsong):
             noteOutput.append(isStressed(note.lyric))
             songOutput.append(noteOutput)
     return songOutput
-    
+
 def writeToCSV(dataToWrite, outputFileName):
     with open(outputFileName, 'w') as csvfile:
         w = csv.writer(csvfile, delimiter=',')
@@ -96,7 +96,7 @@ if '00-corpus.csv' not in listdir(destinationDirectory):
     with open((destinationDirectory + '/' + '00-corpus.csv'), 'w') as csvfile:
         w = csv.writer(csvfile, delimiter=',')
         w.writerow(['song','pitch','diatonicNumber','beat','beatStrength','duration','IPA','vowelCategory','stress'])
-    
+
 
 for filename in poemCorpus:
     destinationFilename = filename.split('.')[0] + '.csv'
