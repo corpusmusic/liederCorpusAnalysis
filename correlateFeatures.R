@@ -20,3 +20,20 @@ for(x in 1:length(songlist)) {
 
 colnames(correlations) <- c('song', 'pitch', 'beat', 'beatStrength', 'duration', 'stress')
 correlations
+
+boxplot(as.numeric(corpus$duration) ~ corpus$vowelCategory)
+
+fit <- aov(as.numeric(corpus$duration) ~ as.factor(corpus$vowelCategory))
+summary(fit)
+tuk <- TukeyHSD(fit)
+tuk
+plot(tuk)
+
+boxplot(as.numeric(corpus$diatonicNumber) ~ corpus$vowelCategory)
+
+fit <- aov(as.numeric(corpus$diatonicNumber) ~ as.factor(corpus$vowelCategory))
+summary(fit)
+tuk <- TukeyHSD(fit)
+tuk
+plot(tuk)
+
